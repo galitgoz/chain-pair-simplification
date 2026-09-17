@@ -1,0 +1,17 @@
+[
+  {
+    "diagnostic": "A",
+    "attempt_directory": "C:\\Users\\a\\PycharmProjects\\PythonProject1\\output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd",
+    "configuration_sha256": "942df837a078a6fd8052ca8933547742b1891719ebfd8ad31f076307f826e485"
+  },
+  {
+    "diagnostic": "B",
+    "attempt_directory": "C:\\Users\\a\\PycharmProjects\\PythonProject1\\output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab",
+    "configuration_sha256": "f9852b1c4fbff7ec8bfb4eba685479af8ba7a74a666d44741da03fe4cf377472"
+  },
+  {
+    "diagnostic": "C",
+    "attempt_directory": "C:\\Users\\a\\PycharmProjects\\PythonProject1\\output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e",
+    "configuration_sha256": "4b6d1f0c4a33423d51e7c50dcc907decea2e00226e61f093e8203e848f566064"
+  }
+]

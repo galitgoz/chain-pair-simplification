@@ -1,0 +1,10 @@
+{
+  "model": "lowest deposited model number per author chain",
+  "local_raw": "preserve coordinates and exactly match deposited C-alpha atoms, including alternate locations",
+  "other_chains": "C-alpha highest occupancy; ties prefer blank, then A, then lexical altloc",
+  "ca_break_A": 4.5,
+  "peptide_break_A": 2.0,
+  "breaks": "split at absent selected label_seq_id, long C-alpha/C-N separation, or uncheckable C-N connectivity",
+  "endpoints": "fixed within each independent fragment",
+  "alignment": "none; deposited coordinates"
+}

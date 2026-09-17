@@ -1,0 +1,17 @@
+{
+  "expected_counts_match": true,
+  "exported_values_checked": true,
+  "notebook_passed": true,
+  "pdfs": {
+    "coupling_size_common43_large.pdf": {
+      "pages": 1,
+      "raster_images": 0
+    },
+    "coupling_size_common43_publication.pdf": {
+      "pages": 1,
+      "raster_images": 0
+    }
+  },
+  "visual_review": "Both PDF renders inspected: paired panel ordering, all labels, threshold lines, +1 annotations, legends and footnotes checked",
+  "optimization_executed": false
+}

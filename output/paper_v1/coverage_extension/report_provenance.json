@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-17T05:32:02.238297+00:00",
+  "source_hashes": {
+    "output\\paper_v1\\expanded_comparison\\results.csv": "d433ee80fb8e7d37fff33d274b389f413d5ea0f388e72b15ecc95f0b76ddc5d0",
+    "output\\paper_v1\\expanded_comparison\\timing_study\\results.csv": "75a1a6f3c6ea40957d4ffba241d18bf69e0cc97d481e014374c5fec916c84d4b",
+    "output\\paper_v1\\coverage_extension\\configuration_manifest.json": "d2b13a98f281932eadf576f3ea4b78be6af03179a483d7fd4b10697fde30903a",
+    "output\\paper_v1\\coverage_extension\\results.csv": "978ddda1da2806a1895246dbbc171416062b6b375ea0def6cf0766739f2263d0",
+    "notebooks_paper\\paper_publication.py": "b8e82e4ca409a94e94460f618f23fb962776f9641ad9b6aedb8955802a2109e0"
+  },
+  "optimization_executed": false
+}

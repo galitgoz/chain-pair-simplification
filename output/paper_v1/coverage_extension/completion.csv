@@ -1,0 +1,14 @@
+domain,method,termination_reason,count,planned_denominator
+hurricane,CPS-2F,transition_budget_limit,2,33
+hurricane,CPS-2F,validated,31,33
+hurricane,CPS-3F,validated,33,33
+hurricane,Independent continuous,validated,33,33
+hurricane,Independent discrete,validated,33,33
+protein,CPS-2F,preparation_blocked,2,14
+protein,CPS-2F,validated,12,14
+protein,CPS-3F,preparation_blocked,2,14
+protein,CPS-3F,validated,12,14
+protein,Independent continuous,preparation_blocked,2,14
+protein,Independent continuous,validated,12,14
+protein,Independent discrete,preparation_blocked,2,14
+protein,Independent discrete,validated,12,14

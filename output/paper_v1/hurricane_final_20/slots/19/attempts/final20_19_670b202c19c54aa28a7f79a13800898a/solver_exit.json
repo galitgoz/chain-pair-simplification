@@ -1,0 +1,16 @@
+{
+  "status": "transition_budget_limit",
+  "solver_seconds": 18.44404349999968,
+  "failure_reason": "product transition budget exceeded",
+  "counters": {
+    "states_dequeued": 1374,
+    "completed_states_lower_bound": 1373,
+    "product_transitions": 20000001,
+    "states_discovered": 24180,
+    "queue_size": 22806
+  },
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\worker.py\", line 36, in <module>\n    raw,route=solve(A,B,config,certificate=False,observe=lambda event:phases.note(**event))\n              ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\common.py\", line 119, in solve\n    raw=alg.solve_cps(A,B,config['delta1'],config['delta2'],config['delta3'],method,certificate=False,**lim)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\cps_paper_algorithms.py\", line 189, in solve_cps\n    if transitions>max_transitions:raise ResourceLimit('product transition budget exceeded')\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncps_paper_algorithms.ResourceLimit: product transition budget exceeded\n",
+  "utc": "2026-09-16T20:26:42.970488+00:00",
+  "unix": 1789590402.9704986,
+  "monotonic": 168885.1559529
+}

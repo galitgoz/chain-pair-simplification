@@ -1,0 +1,702 @@
+{
+  "metrics": {
+    "pair": "EP021949__EP031949",
+    "domain": "hurricane",
+    "method": "Independent discrete",
+    "alpha": 0.5,
+    "delta1": 40.25507378715167,
+    "delta2": 36.48157080151773,
+    "delta3": 565.3421428246969,
+    "units": "projected km",
+    "nA": 25,
+    "nB": 25,
+    "input_file": "output\\paper_v1\\inputs\\hurricane_EP021949__EP031949.npz",
+    "input_sha256": "bcd3a853b05dd5540a9e285ac6217db9ad9779bf00b033a2869181b105033790",
+    "certificate": false,
+    "configuration_id": "hurricane:EP021949__EP031949:a0.5|Independent discrete|repetition3",
+    "attempt_id": "eb8a12730687094ac9",
+    "attempt_path": "output/paper_v1/expanded_comparison/timing_study/slots/88/attempts/timing088_469bd66de5e54646bbe69f6a857aa395",
+    "plan_order": 181,
+    "origin": "historical attempt",
+    "status": "validated",
+    "validated": true,
+    "evidence_cohort": "timing_study",
+    "observation_type": "timing repetition",
+    "usage": "[{\"table\": \"output/paper_v1/expanded_comparison/timing_study/results.csv\", \"origin\": \"new\", \"repetition\": 3, \"configuration_id\": \"hurricane:EP021949__EP031949:a0.5|Independent discrete|repetition3\"}]",
+    "configuration_sha256": "242f621df27ff5e3ed753a2425daae8649eb6ab3fb71671ebfa7a66403ca5e71",
+    "code_provenance": "{\"notebooks_paper\\\\graph_only_v3\\\\build_notebook.py\": \"7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb\", \"notebooks_paper\\\\graph_only_v3\\\\common.py\": \"b5aaddeec687d811c95046f9cecf84d8bcd94cc940412420c21e6bf600e912bb\", \"notebooks_paper\\\\graph_only_v3\\\\controlled_followup.py\": \"790ffb8a91dba55fd56d7cec5761abb8e47858b6e77a57f6ceae343328526704\", \"notebooks_paper\\\\graph_only_v3\\\\expanded_comparison.py\": \"b1d869d4dc0a35091d13a8dfebd8a7e109379e61510b9036c039f961088d02a2\", \"notebooks_paper\\\\graph_only_v3\\\\investigate_repeat.py\": \"5b2e153d7aff058a2c6e5e3f71dda45e715183d5eb4bef675e98bcec854a6af3\", \"notebooks_paper\\\\graph_only_v3\\\\prepare.py\": \"03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b\", \"notebooks_paper\\\\graph_only_v3\\\\render_and_audit.py\": \"cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015\", \"notebooks_paper\\\\graph_only_v3\\\\report.py\": \"86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a\", \"notebooks_paper\\\\graph_only_v3\\\\run_once.py\": \"676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93\", \"notebooks_paper\\\\graph_only_v3\\\\supervisor.py\": \"2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25\", \"notebooks_paper\\\\graph_only_v3\\\\worker.py\": \"17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393\"}",
+    "algorithm_hashes": "{\"curve_algorithms.py\": \"85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7\", \"cps_paper_algorithms.py\": \"49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876\"}",
+    "selected_indices_A": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]",
+    "selected_indices_B": "[0, 1, 2, 3, 6, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 21, 24]",
+    "kA": 25,
+    "kB": 18,
+    "k": 25,
+    "raw_objective": 25,
+    "validation_status": "validated",
+    "original_validation_status": "validated",
+    "validation_recovered": false,
+    "coupling_distance": 565.3421428246969,
+    "coupling_feasible": true,
+    "coupling_required": false,
+    "solver_status": "optimal_independent_baseline",
+    "solution_route": "independent_optimization",
+    "configuration_graph_entered": false,
+    "search_completed": false,
+    "states": null,
+    "states_dequeued": 0,
+    "processed_states_lower_bound": 0,
+    "queue_size": null,
+    "transitions": null,
+    "chain_graphs_completed": 0,
+    "counter_timestamp": "2026-09-16T16:54:30.840781+00:00",
+    "unique_configuration_edges": null,
+    "dynamic_programming_labels": null,
+    "warmup_seconds": 6.290014700003667,
+    "solver_seconds": 0.00630859998636879,
+    "validation_seconds": 0.0032094999914988875,
+    "optional_measurement_seconds": 0.0084023000090383,
+    "total_process_seconds": 6.8780301999941,
+    "peak_rss_mib": 193.96875,
+    "termination_phase": null,
+    "termination_reason": null,
+    "raw_result_path": "output/paper_v1/expanded_comparison/timing_study/slots/88/attempts/timing088_469bd66de5e54646bbe69f6a857aa395/raw_solver.json",
+    "validation_path": "output/paper_v1/expanded_comparison/timing_study/slots/88/attempts/timing088_469bd66de5e54646bbe69f6a857aa395/validation.json",
+    "resource_limits": "{\"graph\": {\"seconds\": 55.0, \"max_states\": 100000, \"max_transitions\": 20000000, \"max_chain_edges\": 800000}, \"phases\": {\"startup\": 60.0, \"input_loading\": 15.0, \"warmup\": 120.0, \"solver\": 60.0, \"checkpoint\": 5.0, \"validation\": 30.0, \"optional_measurements\": 30.0, \"reporting\": 10.0}, \"memory_mib\": 512}",
+    "measurement_status": "completed",
+    "fidelity_evidence": "{\"A_original_vertex_membership\": true, \"B_original_vertex_membership\": true, \"A_fidelity\": true, \"B_fidelity\": true}",
+    "fidelity_tolerances": "Discrete fidelity and coupling: delta + 1e-9; coupling path cost check: abs difference < 1e-7; continuous decision unchanged at delta, geometric TOL=1e-10 (algorithm hash linked)",
+    "external_limiting_phase_elapsed_seconds": null,
+    "memory_scope": "sum of sampled process-tree RSS, not exact algorithm memory",
+    "solver_internal_checks": "CPS finish() checks endpoints/order, fidelity, and computes/validates discrete coupling before returning; included in solver time. Independent discrete does not perform this finish().",
+    "validation_recovery_process_seconds": null,
+    "continuous_A_lower": 0.0,
+    "continuous_A_upper": 0.0,
+    "auxiliary_A": null,
+    "extended_vertices_A": null,
+    "dense_states_A": null,
+    "active_states_A": null,
+    "edges_including_waits_A": null,
+    "construction_completed_A": null,
+    "retained_fraction_A": 1.0,
+    "continuous_B_lower": 22.25245746964613,
+    "continuous_B_upper": 22.252463374099925,
+    "auxiliary_B": null,
+    "extended_vertices_B": null,
+    "dense_states_B": null,
+    "active_states_B": null,
+    "edges_including_waits_B": null,
+    "construction_completed_B": null,
+    "retained_fraction_B": 0.72,
+    "retained_fraction_total": 0.86,
+    "edge_count_convention": "unavailable",
+    "count_scope": "observed before termination / phase not reached",
+    "metric_availability": {
+      "pair": "available",
+      "domain": "available",
+      "method": "available",
+      "alpha": "available",
+      "delta1": "available",
+      "delta2": "available",
+      "delta3": "available",
+      "units": "available",
+      "nA": "available",
+      "nB": "available",
+      "input_file": "available",
+      "input_sha256": "available",
+      "certificate": "available",
+      "configuration_id": "available",
+      "attempt_id": "available",
+      "attempt_path": "available",
+      "plan_order": "available",
+      "origin": "available",
+      "status": "available",
+      "validated": "available",
+      "evidence_cohort": "available",
+      "observation_type": "available",
+      "usage": "available",
+      "configuration_sha256": "available",
+      "code_provenance": "available",
+      "algorithm_hashes": "available",
+      "selected_indices_A": "available",
+      "selected_indices_B": "available",
+      "kA": "available",
+      "kB": "available",
+      "k": "available",
+      "raw_objective": "available",
+      "validation_status": "available",
+      "original_validation_status": "available",
+      "validation_recovered": "available",
+      "coupling_distance": "available",
+      "coupling_feasible": "available",
+      "coupling_required": "available",
+      "solver_status": "available",
+      "solution_route": "available",
+      "configuration_graph_entered": "available",
+      "search_completed": "available",
+      "states": "not_applicable",
+      "states_dequeued": "not_applicable",
+      "processed_states_lower_bound": "available",
+      "queue_size": "not_applicable",
+      "transitions": "not_applicable",
+      "chain_graphs_completed": "available",
+      "counter_timestamp": "available",
+      "unique_configuration_edges": "not_applicable",
+      "dynamic_programming_labels": "not_applicable",
+      "warmup_seconds": "available",
+      "solver_seconds": "available",
+      "validation_seconds": "available",
+      "optional_measurement_seconds": "available",
+      "total_process_seconds": "available",
+      "peak_rss_mib": "available",
+      "termination_phase": "missing",
+      "termination_reason": "missing",
+      "raw_result_path": "available",
+      "validation_path": "available",
+      "resource_limits": "available",
+      "measurement_status": "available",
+      "fidelity_evidence": "available",
+      "fidelity_tolerances": "available",
+      "external_limiting_phase_elapsed_seconds": "missing",
+      "memory_scope": "available",
+      "solver_internal_checks": "available",
+      "validation_recovery_process_seconds": "missing",
+      "continuous_A_lower": "available",
+      "continuous_A_upper": "available",
+      "auxiliary_A": "missing",
+      "extended_vertices_A": "missing",
+      "dense_states_A": "missing",
+      "active_states_A": "missing",
+      "edges_including_waits_A": "missing",
+      "construction_completed_A": "missing",
+      "retained_fraction_A": "available",
+      "continuous_B_lower": "available",
+      "continuous_B_upper": "available",
+      "auxiliary_B": "missing",
+      "extended_vertices_B": "missing",
+      "dense_states_B": "missing",
+      "active_states_B": "missing",
+      "edges_including_waits_B": "missing",
+      "construction_completed_B": "missing",
+      "retained_fraction_B": "available",
+      "retained_fraction_total": "available",
+      "edge_count_convention": "available",
+      "count_scope": "available"
+    },
+    "bounds": [],
+    "bounds_table_path": "output/paper_v1/coverage_extension/attempt_gallery/per_attempt_bounds.csv",
+    "figure_png": "output/paper_v1/coverage_extension/attempt_gallery/figures/cd0d0c7048c648a8e375c7.png",
+    "figure_pdf": "output/paper_v1/coverage_extension/attempt_gallery/figures/cd0d0c7048c648a8e375c7.pdf",
+    "figure_note": "Saved original coordinates and selected indices; exact thresholds in linked metrics"
+  },
+  "evidence": {
+    "configuration": {
+      "domain": "hurricane",
+      "pair": "EP021949__EP031949",
+      "case": "hurricane:EP021949__EP031949:a0.5",
+      "nA": 25,
+      "nB": 25,
+      "units": "projected km",
+      "alpha": 0.5,
+      "s_A": 80.51014757430335,
+      "s_B": 72.96314160303547,
+      "delta1": 40.25507378715167,
+      "delta2": 36.48157080151773,
+      "delta3": 565.3421428246969,
+      "input_file": "output\\paper_v1\\inputs\\hurricane_EP021949__EP031949.npz",
+      "method": "Independent discrete",
+      "diagnostic": "timing088",
+      "certificate": false,
+      "input_sha256": "bcd3a853b05dd5540a9e285ac6217db9ad9779bf00b033a2869181b105033790",
+      "algorithms": {
+        "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+        "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+      },
+      "graph_limits": {
+        "seconds": 55.0,
+        "max_states": 100000,
+        "max_transitions": 20000000,
+        "max_chain_edges": 800000
+      },
+      "phase_budgets": {
+        "startup": 60.0,
+        "input_loading": 15.0,
+        "warmup": 120.0,
+        "solver": 60.0,
+        "checkpoint": 5.0,
+        "validation": 30.0,
+        "optional_measurements": 30.0,
+        "reporting": 10.0
+      },
+      "memory_mib": 512,
+      "configuration_id": "hurricane:EP021949__EP031949:a0.5|Independent discrete|repetition3",
+      "attempt_id": "timing088_469bd66de5e54646bbe69f6a857aa395",
+      "code_version": {
+        "notebooks_paper\\graph_only_v3\\build_notebook.py": "7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb",
+        "notebooks_paper\\graph_only_v3\\common.py": "b5aaddeec687d811c95046f9cecf84d8bcd94cc940412420c21e6bf600e912bb",
+        "notebooks_paper\\graph_only_v3\\controlled_followup.py": "790ffb8a91dba55fd56d7cec5761abb8e47858b6e77a57f6ceae343328526704",
+        "notebooks_paper\\graph_only_v3\\expanded_comparison.py": "b1d869d4dc0a35091d13a8dfebd8a7e109379e61510b9036c039f961088d02a2",
+        "notebooks_paper\\graph_only_v3\\investigate_repeat.py": "5b2e153d7aff058a2c6e5e3f71dda45e715183d5eb4bef675e98bcec854a6af3",
+        "notebooks_paper\\graph_only_v3\\prepare.py": "03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b",
+        "notebooks_paper\\graph_only_v3\\render_and_audit.py": "cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015",
+        "notebooks_paper\\graph_only_v3\\report.py": "86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a",
+        "notebooks_paper\\graph_only_v3\\run_once.py": "676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93",
+        "notebooks_paper\\graph_only_v3\\supervisor.py": "2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25",
+        "notebooks_paper\\graph_only_v3\\worker.py": "17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393"
+      }
+    },
+    "raw_checkpoint": {
+      "schema_version": 3,
+      "certificate_enabled": false,
+      "configuration": {
+        "domain": "hurricane",
+        "pair": "EP021949__EP031949",
+        "case": "hurricane:EP021949__EP031949:a0.5",
+        "nA": 25,
+        "nB": 25,
+        "units": "projected km",
+        "alpha": 0.5,
+        "s_A": 80.51014757430335,
+        "s_B": 72.96314160303547,
+        "delta1": 40.25507378715167,
+        "delta2": 36.48157080151773,
+        "delta3": 565.3421428246969,
+        "input_file": "output\\paper_v1\\inputs\\hurricane_EP021949__EP031949.npz",
+        "method": "Independent discrete",
+        "diagnostic": "timing088",
+        "certificate": false,
+        "input_sha256": "bcd3a853b05dd5540a9e285ac6217db9ad9779bf00b033a2869181b105033790",
+        "algorithms": {
+          "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+          "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+        },
+        "graph_limits": {
+          "seconds": 55.0,
+          "max_states": 100000,
+          "max_transitions": 20000000,
+          "max_chain_edges": 800000
+        },
+        "phase_budgets": {
+          "startup": 60.0,
+          "input_loading": 15.0,
+          "warmup": 120.0,
+          "solver": 60.0,
+          "checkpoint": 5.0,
+          "validation": 30.0,
+          "optional_measurements": 30.0,
+          "reporting": 10.0
+        },
+        "memory_mib": 512,
+        "configuration_id": "hurricane:EP021949__EP031949:a0.5|Independent discrete|repetition3",
+        "attempt_id": "timing088_469bd66de5e54646bbe69f6a857aa395",
+        "code_version": {
+          "notebooks_paper\\graph_only_v3\\build_notebook.py": "7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb",
+          "notebooks_paper\\graph_only_v3\\common.py": "b5aaddeec687d811c95046f9cecf84d8bcd94cc940412420c21e6bf600e912bb",
+          "notebooks_paper\\graph_only_v3\\controlled_followup.py": "790ffb8a91dba55fd56d7cec5761abb8e47858b6e77a57f6ceae343328526704",
+          "notebooks_paper\\graph_only_v3\\expanded_comparison.py": "b1d869d4dc0a35091d13a8dfebd8a7e109379e61510b9036c039f961088d02a2",
+          "notebooks_paper\\graph_only_v3\\investigate_repeat.py": "5b2e153d7aff058a2c6e5e3f71dda45e715183d5eb4bef675e98bcec854a6af3",
+          "notebooks_paper\\graph_only_v3\\prepare.py": "03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b",
+          "notebooks_paper\\graph_only_v3\\render_and_audit.py": "cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015",
+          "notebooks_paper\\graph_only_v3\\report.py": "86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a",
+          "notebooks_paper\\graph_only_v3\\run_once.py": "676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93",
+          "notebooks_paper\\graph_only_v3\\supervisor.py": "2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25",
+          "notebooks_paper\\graph_only_v3\\worker.py": "17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393"
+        }
+      },
+      "configuration_sha256": "242f621df27ff5e3ed753a2425daae8649eb6ab3fb71671ebfa7a66403ca5e71",
+      "input_sha256": "bcd3a853b05dd5540a9e285ac6217db9ad9779bf00b033a2869181b105033790",
+      "method": "Independent discrete",
+      "code_version": {
+        "notebooks_paper\\graph_only_v3\\build_notebook.py": "7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb",
+        "notebooks_paper\\graph_only_v3\\common.py": "b5aaddeec687d811c95046f9cecf84d8bcd94cc940412420c21e6bf600e912bb",
+        "notebooks_paper\\graph_only_v3\\controlled_followup.py": "790ffb8a91dba55fd56d7cec5761abb8e47858b6e77a57f6ceae343328526704",
+        "notebooks_paper\\graph_only_v3\\expanded_comparison.py": "b1d869d4dc0a35091d13a8dfebd8a7e109379e61510b9036c039f961088d02a2",
+        "notebooks_paper\\graph_only_v3\\investigate_repeat.py": "5b2e153d7aff058a2c6e5e3f71dda45e715183d5eb4bef675e98bcec854a6af3",
+        "notebooks_paper\\graph_only_v3\\prepare.py": "03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b",
+        "notebooks_paper\\graph_only_v3\\render_and_audit.py": "cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015",
+        "notebooks_paper\\graph_only_v3\\report.py": "86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a",
+        "notebooks_paper\\graph_only_v3\\run_once.py": "676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93",
+        "notebooks_paper\\graph_only_v3\\supervisor.py": "2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25",
+        "notebooks_paper\\graph_only_v3\\worker.py": "17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393"
+      },
+      "solver_status": "optimal_independent_baseline",
+      "solution_route": "independent_optimization",
+      "raw_result": {
+        "status": "optimal_independent_baseline",
+        "indices_A": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "indices_B": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          21,
+          24
+        ],
+        "k": 25
+      },
+      "observation": {
+        "route": "independent_optimization",
+        "solver_subphase": "independent_optimization",
+        "configuration_graph_entered": false,
+        "chain_graph_calls": 0,
+        "chain_graphs_completed": 0,
+        "states_dequeued": 0,
+        "completed_states_lower_bound": 0
+      },
+      "solver_seconds": 0.00630859998636879,
+      "resource_limits": {
+        "graph": {
+          "seconds": 55.0,
+          "max_states": 100000,
+          "max_transitions": 20000000,
+          "max_chain_edges": 800000
+        },
+        "phase_budgets": {
+          "startup": 60.0,
+          "input_loading": 15.0,
+          "warmup": 120.0,
+          "solver": 60.0,
+          "checkpoint": 5.0,
+          "validation": 30.0,
+          "optional_measurements": 30.0,
+          "reporting": 10.0
+        },
+        "memory_mib": 512
+      },
+      "solver_internal_validation": "CPS finish() checks endpoints/order, fidelity, and computes/validates discrete coupling before returning; included in solver time. Independent discrete does not perform this finish().",
+      "external_validation_performed": false,
+      "utc": "2026-09-16T16:54:30.850943+00:00",
+      "unix": 1789577670.8509545,
+      "monotonic": 156152.9065256
+    },
+    "validation": {
+      "status": "validated",
+      "feasibility_passed": true,
+      "optimality_independently_proven": false,
+      "solver_optimality_claim": true,
+      "checks": {
+        "A_original_vertex_membership": true,
+        "B_original_vertex_membership": true,
+        "A_fidelity": true,
+        "B_fidelity": true
+      },
+      "kA": 25,
+      "kB": 18,
+      "k": 25,
+      "coupling_distance": 565.3421428246969,
+      "coupling_feasible": true,
+      "coupling_constraint_required": false,
+      "coupling": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          21,
+          14
+        ],
+        [
+          22,
+          15
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          24,
+          17
+        ]
+      ],
+      "validation_seconds": 0.0032094999914988875,
+      "raw_checkpoint_sha256": "74ee6a2bbf08b78015292e53b17c4244c16b9c89d7d6f1f8c8823f92b16d6f2c",
+      "utc": "2026-09-16T16:54:30.864829+00:00",
+      "unix": 1789577670.864838,
+      "monotonic": 156152.9204091
+    },
+    "original_validation": {
+      "status": "validated",
+      "feasibility_passed": true,
+      "optimality_independently_proven": false,
+      "solver_optimality_claim": true,
+      "checks": {
+        "A_original_vertex_membership": true,
+        "B_original_vertex_membership": true,
+        "A_fidelity": true,
+        "B_fidelity": true
+      },
+      "kA": 25,
+      "kB": 18,
+      "k": 25,
+      "coupling_distance": 565.3421428246969,
+      "coupling_feasible": true,
+      "coupling_constraint_required": false,
+      "coupling": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          5
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          8,
+          7
+        ],
+        [
+          9,
+          8
+        ],
+        [
+          10,
+          8
+        ],
+        [
+          11,
+          9
+        ],
+        [
+          12,
+          9
+        ],
+        [
+          13,
+          10
+        ],
+        [
+          14,
+          10
+        ],
+        [
+          15,
+          10
+        ],
+        [
+          16,
+          10
+        ],
+        [
+          17,
+          11
+        ],
+        [
+          18,
+          11
+        ],
+        [
+          19,
+          12
+        ],
+        [
+          20,
+          13
+        ],
+        [
+          21,
+          14
+        ],
+        [
+          22,
+          15
+        ],
+        [
+          23,
+          16
+        ],
+        [
+          24,
+          17
+        ]
+      ],
+      "validation_seconds": 0.0032094999914988875,
+      "raw_checkpoint_sha256": "74ee6a2bbf08b78015292e53b17c4244c16b9c89d7d6f1f8c8823f92b16d6f2c",
+      "utc": "2026-09-16T16:54:30.864829+00:00",
+      "unix": 1789577670.864838,
+      "monotonic": 156152.9204091
+    },
+    "validation_recoveries": [],
+    "solver_exit": {},
+    "supervisor": {
+      "status": "worker_exited",
+      "limiting_phase": null,
+      "phase_elapsed_seconds": 0.29587410000385717,
+      "process_seconds": 6.8780301999941,
+      "approximate_sampled_tree_rss_peak_mib": 193.96875,
+      "memory_scope": "sum of sampled process-tree RSS, not exact algorithm memory",
+      "process_exit_code": 0,
+      "samples": 115,
+      "owned_pids": [
+        26168,
+        22480,
+        15976
+      ],
+      "utc": "2026-09-16T16:54:31.179070+00:00",
+      "unix": 1789577671.1790843,
+      "monotonic": 156153.2346659
+    },
+    "measurements": {
+      "status": "completed",
+      "continuous_A_lower": 0.0,
+      "continuous_A_upper": 0.0,
+      "continuous_B_lower": 22.25245746964613,
+      "continuous_B_upper": 22.252463374099925,
+      "seconds": 0.0084023000090383
+    },
+    "observation": {
+      "phase": "solver",
+      "phase_started_monotonic": 156152.8922482,
+      "utc": "2026-09-16T16:54:30.840781+00:00",
+      "unix": 1789577670.8407934,
+      "monotonic": 156152.8963637,
+      "solver_subphase": "independent_optimization",
+      "configuration_graph_entered": false,
+      "chain_graph_calls": 0,
+      "chain_graphs_completed": 0,
+      "states_dequeued": 0,
+      "completed_states_lower_bound": 0,
+      "route": "independent_optimization"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "domain": "protein",
+  "pair": "1o7j.a__1hfj.c",
+  "case": "protein:1o7j.a__1hfj.c:a1",
+  "nA": 22,
+  "nB": 22,
+  "units": "angstrom",
+  "alpha": 1.0,
+  "s_A": 18.95299827936545,
+  "s_B": 19.07576340534633,
+  "delta1": 18.95299827936545,
+  "delta2": 19.07576340534633,
+  "delta3": 0.9993252723713152,
+  "input_file": "output\\paper_v1\\inputs\\protein_1o7j.a__1hfj.c.npz",
+  "diagnostic": "B",
+  "method": "CPS-2F",
+  "certificate": false,
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 10000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "input_sha256": "7b773f6fd281824e25d8e444c9a70b1ca04a33b497237bdb6ee4b0605a6d1365",
+  "parameter_file_sha256": "3fcba922fe7a59575833c4b63fb35b59a701259b5e7044fd399c6564f4667372",
+  "graph_limits_applicable": true,
+  "internal_seconds_applicable": true,
+  "independent_discrete_chain_edge_default": null,
+  "algorithms": {
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876",
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7"
+  },
+  "attempt_id": "B_78011d250dda4c65aae814551178bd89",
+  "code_version": {
+    "notebooks_paper\\graph_only_v3\\build_notebook.py": "7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb",
+    "notebooks_paper\\graph_only_v3\\common.py": "db97df53c1a63e8922f98df75155c0402c2c6a2186f882c11c31c11946b6f8d2",
+    "notebooks_paper\\graph_only_v3\\controlled_followup.py": "8b4e5bc3bfdb8accc11a49c581c713a975bb56c2cc544e921d8a7e55283091f9",
+    "notebooks_paper\\graph_only_v3\\investigate_repeat.py": "c32fee59aa4d7898808306126cd871b39890430962962942d1b5bf484b0b91fb",
+    "notebooks_paper\\graph_only_v3\\prepare.py": "03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b",
+    "notebooks_paper\\graph_only_v3\\render_and_audit.py": "cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015",
+    "notebooks_paper\\graph_only_v3\\report.py": "86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a",
+    "notebooks_paper\\graph_only_v3\\run_once.py": "676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93",
+    "notebooks_paper\\graph_only_v3\\supervisor.py": "4108be52e053f5d95313e7b15270159c20c5cd06c5faf2e611d717ea9aaef579",
+    "notebooks_paper\\graph_only_v3\\worker.py": "e3eab59206421bb87f618f6699c27407e4272b6e5e82fba899a81778a1ea9f38"
+  }
+}

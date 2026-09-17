@@ -1,0 +1,9 @@
+{
+  "attempts": 386,
+  "validated": 345,
+  "canonical_figures": 249,
+  "figure_links": 386,
+  "excluded_or_recovery_records": 2,
+  "optimization_executed": false,
+  "source_code_sha256": "b8e82e4ca409a94e94460f618f23fb962776f9641ad9b6aedb8955802a2109e0"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "other_resource_limit",
+  "raw_status": "other_resource_limit",
+  "route": "graph_construction",
+  "solve_seconds": 0.1827428999968106,
+  "warmup_seconds": 0.5574411999987205,
+  "measured_execution_count": 1,
+  "failure_reason": "single-chain graph edge budget exceeded",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v1\\pilot_worker.py\", line 16, in <module>\n    result=solve(A,B,p['delta1'],p['delta2'],p['delta3'],method,certificate=False,progress=progress)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v1\\graph_core.py\", line 51, in solve\n    raw=alg.solve_cps(A,B,d1,d2,d3,method,certificate=False,**LIMITS)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\cps_paper_algorithms.py\", line 177, in solve_cps\n    ga=chain_graph(A,d1,kind,max_chain_edges);gb=chain_graph(B,d2,kind,max_chain_edges)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v1\\graph_core.py\", line 39, in observed_graph\n    graph=original(*args,**kwargs)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\cps_paper_algorithms.py\", line 84, in chain_graph\n    if not finished: raise ResourceLimit('single-chain graph edge budget exceeded')\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncps_paper_algorithms.ResourceLimit: single-chain graph edge budget exceeded\n",
+  "phase": "graph_construction",
+  "chain_graph_calls": 1,
+  "chain_graphs_completed": 0,
+  "preprocessing_chain_graph_calls": 0,
+  "configuration_graph_entered": false,
+  "certificate_enabled": false
+}

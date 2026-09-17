@@ -1,0 +1,10 @@
+{
+  "planned": 56,
+  "eligible": 48,
+  "finished": 48,
+  "validated": 48,
+  "resource_limited": 0,
+  "validation_incomplete": 0,
+  "blocked": 8,
+  "pending": 0
+}

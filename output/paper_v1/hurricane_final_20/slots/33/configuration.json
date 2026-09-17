@@ -1,0 +1,41 @@
+{
+  "domain": "hurricane",
+  "pair": "EP021985__EP181984",
+  "case": "hurricane:EP021985__EP181984:a0.5",
+  "nA": 41,
+  "nB": 36,
+  "units": "projected km",
+  "alpha": 0.5,
+  "s_A": 86.75751170865064,
+  "s_B": 73.17506704154135,
+  "delta1": 43.37875585432532,
+  "delta2": 36.58753352077068,
+  "delta3": 472.3424551981962,
+  "input_file": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP021985__EP181984.npz",
+  "method": "Independent continuous",
+  "diagnostic": "final20_33",
+  "certificate": false,
+  "input_sha256": "55cb19cbe18e96961f064d76de7fb24a5594e61c951d573b5bcccb3346af57b6",
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 20000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "configuration_id": "hurricane:EP021985__EP181984:a0.5|Independent continuous"
+}

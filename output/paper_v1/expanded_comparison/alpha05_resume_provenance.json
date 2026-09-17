@@ -1,0 +1,28 @@
+{
+  "utc": "2026-09-16T14:25:37.423247+00:00",
+  "unix": 1789568737.423262,
+  "monotonic": 147219.4723703,
+  "new_pending": 23,
+  "reused": 16,
+  "previously_executed": 1,
+  "validation_recovered": true,
+  "scientific_configuration_unchanged": true,
+  "algorithm_hashes": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "code": {
+    "common.py": "9083f2183fc8c526c2e994e2d56c9c4f0a755cc794017a71faecf8194f2f20e1",
+    "worker.py": "17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393",
+    "supervisor.py": "2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25",
+    "expanded_comparison.py": "1205a11fc3295e43a09bd6e36605e1915c9c499677433fd503a21de5bb1ff476"
+  },
+  "changes": [
+    "C-layout-only normalization in mandatory validation",
+    "validation-only replay of saved checkpoint",
+    "five-second supervisor callback outside solver loops",
+    "alpha0.5 execution manifest and live progress"
+  ],
+  "validation_budget_seconds": 30,
+  "solver_budget_seconds": 60
+}

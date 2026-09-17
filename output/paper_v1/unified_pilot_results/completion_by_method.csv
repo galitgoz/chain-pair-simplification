@@ -1,0 +1,5 @@
+method,state_budget_limit,transition_budget_limit,validated
+Independent continuous,0,0,8
+Independent discrete,0,0,8
+CPS-2F,1,2,5
+CPS-3F,0,0,8

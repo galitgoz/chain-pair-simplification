@@ -1,0 +1,9 @@
+{
+  "phase": "validation",
+  "status": "software_error",
+  "reason": "[WinError 5] Access is denied: 'C:\\\\Users\\\\a\\\\PycharmProjects\\\\PythonProject1\\\\output\\\\paper_v1\\\\expanded_comparison\\\\slots\\\\34\\\\attempts\\\\expanded34_e309439661e84f828e3ac66dc0ee042a\\\\progress.json.25888.tmp' -> 'C:\\\\Users\\\\a\\\\PycharmProjects\\\\PythonProject1\\\\output\\\\paper_v1\\\\expanded_comparison\\\\slots\\\\34\\\\attempts\\\\expanded34_e309439661e84f828e3ac66dc0ee042a\\\\progress.json'",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\worker.py\", line 55, in <module>\n    phases.begin('validation');start=time.perf_counter()\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\common.py\", line 30, in begin\n    atomic(self.directory/'progress.json',event)\n    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\common.py\", line 19, in atomic\n    os.replace(tmp,path)\n    ~~~~~~~~~~^^^^^^^^^^\nPermissionError: [WinError 5] Access is denied: 'C:\\\\Users\\\\a\\\\PycharmProjects\\\\PythonProject1\\\\output\\\\paper_v1\\\\expanded_comparison\\\\slots\\\\34\\\\attempts\\\\expanded34_e309439661e84f828e3ac66dc0ee042a\\\\progress.json.25888.tmp' -> 'C:\\\\Users\\\\a\\\\PycharmProjects\\\\PythonProject1\\\\output\\\\paper_v1\\\\expanded_comparison\\\\slots\\\\34\\\\attempts\\\\expanded34_e309439661e84f828e3ac66dc0ee042a\\\\progress.json'\n",
+  "utc": "2026-09-16T14:26:10.662033+00:00",
+  "unix": 1789568770.6620433,
+  "monotonic": 147252.7111548
+}

@@ -1,0 +1,166 @@
+{
+  "status": "optimal",
+  "dDF": 0.9993252723713151,
+  "verified": true,
+  "seconds": 0.027263299998594448,
+  "lower_bound": 20,
+  "states": 42,
+  "transitions": 108,
+  "auxiliary_A": 0,
+  "auxiliary_B": 0,
+  "raw_status": "optimal_configuration_graph",
+  "route": "configuration_graph",
+  "phase": "configuration_graph",
+  "chain_graph_calls": 2,
+  "chain_graphs_completed": 2,
+  "preprocessing_chain_graph_calls": 2,
+  "configuration_graph_entered": true,
+  "certificate_enabled": false,
+  "solve_seconds": 0.029542999996920116,
+  "warmup_seconds": 1.0716823000111617,
+  "measured_execution_count": 1,
+  "kA": 20,
+  "kB": 20,
+  "k": 20,
+  "compression_removed_pct": 9.090909090909093,
+  "continuous_A_lower": 7.207435201142808,
+  "continuous_A_upper": 7.20744336798609,
+  "continuous_B_lower": 7.348226943606871,
+  "continuous_B_upper": 7.348234989774486,
+  "discrete_fidelity_A": 8.563555861906897,
+  "discrete_fidelity_B": 8.437018252913763,
+  "coupling_distance": 0.9993252723713151,
+  "coupling_budget_ratio": 0.9999999999999999,
+  "coupling_feasible": true,
+  "unequal_output_lengths": false,
+  "repeated_coupling_index": false,
+  "indices_A": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    21
+  ],
+  "indices_B": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    19,
+    21
+  ],
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      13,
+      13
+    ],
+    [
+      14,
+      14
+    ],
+    [
+      15,
+      15
+    ],
+    [
+      16,
+      16
+    ],
+    [
+      17,
+      17
+    ],
+    [
+      18,
+      18
+    ],
+    [
+      19,
+      19
+    ]
+  ],
+  "constraints_valid": true,
+  "states_discovered": 42,
+  "transitions_examined": 108
+}

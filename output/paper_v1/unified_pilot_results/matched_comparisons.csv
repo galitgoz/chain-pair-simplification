@@ -1,0 +1,17 @@
+case,pair,alpha,delta1,delta2,delta3,method,baseline,joint_status,baseline_status,matched_validated,joint_k,baseline_k,vertex_cost,k_ratio
+hurricane:AL031854__AL011991:a0.5,AL031854__AL011991,0.5,85.27599670409697,82.01596010094092,426.1842176844774,CPS-2F,Independent continuous,validated,validated,True,5.0,5.0,0.0,1.0
+hurricane:AL031854__AL011991:a0.5,AL031854__AL011991,0.5,85.27599670409697,82.01596010094092,426.1842176844774,CPS-3F,Independent discrete,validated,validated,True,20.0,20.0,0.0,1.0
+hurricane:AL031854__AL011991:a1,AL031854__AL011991,1.0,170.55199340819394,164.03192020188183,426.1842176844774,CPS-2F,Independent continuous,transition_budget_limit,validated,False,,4.0,,
+hurricane:AL031854__AL011991:a1,AL031854__AL011991,1.0,170.55199340819394,164.03192020188183,426.1842176844774,CPS-3F,Independent discrete,validated,validated,True,16.0,16.0,0.0,1.0
+hurricane:EP021949__EP031949:a0.5,EP021949__EP031949,0.5,40.25507378715167,36.48157080151773,565.3421428246969,CPS-2F,Independent continuous,validated,validated,True,6.0,5.0,1.0,1.2
+hurricane:EP021949__EP031949:a0.5,EP021949__EP031949,0.5,40.25507378715167,36.48157080151773,565.3421428246969,CPS-3F,Independent discrete,validated,validated,True,25.0,25.0,0.0,1.0
+hurricane:EP021949__EP031949:a1,EP021949__EP031949,1.0,80.51014757430335,72.96314160303547,565.3421428246969,CPS-2F,Independent continuous,validated,validated,True,4.0,4.0,0.0,1.0
+hurricane:EP021949__EP031949:a1,EP021949__EP031949,1.0,80.51014757430335,72.96314160303547,565.3421428246969,CPS-3F,Independent discrete,validated,validated,True,15.0,15.0,0.0,1.0
+protein:1o7j.a__1d9q.d:a0.5,1o7j.a__1d9q.d,0.5,9.476499139682725,10.101752088004297,47.96448297438429,CPS-2F,Independent continuous,validated,validated,True,16.0,16.0,0.0,1.0
+protein:1o7j.a__1d9q.d:a0.5,1o7j.a__1d9q.d,0.5,9.476499139682725,10.101752088004297,47.96448297438429,CPS-3F,Independent discrete,validated,validated,True,20.0,20.0,0.0,1.0
+protein:1o7j.a__1d9q.d:a1,1o7j.a__1d9q.d,1.0,18.95299827936545,20.20350417600859,47.96448297438429,CPS-2F,Independent continuous,state_budget_limit,validated,False,,6.0,,
+protein:1o7j.a__1d9q.d:a1,1o7j.a__1d9q.d,1.0,18.95299827936545,20.20350417600859,47.96448297438429,CPS-3F,Independent discrete,validated,validated,True,13.0,13.0,0.0,1.0
+protein:1o7j.a__1hfj.c:a0.5,1o7j.a__1hfj.c,0.5,9.476499139682725,9.537881702673165,0.9993252723713152,CPS-2F,Independent continuous,validated,validated,True,16.0,16.0,0.0,1.0
+protein:1o7j.a__1hfj.c:a0.5,1o7j.a__1hfj.c,0.5,9.476499139682725,9.537881702673165,0.9993252723713152,CPS-3F,Independent discrete,validated,validated,True,20.0,20.0,0.0,1.0
+protein:1o7j.a__1hfj.c:a1,1o7j.a__1hfj.c,1.0,18.95299827936545,19.07576340534633,0.9993252723713152,CPS-2F,Independent continuous,transition_budget_limit,validated,False,,5.0,,
+protein:1o7j.a__1hfj.c:a1,1o7j.a__1hfj.c,1.0,18.95299827936545,19.07576340534633,0.9993252723713152,CPS-3F,Independent discrete,validated,validated,True,5.0,5.0,0.0,1.0

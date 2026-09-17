@@ -1,0 +1,20 @@
+{
+  "inherited": 32,
+  "new_configurations": 48,
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "code": {
+    "common.py": "797aea01821c13e10ce4ab2e53e3fdadcee2a1eb6bf84478a44a58aa06039d4e",
+    "worker.py": "e3eab59206421bb87f618f6699c27407e4272b6e5e82fba899a81778a1ea9f38",
+    "supervisor.py": "4108be52e053f5d95313e7b15270159c20c5cd06c5faf2e611d717ea9aaef579",
+    "controlled_followup.py": "34588c866bcaedb9b7469115b23974dbe302af63b61d08df5b37fb6264aefbad",
+    "expanded_comparison.py": "af20a1c4f4797c02bf761c7946967b6b40567bf5d13442a9aa0bd2ea904bbef2"
+  },
+  "instrumentation": "At completion of each main single-curve graph, save dense and active state counts, edges including waits, extended and auxiliary counts. No inner-loop changes; small boundary observation overhead included in solver time.",
+  "policy": "Shared external time/memory budgets, disclosed method-specific internal edge limits. Independent discrete and CPS-3F preprocessing: 2000000; main CPS graphs: 800000.",
+  "utc": "2026-09-16T12:48:45.206487+00:00",
+  "unix": 1789562925.2065284,
+  "monotonic": 141407.2538927
+}

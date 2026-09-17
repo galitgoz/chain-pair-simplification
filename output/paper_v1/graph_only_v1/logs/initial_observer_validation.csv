@@ -1,0 +1,302 @@
+check,affected_method,check_kind,outcome,failure_reason,details,seconds
+analytic_frechet_controls,all,targeted,PASS,,"Known thresholds: straight 0, discrete straight 1, tangency 1, backtracking .5.",58.132520700004534
+discrete_distance_all_grid_paths,all,targeted,PASS,,Enumerated 13 monotone grid paths.,0.19794410000031348
+exhaustive_2d_00,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",53.17774749999808
+exhaustive_2d_00,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",1.6793690000049537
+exhaustive_2d_00,CPS-2F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0007104999967850745
+exhaustive_2d_00,CPS-3F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0005009000014979392
+exhaustive_2d_01,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0018053999956464395
+exhaustive_2d_01,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.003301600008853711
+exhaustive_2d_01,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",2.8825742000044556
+exhaustive_2d_01,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.009221400003298186
+exhaustive_2d_02,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.003766800000448711
+exhaustive_2d_02,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.004388400004245341
+exhaustive_2d_02,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.056732800003373995
+exhaustive_2d_02,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.005730400007450953
+exhaustive_2d_03,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0019327999907545745
+exhaustive_2d_03,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0018816000083461404
+exhaustive_2d_03,CPS-2F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0007716000109212473
+exhaustive_2d_03,CPS-3F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0006503000040538609
+exhaustive_2d_04,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0022984000097494572
+exhaustive_2d_04,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.001932600003783591
+exhaustive_2d_04,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.020032899992656894
+exhaustive_2d_04,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.003907800011802465
+exhaustive_2d_05,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0027895999955944717
+exhaustive_2d_05,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0024876999959815294
+exhaustive_2d_05,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.22082800000498537
+exhaustive_2d_05,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.005575400005909614
+exhaustive_2d_06,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.005653300002450123
+exhaustive_2d_06,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0025422000035177916
+exhaustive_2d_06,CPS-2F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0012870999926235527
+exhaustive_2d_06,CPS-3F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0008465999999316409
+exhaustive_2d_07,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0031211999885272235
+exhaustive_2d_07,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.00243580000824295
+exhaustive_2d_07,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.1633406000037212
+exhaustive_2d_07,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.0045079999981680885
+exhaustive_3d_00,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.003118199994787574
+exhaustive_3d_00,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0019315999961690977
+exhaustive_3d_00,CPS-2F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.001002599994535558
+exhaustive_3d_00,CPS-3F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0005043999990448356
+exhaustive_3d_01,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0019936000026063994
+exhaustive_3d_01,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0029071000026306137
+exhaustive_3d_01,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.029874699990614317
+exhaustive_3d_01,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.005475400001159869
+exhaustive_3d_02,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0043987999961245805
+exhaustive_3d_02,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.002861100001609884
+exhaustive_3d_02,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.5448214999923948
+exhaustive_3d_02,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.016824100006488152
+exhaustive_3d_03,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0020488000009208918
+exhaustive_3d_03,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.001760699989972636
+exhaustive_3d_03,CPS-2F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0007716000109212473
+exhaustive_3d_03,CPS-3F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0006264999974519014
+exhaustive_3d_04,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0013670999906025827
+exhaustive_3d_04,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.001631999999517575
+exhaustive_3d_04,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=4; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.041700300003867596
+exhaustive_3d_04,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.004203699994832277
+exhaustive_3d_05,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0019560999935492873
+exhaustive_3d_05,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0024245999957202002
+exhaustive_3d_05,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.03719509999791626
+exhaustive_3d_05,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.005070700004580431
+exhaustive_3d_06,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.2912600999989081
+exhaustive_3d_06,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=5; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.003267100008088164
+exhaustive_3d_06,CPS-2F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.05781669999123551
+exhaustive_3d_06,CPS-3F,exhaustive; forced graph for joint methods,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0007505999965360388
+exhaustive_3d_07,Independent continuous,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0013829999952577055
+exhaustive_3d_07,Independent discrete,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0015171999984886497
+exhaustive_3d_07,CPS-2F,exhaustive; forced graph for joint methods,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.13802060000307392
+exhaustive_3d_07,CPS-3F,exhaustive; forced graph for joint methods,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 71, in <lambda>
+    record(f'exhaustive_{dim}d_{trial:02d}',method,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=method:compare(A,B,d1,d2,d3,m),'exhaustive; forced graph for joint methods')
+                                                                                             ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.0042395999917062
+zero_threshold_count_vertices,Independent continuous,targeted,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.48564520000945777
+zero_threshold_count_vertices,Independent discrete,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.001252400004887022
+zero_threshold_count_vertices,CPS-2F,targeted,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.0025544000091031194
+zero_threshold_count_vertices,CPS-3F,targeted,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 79, in <lambda>
+    for m in METHODS:record(name,m,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=m:compare(A,B,d1,d2,d3,m))
+                                                                        ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.016465900000184774
+singleton,Independent continuous,targeted,PASS,,"optimum k=1; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0006720000092172995
+singleton,Independent discrete,targeted,PASS,,"optimum k=1; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.000905099994270131
+singleton,CPS-2F,targeted,PASS,,"optimum k=1; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.13830020000750665
+singleton,CPS-3F,targeted,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 79, in <lambda>
+    for m in METHODS:record(name,m,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=m:compare(A,B,d1,d2,d3,m))
+                                                                        ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.002734300011070445
+duplicate_vertices,Independent continuous,targeted,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.17187369999010116
+duplicate_vertices,Independent discrete,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0012098000006517395
+duplicate_vertices,CPS-2F,targeted,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.00424850000126753
+duplicate_vertices,CPS-3F,targeted,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 79, in <lambda>
+    for m in METHODS:record(name,m,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=m:compare(A,B,d1,d2,d3,m))
+                                                                        ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.004786799996509217
+unequal_lengths,Independent continuous,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0013468999968608841
+unequal_lengths,Independent discrete,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0013872999988961965
+unequal_lengths,CPS-2F,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",0.00396780000301078
+unequal_lengths,CPS-3F,targeted,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 79, in <lambda>
+    for m in METHODS:record(name,m,lambda A=A,B=B,d1=d1,d2=d2,d3=d3,m=m:compare(A,B,d1,d2,d3,m))
+                                                                        ~~~~~~~^^^^^^^^^^^^^^^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 30, in compare
+    result=solve(A,B,d1,d2,d3,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.003551700006937608
+infeasible_endpoints,Independent continuous,targeted,PASS,,"optimum k=2; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0010408999951323494
+infeasible_endpoints,Independent discrete,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0013561999949160963
+infeasible_endpoints,CPS-2F,targeted,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.00044600000546779484
+infeasible_endpoints,CPS-3F,targeted,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.00033540000731591135
+infeasible_internal,Independent continuous,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0010636000079102814
+infeasible_internal,Independent discrete,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=independent_optimization",0.0010811999964062124
+infeasible_internal,CPS-2F,targeted,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0015592000127071515
+infeasible_internal,CPS-3F,targeted,PASS,,Exhaustive infeasibility agrees; no resource exit treated as infeasible.,0.0008777999901212752
+unequal_outputs_repeated_coupling,Independent continuous,targeted,PASS,,"kA=2, kB=3, coupling repeats an index.",14.127056700002868
+unequal_outputs_repeated_coupling,Independent discrete,targeted,PASS,,"kA=3, kB=5, coupling repeats an index.",0.0026328000094508752
+unequal_outputs_repeated_coupling,CPS-2F,targeted,PASS,,"kA=2, kB=3, coupling repeats an index.",0.00282169999263715
+unequal_outputs_repeated_coupling,CPS-3F,targeted,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 83, in repeated
+    result=solve(line,B,0,0,2,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.003060499991988763
+global_not_local_regression,Independent continuous,targeted,PASS,,Saved counterexample re-executed: global optimum 3 versus local shortcut count 4. Local tests are only a feasible upper bound internally.,0.0006831999926362187
+global_not_local_forced_graph,CPS-2F,targeted,PASS,,"optimum k=3; endpoints, counts, fidelity, output membership, monotone coupling validated; route=configuration_graph",2.4900907999981428
+auxiliary_not_output_candidates,CPS-2F,targeted,PASS,,Auxiliary positions subdivide inputs; output indices remain original-vertex indices.,0.0069370999990496784
+feasible_independent_outputs_do_not_bypass_graph,CPS-2F,targeted,PASS,,Independently feasible outputs do not bypass execution: both chain graphs and the product recurrence ran.,0.005524499996681698
+feasible_independent_outputs_do_not_bypass_graph,CPS-3F,targeted,FAIL,"Traceback (most recent call last):
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 19, in record
+    try:detail=fn();outcome='PASS';reason=''
+               ~~^^
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_checks.py"", line 115, in route
+    result=solve(line,line,1,1,1,method,certificate=False)
+  File ""C:\Users\a\PycharmProjects\PythonProject1\notebooks_paper\graph_only_v1\graph_core.py"", line 47, in solve
+    assert TRACE['configuration_graph_entered'] and TRACE['chain_graphs_completed']==2
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError
+",,0.05967879999661818

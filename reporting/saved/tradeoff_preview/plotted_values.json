@@ -1,0 +1,905 @@
+[
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1d9q.d",
+    "method": "Independent continuous",
+    "compression_percent": 29.54545454545454,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1hfj.c",
+    "method": "Independent continuous",
+    "compression_percent": 27.27272727272727,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1qd1.b",
+    "method": "Independent continuous",
+    "compression_percent": 18.181818181818176,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1toh.a",
+    "method": "Independent continuous",
+    "compression_percent": 27.27272727272727,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1wls.a",
+    "method": "Independent continuous",
+    "compression_percent": 25.0,
+    "coupling_ratio": 1.1786027511158603
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1zq1.a",
+    "method": "Independent continuous",
+    "compression_percent": 25.49019607843137,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2eq5.a",
+    "method": "Independent continuous",
+    "compression_percent": 24.32432432432432,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2fep.a",
+    "method": "Independent continuous",
+    "compression_percent": 27.500000000000004,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2zsk.a",
+    "method": "Independent continuous",
+    "compression_percent": 28.947368421052634,
+    "coupling_ratio": 1.0527370488070202
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.b",
+    "method": "Independent continuous",
+    "compression_percent": 22.72727272727273,
+    "coupling_ratio": 1.194548872955356
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.c",
+    "method": "Independent continuous",
+    "compression_percent": 22.72727272727273,
+    "coupling_ratio": 1.1827096492562643
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.d",
+    "method": "Independent continuous",
+    "compression_percent": 22.72727272727273,
+    "coupling_ratio": 1.1727608268838183
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1d9q.d",
+    "method": "CPS-3F",
+    "compression_percent": 11.363636363636365,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1hfj.c",
+    "method": "CPS-3F",
+    "compression_percent": 9.090909090909093,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1qd1.b",
+    "method": "CPS-3F",
+    "compression_percent": 9.090909090909093,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1toh.a",
+    "method": "CPS-3F",
+    "compression_percent": 6.818181818181824,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1wls.a",
+    "method": "CPS-3F",
+    "compression_percent": 6.818181818181824,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1zq1.a",
+    "method": "CPS-3F",
+    "compression_percent": 13.725490196078427,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2eq5.a",
+    "method": "CPS-3F",
+    "compression_percent": 8.108108108108103,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2fep.a",
+    "method": "CPS-3F",
+    "compression_percent": 5.000000000000004,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2zsk.a",
+    "method": "CPS-3F",
+    "compression_percent": 7.8947368421052655,
+    "coupling_ratio": 0.9344483000661834
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.b",
+    "method": "CPS-3F",
+    "compression_percent": 6.818181818181824,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.c",
+    "method": "CPS-3F",
+    "compression_percent": 6.818181818181824,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.d",
+    "method": "CPS-3F",
+    "compression_percent": 6.818181818181824,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1d9q.d",
+    "method": "CPS-2F",
+    "compression_percent": 29.54545454545454,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1hfj.c",
+    "method": "CPS-2F",
+    "compression_percent": 27.27272727272727,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1qd1.b",
+    "method": "CPS-2F",
+    "compression_percent": 18.181818181818176,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1toh.a",
+    "method": "CPS-2F",
+    "compression_percent": 27.27272727272727,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1wls.a",
+    "method": "CPS-2F",
+    "compression_percent": 18.181818181818176,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1zq1.a",
+    "method": "CPS-2F",
+    "compression_percent": 25.49019607843137,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2eq5.a",
+    "method": "CPS-2F",
+    "compression_percent": 24.32432432432432,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2fep.a",
+    "method": "CPS-2F",
+    "compression_percent": 27.500000000000004,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2zsk.a",
+    "method": "CPS-2F",
+    "compression_percent": 23.684210526315784,
+    "coupling_ratio": 0.9344483000661834
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.b",
+    "method": "CPS-2F",
+    "compression_percent": 20.45454545454546,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.c",
+    "method": "CPS-2F",
+    "compression_percent": 20.45454545454546,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.d",
+    "method": "CPS-2F",
+    "compression_percent": 20.45454545454546,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL022011__AL071977",
+    "method": "Independent continuous",
+    "compression_percent": 82.14285714285714,
+    "coupling_ratio": 1.0256754324899027
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL031854__AL011991",
+    "method": "Independent continuous",
+    "compression_percent": 80.0,
+    "coupling_ratio": 1.7024831862636949
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091944__AL031917",
+    "method": "Independent continuous",
+    "compression_percent": 81.25,
+    "coupling_ratio": 1.5114455455054336
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091947__AL011953",
+    "method": "Independent continuous",
+    "compression_percent": 75.2808988764045,
+    "coupling_ratio": 0.9946327448663297
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL101886__AL051950",
+    "method": "Independent continuous",
+    "compression_percent": 74.60317460317461,
+    "coupling_ratio": 0.9713183556693334
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL102008__AL061989",
+    "method": "Independent continuous",
+    "compression_percent": 86.95652173913044,
+    "coupling_ratio": 0.9405712364487507
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL171980__AL112009",
+    "method": "Independent continuous",
+    "compression_percent": 78.57142857142857,
+    "coupling_ratio": 1.0393849912407445
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL181887__AL091888",
+    "method": "Independent continuous",
+    "compression_percent": 84.44444444444444,
+    "coupling_ratio": 1.0073447583669977
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL182011__AL061926",
+    "method": "Independent continuous",
+    "compression_percent": 74.13793103448276,
+    "coupling_ratio": 0.9792503282171899
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP012014__EP212006",
+    "method": "Independent continuous",
+    "compression_percent": 79.66101694915254,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021949__EP031949",
+    "method": "Independent continuous",
+    "compression_percent": 80.0,
+    "coupling_ratio": 1.3984626803959483
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021985__EP181984",
+    "method": "Independent continuous",
+    "compression_percent": 90.9090909090909,
+    "coupling_ratio": 1.384750534169818
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031965__EP141991",
+    "method": "Independent continuous",
+    "compression_percent": 83.5820895522388,
+    "coupling_ratio": 1.106777611493999
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031994__EP031978",
+    "method": "Independent continuous",
+    "compression_percent": 85.9375,
+    "coupling_ratio": 1.645087491738802
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032000__EP041975",
+    "method": "Independent continuous",
+    "compression_percent": 83.82352941176471,
+    "coupling_ratio": 1.3754495335337635
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032006__EP201992",
+    "method": "Independent continuous",
+    "compression_percent": 86.45833333333334,
+    "coupling_ratio": 1.1021030216774912
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041976__EP041984",
+    "method": "Independent continuous",
+    "compression_percent": 87.17948717948718,
+    "coupling_ratio": 1.8964137401774148
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041981__EP211992",
+    "method": "Independent continuous",
+    "compression_percent": 84.61538461538461,
+    "coupling_ratio": 1.7808497936425505
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP061986__EP131991",
+    "method": "Independent continuous",
+    "compression_percent": 87.96296296296296,
+    "coupling_ratio": 2.7521111366781894
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP072011__EP092011",
+    "method": "Independent continuous",
+    "compression_percent": 85.52631578947368,
+    "coupling_ratio": 1.6252938486577948
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081967__EP101980",
+    "method": "Independent continuous",
+    "compression_percent": 86.27450980392157,
+    "coupling_ratio": 2.552017573771855
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081993__EP121989",
+    "method": "Independent continuous",
+    "compression_percent": 87.12871287128714,
+    "coupling_ratio": 1.9343182864615145
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP092002__EP171994",
+    "method": "Independent continuous",
+    "compression_percent": 84.21052631578947,
+    "coupling_ratio": 1.1222129883477239
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101972__EP141967",
+    "method": "Independent continuous",
+    "compression_percent": 83.33333333333334,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101985__EP151985",
+    "method": "Independent continuous",
+    "compression_percent": 86.66666666666667,
+    "coupling_ratio": 2.2469523380851997
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP102002__EP042014",
+    "method": "Independent continuous",
+    "compression_percent": 86.3013698630137,
+    "coupling_ratio": 1.199005190362061
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111954__EP021984",
+    "method": "Independent continuous",
+    "compression_percent": 81.30841121495327,
+    "coupling_ratio": 1.7492086610823305
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111995__EP032014",
+    "method": "Independent continuous",
+    "compression_percent": 81.70731707317074,
+    "coupling_ratio": 1.730787369569096
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP141997__EP092000",
+    "method": "Independent continuous",
+    "compression_percent": 86.4406779661017,
+    "coupling_ratio": 1.7035429038283292
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP172000__EP061970",
+    "method": "Independent continuous",
+    "compression_percent": 83.60655737704919,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP211990__EP152008",
+    "method": "Independent continuous",
+    "compression_percent": 78.125,
+    "coupling_ratio": 2.3393185728467305
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL022011__AL071977",
+    "method": "CPS-3F",
+    "compression_percent": 7.14285714285714,
+    "coupling_ratio": 0.9748223590467361
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL031854__AL011991",
+    "method": "CPS-3F",
+    "compression_percent": 21.999999999999996,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091944__AL031917",
+    "method": "CPS-3F",
+    "compression_percent": 3.125,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091947__AL011953",
+    "method": "CPS-3F",
+    "compression_percent": 11.23595505617978,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL101886__AL051950",
+    "method": "CPS-3F",
+    "compression_percent": 17.460317460317466,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL102008__AL061989",
+    "method": "CPS-3F",
+    "compression_percent": 13.043478260869568,
+    "coupling_ratio": 0.9232972814467327
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL171980__AL112009",
+    "method": "CPS-3F",
+    "compression_percent": 5.35714285714286,
+    "coupling_ratio": 0.9750713917961212
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL181887__AL091888",
+    "method": "CPS-3F",
+    "compression_percent": 2.2222222222222254,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL182011__AL061926",
+    "method": "CPS-3F",
+    "compression_percent": 5.1724137931034475,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP012014__EP212006",
+    "method": "CPS-3F",
+    "compression_percent": 6.779661016949157,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021949__EP031949",
+    "method": "CPS-3F",
+    "compression_percent": 14.000000000000002,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021985__EP181984",
+    "method": "CPS-3F",
+    "compression_percent": 6.493506493506496,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031965__EP141991",
+    "method": "CPS-3F",
+    "compression_percent": 5.970149253731338,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031994__EP031978",
+    "method": "CPS-3F",
+    "compression_percent": 3.125,
+    "coupling_ratio": 0.9821951221778639
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032000__EP041975",
+    "method": "CPS-3F",
+    "compression_percent": 10.29411764705882,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032006__EP201992",
+    "method": "CPS-3F",
+    "compression_percent": 13.541666666666663,
+    "coupling_ratio": 0.9904771622684038
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041976__EP041984",
+    "method": "CPS-3F",
+    "compression_percent": 2.564102564102566,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041981__EP211992",
+    "method": "CPS-3F",
+    "compression_percent": 0.0,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP061986__EP131991",
+    "method": "CPS-3F",
+    "compression_percent": 2.777777777777779,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP072011__EP092011",
+    "method": "CPS-3F",
+    "compression_percent": 6.578947368421051,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081967__EP101980",
+    "method": "CPS-3F",
+    "compression_percent": 1.9607843137254943,
+    "coupling_ratio": 0.9722008102021098
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081993__EP121989",
+    "method": "CPS-3F",
+    "compression_percent": 2.970297029702973,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP092002__EP171994",
+    "method": "CPS-3F",
+    "compression_percent": 7.017543859649122,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101972__EP141967",
+    "method": "CPS-3F",
+    "compression_percent": 9.090909090909093,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101985__EP151985",
+    "method": "CPS-3F",
+    "compression_percent": 2.6666666666666616,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP102002__EP042014",
+    "method": "CPS-3F",
+    "compression_percent": 16.43835616438356,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111954__EP021984",
+    "method": "CPS-3F",
+    "compression_percent": 2.8037383177570097,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111995__EP032014",
+    "method": "CPS-3F",
+    "compression_percent": 8.536585365853655,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP141997__EP092000",
+    "method": "CPS-3F",
+    "compression_percent": 5.0847457627118615,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP172000__EP061970",
+    "method": "CPS-3F",
+    "compression_percent": 9.836065573770492,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP211990__EP152008",
+    "method": "CPS-3F",
+    "compression_percent": 10.9375,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL022011__AL071977",
+    "method": "CPS-2F",
+    "compression_percent": 82.14285714285714,
+    "coupling_ratio": 0.9719810646650935
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL031854__AL011991",
+    "method": "CPS-2F",
+    "compression_percent": 80.0,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091944__AL031917",
+    "method": "CPS-2F",
+    "compression_percent": 79.6875,
+    "coupling_ratio": 0.9577594774604016
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091947__AL011953",
+    "method": "CPS-2F",
+    "compression_percent": 75.2808988764045,
+    "coupling_ratio": 0.9946327448663297
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL101886__AL051950",
+    "method": "CPS-2F",
+    "compression_percent": 74.60317460317461,
+    "coupling_ratio": 0.9713183556693334
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL102008__AL061989",
+    "method": "CPS-2F",
+    "compression_percent": 86.95652173913044,
+    "coupling_ratio": 0.9405712364487507
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL171980__AL112009",
+    "method": "CPS-2F",
+    "compression_percent": 76.78571428571428,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL181887__AL091888",
+    "method": "CPS-2F",
+    "compression_percent": 83.33333333333334,
+    "coupling_ratio": 0.9966065453402451
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL182011__AL061926",
+    "method": "CPS-2F",
+    "compression_percent": 74.13793103448276,
+    "coupling_ratio": 0.9792503282171899
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP012014__EP212006",
+    "method": "CPS-2F",
+    "compression_percent": 79.66101694915254,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021949__EP031949",
+    "method": "CPS-2F",
+    "compression_percent": 78.0,
+    "coupling_ratio": 0.9892227925259384
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021985__EP181984",
+    "method": "CPS-2F",
+    "compression_percent": 89.6103896103896,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031965__EP141991",
+    "method": "CPS-2F",
+    "compression_percent": 83.5820895522388,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031994__EP031978",
+    "method": "CPS-2F",
+    "compression_percent": 84.375,
+    "coupling_ratio": 0.9845741389072417
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032000__EP041975",
+    "method": "CPS-2F",
+    "compression_percent": 82.35294117647058,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032006__EP201992",
+    "method": "CPS-2F",
+    "compression_percent": 86.45833333333334,
+    "coupling_ratio": 0.9904771622684038
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041976__EP041984",
+    "method": "CPS-2F",
+    "compression_percent": 85.8974358974359,
+    "coupling_ratio": 0.9844367664265813
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041981__EP211992",
+    "method": "CPS-2F",
+    "compression_percent": 81.53846153846153,
+    "coupling_ratio": 0.9835217654018339
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP061986__EP131991",
+    "method": "CPS-2F",
+    "compression_percent": 86.11111111111111,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP072011__EP092011",
+    "method": "CPS-2F",
+    "compression_percent": 84.21052631578947,
+    "coupling_ratio": 0.9970682481330578
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081967__EP101980",
+    "method": "CPS-2F",
+    "compression_percent": 84.31372549019608,
+    "coupling_ratio": 0.9722008102021098
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081993__EP121989",
+    "method": "CPS-2F",
+    "compression_percent": 86.13861386138613,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP092002__EP171994",
+    "method": "CPS-2F",
+    "compression_percent": 84.21052631578947,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101972__EP141967",
+    "method": "CPS-2F",
+    "compression_percent": 83.33333333333334,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101985__EP151985",
+    "method": "CPS-2F",
+    "compression_percent": 85.33333333333333,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP102002__EP042014",
+    "method": "CPS-2F",
+    "compression_percent": 86.3013698630137,
+    "coupling_ratio": 0.9860892807483871
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111954__EP021984",
+    "method": "CPS-2F",
+    "compression_percent": 79.43925233644859,
+    "coupling_ratio": 0.9498091646955408
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111995__EP032014",
+    "method": "CPS-2F",
+    "compression_percent": 80.48780487804879,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP141997__EP092000",
+    "method": "CPS-2F",
+    "compression_percent": 84.7457627118644,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP172000__EP061970",
+    "method": "CPS-2F",
+    "compression_percent": 83.60655737704919,
+    "coupling_ratio": 1.0
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP211990__EP152008",
+    "method": "CPS-2F",
+    "compression_percent": 78.125,
+    "coupling_ratio": 0.9841603622809811
+  }
+]

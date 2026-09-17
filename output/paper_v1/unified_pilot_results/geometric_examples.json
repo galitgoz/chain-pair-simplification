@@ -1,0 +1,12 @@
+[
+  {
+    "configuration_id": "hurricane:AL031854__AL011991:a0.5|CPS-2F",
+    "figure": "geometry_hurricane",
+    "attempt_path": "output\\paper_v1\\unified_pilot_results\\slots\\03\\attempts\\slot03_5333325f78a44ccf8c803cb680ccb2c1"
+  },
+  {
+    "configuration_id": "protein:1o7j.a__1d9q.d:a0.5|CPS-2F",
+    "figure": "geometry_protein",
+    "attempt_path": "output\\paper_v1\\unified_pilot_results\\slots\\19\\attempts\\slot19_67a95ddd348341d08fd3a07c99191bd7"
+  }
+]

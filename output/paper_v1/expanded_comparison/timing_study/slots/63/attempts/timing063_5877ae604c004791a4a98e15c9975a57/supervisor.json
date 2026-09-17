@@ -1,0 +1,18 @@
+{
+  "status": "worker_exited",
+  "limiting_phase": null,
+  "phase_elapsed_seconds": 0.38433170001371764,
+  "process_seconds": 9.626954400009708,
+  "approximate_sampled_tree_rss_peak_mib": 215.20703125,
+  "memory_scope": "sum of sampled process-tree RSS, not exact algorithm memory",
+  "process_exit_code": 0,
+  "samples": 161,
+  "owned_pids": [
+    17700,
+    27544,
+    15148
+  ],
+  "utc": "2026-09-16T16:47:25.824876+00:00",
+  "unix": 1789577245.8248935,
+  "monotonic": 155727.8744666
+}

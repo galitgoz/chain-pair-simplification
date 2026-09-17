@@ -1,0 +1,287 @@
+[
+  {
+    "diagnostic": "A",
+    "reference_k": 5,
+    "evidence_kind": "saved certificate witness and independently optimal continuous lower bound; NOT a graph result",
+    "certificate": {
+      "source_table": "output\\paper_v1\\pilot_results.csv",
+      "source_sha256": "9d8ebd087e161e4cd88de3069622a667f220e13ca56bb26e7c2224df808271c7",
+      "source_paths_sha256": "4d74ac3275941087f3d6c561a332068bd3e9af39a1894510bff8f98f6e2664fe",
+      "source_method": "CPS-2F",
+      "raw_result": {
+        "indices_A": [
+          0,
+          2,
+          11,
+          16,
+          24
+        ],
+        "indices_B": [
+          0,
+          5,
+          10,
+          19,
+          24
+        ],
+        "coupling": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "status": "optimal_alternate_certificate",
+        "k": 5,
+        "kA": 5,
+        "kB": 5
+      },
+      "validation": {
+        "status": "validated",
+        "feasibility_passed": true,
+        "optimality_independently_proven": false,
+        "solver_optimality_claim": true,
+        "checks": {
+          "A_original_vertex_membership": true,
+          "B_original_vertex_membership": true,
+          "A_fidelity": true,
+          "B_fidelity": true
+        },
+        "kA": 5,
+        "kB": 5,
+        "k": 5,
+        "coupling_distance": 426.1842176844774,
+        "coupling_feasible": true,
+        "coupling_constraint_required": true,
+        "coupling": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "validation_seconds": 1.201745900005335
+    },
+    "baseline": {
+      "source_table": "output\\paper_v1\\graph_only_v1\\pilot_results.csv",
+      "source_sha256": "d3bcfa506dd71159ba351b0e25784982633032e63db8206bf17ef5029591963e",
+      "source_paths_sha256": "895f93a05696d03ddf2fc038828b668c972ae7d1ce89e51109591dbe457aec4f",
+      "source_method": "Independent continuous",
+      "raw_result": {
+        "indices_A": [
+          0,
+          1,
+          10,
+          14,
+          24
+        ],
+        "indices_B": [
+          0,
+          4,
+          9,
+          19,
+          24
+        ],
+        "coupling": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "status": "optimal_independent_baseline",
+        "k": 5,
+        "kA": 5,
+        "kB": 5
+      },
+      "validation": {
+        "status": "validated",
+        "feasibility_passed": true,
+        "optimality_independently_proven": false,
+        "solver_optimality_claim": true,
+        "checks": {
+          "A_original_vertex_membership": true,
+          "B_original_vertex_membership": true,
+          "A_fidelity": true,
+          "B_fidelity": true
+        },
+        "kA": 5,
+        "kB": 5,
+        "k": 5,
+        "coupling_distance": 725.5714648587692,
+        "coupling_feasible": false,
+        "coupling_constraint_required": false,
+        "coupling": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "validation_seconds": 0.0011633999965852126
+    },
+    "reference_verified": true
+  },
+  {
+    "diagnostic": "B",
+    "reference_k": 5,
+    "evidence_kind": "saved independently optimal continuous pair also satisfies delta3; NOT a new graph run",
+    "baseline": {
+      "source_table": "output\\paper_v1\\graph_only_v1\\pilot_results.csv",
+      "source_sha256": "d3bcfa506dd71159ba351b0e25784982633032e63db8206bf17ef5029591963e",
+      "source_paths_sha256": "8d704f9d8404e70b0e2e514bba0b9b16fc9db261aade0c79f962fb998a886afe",
+      "source_method": "Independent continuous",
+      "raw_result": {
+        "indices_A": [
+          0,
+          1,
+          7,
+          14,
+          21
+        ],
+        "indices_B": [
+          0,
+          1,
+          7,
+          14,
+          21
+        ],
+        "coupling": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ],
+        "status": "optimal_independent_baseline",
+        "k": 5,
+        "kA": 5,
+        "kB": 5
+      },
+      "validation": {
+        "status": "validated",
+        "feasibility_passed": true,
+        "optimality_independently_proven": false,
+        "solver_optimality_claim": true,
+        "checks": {
+          "A_original_vertex_membership": true,
+          "B_original_vertex_membership": true,
+          "A_fidelity": true,
+          "B_fidelity": true
+        },
+        "kA": 5,
+        "kB": 5,
+        "k": 5,
+        "coupling_distance": 0.9993252723713151,
+        "coupling_feasible": true,
+        "coupling_constraint_required": false,
+        "coupling": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ]
+        ]
+      },
+      "validation_seconds": 16.90610089999973
+    },
+    "reference_verified": true
+  },
+  {
+    "diagnostic": "C",
+    "reference_k": null,
+    "reference_verified": false,
+    "evidence_kind": "No verified identical-configuration reference in the frozen-protocol prior runs"
+  }
+]

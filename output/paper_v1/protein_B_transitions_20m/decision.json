@@ -1,0 +1,13 @@
+{
+  "launched": false,
+  "new_attempts": 0,
+  "reason": "Sustained CPU-intensive competing PyCharm activity during readiness sampling",
+  "readiness_source": "readiness_20260916T110153.json",
+  "cpu_percent_range": [9.0, 100.0],
+  "minimum_available_memory_mib": 2434.6328125,
+  "competing_process": {"pid": 11492, "name": "pycharm64.exe", "peak_cpu_percent_one_core": 658.9},
+  "configuration_change_only": {"graph_limits.max_transitions": [10000000, 20000000]},
+  "verified_coverage": "24/32",
+  "solver_outcome": null,
+  "automatic_retry": false
+}

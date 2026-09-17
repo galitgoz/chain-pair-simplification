@@ -1,0 +1,3 @@
+attempt,transition_budget,status,k,transitions,states,solver_seconds,validation_seconds,peak_sampled_tree_rss_mib
+Previous B,500000,transition_budget_limit,,500001.0,17567.0,1.838191700007883,,221.68359375
+Controlled follow-up,10000000,state_budget_limit,,3985753.0,30000.0,13.339564999987488,,303.5703125

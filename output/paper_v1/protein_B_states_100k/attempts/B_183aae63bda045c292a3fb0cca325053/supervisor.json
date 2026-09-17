@@ -1,0 +1,18 @@
+{
+  "status": "solver_timeout",
+  "limiting_phase": "solver",
+  "phase_elapsed_seconds": 62.711110600008396,
+  "process_seconds": 154.7321290000109,
+  "approximate_sampled_tree_rss_peak_mib": 299.13671875,
+  "memory_scope": "sum of sampled process-tree RSS, not exact algorithm memory",
+  "process_exit_code": 15,
+  "samples": 476,
+  "owned_pids": [
+    21652,
+    26004,
+    24440
+  ],
+  "utc": "2026-09-16T10:12:49.266921+00:00",
+  "unix": 1789553569.266958,
+  "monotonic": 132051.2727035
+}

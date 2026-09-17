@@ -1,0 +1,55 @@
+{
+  "status": "optimal",
+  "route": "independent_optimization",
+  "solve_seconds": 0.04778470000019297,
+  "warmup_seconds": 9.847885099996347,
+  "lower_bound": null,
+  "states_discovered": null,
+  "transitions_examined": null,
+  "kA": 4,
+  "kB": 4,
+  "k": 4,
+  "compression_removed_pct": 84.0,
+  "continuous_A_lower": 157.86509683758018,
+  "continuous_A_upper": 157.8651061347527,
+  "continuous_B_lower": 141.92971402346427,
+  "continuous_B_upper": 141.92972095819664,
+  "discrete_fidelity_A": 1247.8453722730112,
+  "discrete_fidelity_B": 930.7640236675084,
+  "coupling_distance": 465.82897638768674,
+  "coupling_budget_ratio": 1.0930225875528785,
+  "coupling_feasible": false,
+  "unequal_output_lengths": false,
+  "repeated_coupling_index": false,
+  "indices_A": [
+    0,
+    6,
+    13,
+    24
+  ],
+  "indices_B": [
+    0,
+    6,
+    17,
+    24
+  ],
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ]
+  ],
+  "constraints_valid": true
+}

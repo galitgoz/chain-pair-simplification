@@ -1,0 +1,17 @@
+cohort,domain,method,planned,validated,resource_limited,pending
+Original,hurricane,CPS-2F,5,4,1,0
+Original,hurricane,CPS-3F,5,5,0,0
+Original,hurricane,Independent continuous,5,5,0,0
+Original,hurricane,Independent discrete,5,5,0,0
+Original,protein,CPS-2F,5,5,0,0
+Original,protein,CPS-3F,5,5,0,0
+Original,protein,Independent continuous,5,5,0,0
+Original,protein,Independent discrete,5,5,0,0
+Timing,hurricane,CPS-2F,15,12,3,0
+Timing,hurricane,CPS-3F,15,15,0,0
+Timing,hurricane,Independent continuous,15,15,0,0
+Timing,hurricane,Independent discrete,15,15,0,0
+Timing,protein,CPS-2F,15,15,0,0
+Timing,protein,CPS-3F,15,15,0,0
+Timing,protein,Independent continuous,15,15,0,0
+Timing,protein,Independent discrete,15,15,0,0

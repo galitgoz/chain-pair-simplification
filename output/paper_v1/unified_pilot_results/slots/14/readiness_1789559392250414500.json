@@ -1,0 +1,700 @@
+{
+  "utc": "2026-09-16T11:49:52.250397+00:00",
+  "unix": 1789559392.250409,
+  "monotonic": 137874.2933753,
+  "ready": true,
+  "samples": [
+    {
+      "utc": "2026-09-16T11:49:29.889724+00:00",
+      "unix": 1789559369.8897378,
+      "monotonic": 137851.9326591,
+      "cpu_percent": 20.0,
+      "available_mib": 2910.26171875,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 28.9
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 19.4
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 15.1
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 8.8
+        },
+        {
+          "pid": 13960,
+          "name": "chrome.exe",
+          "cpu_one_core": 7.5
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 7.5
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 7.5
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 7572,
+          "name": "chrome.exe",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 6.3
+        },
+        {
+          "pid": 2476,
+          "name": "cef_server.exe",
+          "cpu_one_core": 4.4
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:32.346382+00:00",
+      "unix": 1789559372.3463922,
+      "monotonic": 137854.3893183,
+      "cpu_percent": 8.8,
+      "available_mib": 3037.0625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 33.0
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 18.4
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 7.6
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 6.3
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.7
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 2.5
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 3868,
+          "name": "msedgewebview2.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:34.807694+00:00",
+      "unix": 1789559374.8077202,
+      "monotonic": 137856.8506513,
+      "cpu_percent": 11.3,
+      "available_mib": 3038.26953125,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 34.9
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 19.1
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 8.3
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 7.6
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 5.7
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 1064,
+          "name": "csrss.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 5204,
+          "name": "CxAudioSvc.exe",
+          "cpu_one_core": 1.3
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:37.264031+00:00",
+      "unix": 1789559377.2640414,
+      "monotonic": 137859.3069775,
+      "cpu_percent": 6.5,
+      "available_mib": 3040.734375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 24.2
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 18.4
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.7
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 5204,
+          "name": "CxAudioSvc.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 9348,
+          "name": "explorer.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 17228,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:39.783513+00:00",
+      "unix": 1789559379.783527,
+      "monotonic": 137861.8264679,
+      "cpu_percent": 13.4,
+      "available_mib": 2941.09375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 38.2
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 20.5
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 9.4
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 7.6
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 6.2
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 5204,
+          "name": "CxAudioSvc.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:42.328989+00:00",
+      "unix": 1789559382.3290102,
+      "monotonic": 137864.3719564,
+      "cpu_percent": 24.0,
+      "available_mib": 2850.62890625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 25.9
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 20.9
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 12.4
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 6.8
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 5.6
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 5.6
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 5.5
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.5
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 4.3
+        },
+        {
+          "pid": 1224,
+          "name": "lsass.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 2476,
+          "name": "cef_server.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 1.8
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:44.803950+00:00",
+      "unix": 1789559384.803963,
+      "monotonic": 137866.846914,
+      "cpu_percent": 16.1,
+      "available_mib": 2857.1875,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 41.2
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 21.5
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 18.9
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 8.0
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.6
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 5.0
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 4.3
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 3.7
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 3.1
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 2.5
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.8
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:47.270450+00:00",
+      "unix": 1789559387.2704604,
+      "monotonic": 137869.3134166,
+      "cpu_percent": 16.1,
+      "available_mib": 2884.46484375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 36.8
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 18.4
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 10.8
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 7.6
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 1908,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 4452,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.3
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:49.752066+00:00",
+      "unix": 1789559389.7520764,
+      "monotonic": 137871.7950374,
+      "cpu_percent": 8.2,
+      "available_mib": 2900.19921875,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 34.1
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 19.5
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 8.2
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 140,
+          "name": "",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 184,
+          "name": "Registry",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 696,
+          "name": "smss.exe",
+          "cpu_one_core": 0.0
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T11:49:52.209206+00:00",
+      "unix": 1789559392.2092164,
+      "monotonic": 137874.2521821,
+      "cpu_percent": 12.3,
+      "available_mib": 2901.11328125,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 31.7
+        },
+        {
+          "pid": 27188,
+          "name": "python.exe",
+          "cpu_one_core": 18.4
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 11.4
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 8.8
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 1064,
+          "name": "csrss.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 1816,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    }
+  ],
+  "competing": [],
+  "reason": "No sustained competing computation and adequate memory"
+}

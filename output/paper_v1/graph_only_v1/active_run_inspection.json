@@ -1,0 +1,31 @@
+{
+  "processes": [
+    {
+      "cmdline": [
+        "C:\\Users\\a\\PycharmProjects\\PythonProject1\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ipykernel_launcher",
+        "-f",
+        "C:\\Users\\a\\AppData\\Local\\Temp\\kernel-561b34b5-62cc-45dd-a361-5d590ba02da814300474410787091423\\connection.json",
+        "--IPCompleter.use_jedi=False",
+        "--IPKernelApp.log_level=INFO"
+      ],
+      "ppid": 11492,
+      "pid": 11420
+    },
+    {
+      "cmdline": [
+        "C:\\Users\\a\\PycharmProjects\\PythonProject1\\.venv\\Scripts\\python.exe",
+        "-m",
+        "ipykernel_launcher",
+        "-f",
+        "C:\\Users\\a\\AppData\\Local\\Temp\\kernel-561b34b5-62cc-45dd-a361-5d590ba02da814300474410787091423\\connection.json",
+        "--IPCompleter.use_jedi=False",
+        "--IPKernelApp.log_level=INFO"
+      ],
+      "ppid": 11420,
+      "pid": 22664
+    }
+  ],
+  "action": "read-only inspection; no process attached to or stopped"
+}

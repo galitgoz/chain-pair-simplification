@@ -1,0 +1,54 @@
+{
+  "domain": "protein",
+  "pair": "1o7j.a__1hfj.c",
+  "case": "protein:1o7j.a__1hfj.c:a1",
+  "nA": 22,
+  "nB": 22,
+  "units": "angstrom",
+  "alpha": 1.0,
+  "s_A": 18.95299827936545,
+  "s_B": 19.07576340534633,
+  "delta1": 18.95299827936545,
+  "delta2": 19.07576340534633,
+  "delta3": 0.9993252723713152,
+  "input_file": "output\\paper_v1\\inputs\\protein_1o7j.a__1hfj.c.npz",
+  "diagnostic": "B",
+  "method": "CPS-2F",
+  "certificate": false,
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 30000,
+    "max_transitions": 500000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "input_sha256": "7b773f6fd281824e25d8e444c9a70b1ca04a33b497237bdb6ee4b0605a6d1365",
+  "parameter_file_sha256": "3fcba922fe7a59575833c4b63fb35b59a701259b5e7044fd399c6564f4667372",
+  "graph_limits_applicable": true,
+  "internal_seconds_applicable": true,
+  "independent_discrete_chain_edge_default": null,
+  "algorithms": {
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876",
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7"
+  },
+  "attempt_id": "B_cf1787d0fc88447e9f5e19a9a82f2dab",
+  "code_version": {
+    "notebooks_paper\\graph_only_v2\\common.py": "e453c334f4b62aabed1cf136260707c2972a6cfd877034c53112167da4bf1532",
+    "notebooks_paper\\graph_only_v2\\prepare.py": "0cceef61420b6212cfff013fd1ebb6a36e8078fa1975bd0f2ff38c4147cb5538",
+    "notebooks_paper\\graph_only_v2\\references.py": "eb534dd80ea27121217808dae65bdf2e34d1f84bedcda76763aba57837dc1424",
+    "notebooks_paper\\graph_only_v2\\regressions.py": "af79dc78d26fba083477e5a49f616c13062308e0fd76f59cd00d1a6060a2daff",
+    "notebooks_paper\\graph_only_v2\\run_diagnostics.py": "87fb6c273aa650bf2587bea2d4733ead6c0f7bd88eedc397dc78e8fc34f13fdd",
+    "notebooks_paper\\graph_only_v2\\supervisor.py": "be0bbac210c34dcededf0a4ad9805d5f41dc243221325b278f9091ffa8d6cacd",
+    "notebooks_paper\\graph_only_v2\\worker.py": "295216ac60eedddc30fe8885c9210417e5bd5879fafe1d0b6da48103c0a80019"
+  }
+}

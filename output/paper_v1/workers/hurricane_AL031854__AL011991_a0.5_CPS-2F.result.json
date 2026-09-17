@@ -1,0 +1,61 @@
+{
+  "status": "optimal",
+  "route": "alternate_certificate",
+  "solve_seconds": 4.1461597999877995,
+  "warmup_seconds": 3.01181889999134,
+  "lower_bound": 5,
+  "states_discovered": 0,
+  "transitions_examined": 0,
+  "kA": 5,
+  "kB": 5,
+  "k": 5,
+  "compression_removed_pct": 80.0,
+  "continuous_A_lower": 75.3257305496997,
+  "continuous_A_upper": 75.32573718845292,
+  "continuous_B_lower": 80.1628386950294,
+  "continuous_B_upper": 80.16284423020699,
+  "discrete_fidelity_A": 891.038375042944,
+  "discrete_fidelity_B": 742.918961177126,
+  "coupling_distance": 426.1842176844774,
+  "coupling_budget_ratio": 1.0,
+  "coupling_feasible": true,
+  "unequal_output_lengths": false,
+  "repeated_coupling_index": false,
+  "indices_A": [
+    0,
+    2,
+    11,
+    16,
+    24
+  ],
+  "indices_B": [
+    0,
+    5,
+    10,
+    19,
+    24
+  ],
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "constraints_valid": true
+}

@@ -1,0 +1,14 @@
+{
+  "utc": "2026-09-16T17:37:13.912796+00:00",
+  "unix": 1789580233.9128077,
+  "monotonic": 158716.0346234,
+  "counts": {
+    "planned": 120,
+    "finished": 120,
+    "validated": 117,
+    "resource_limited": 3,
+    "validation_incomplete": 0,
+    "errors": 0,
+    "pending": 0
+  }
+}

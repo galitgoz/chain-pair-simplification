@@ -1,0 +1,36 @@
+{
+  "manifest_sha256": "a1ff968e3052d0060b9247e5fcc9b688729cf3f79b5f8122a7638ee3422eb374",
+  "protocol_sha256": "1a03e555c5256c7f2913a698d642711c6f8019d6bdb0a9ad9d7019f3c3ad58a0",
+  "selected_reuse": {
+    "protein:1o7j.a__1d9q.d:a0.5|Independent discrete": "output/paper_v1/graph_only_v2/attempts/C_8c679d9e32f84779ab0c2bea3386850e",
+    "protein:1o7j.a__1hfj.c:a1|CPS-2F": "output/paper_v1/protein_B_transitions_20m/attempts/B_59ec1647ee4e4a51828c60d087ccbbb5"
+  },
+  "new_slots": 30,
+  "policy": "Shared external 60 s / 512 MiB budgets; method-specific internal limits explicitly adopted",
+  "edge_exception": "Independent discrete and CPS-3F independent preprocessing retain 2000000 edges per curve; main CPS graphs use 800000.",
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "core_code": {
+    "common.py": "db97df53c1a63e8922f98df75155c0402c2c6a2186f882c11c31c11946b6f8d2",
+    "worker.py": "e3eab59206421bb87f618f6699c27407e4272b6e5e82fba899a81778a1ea9f38",
+    "supervisor.py": "4108be52e053f5d95313e7b15270159c20c5cd06c5faf2e611d717ea9aaef579"
+  },
+  "environment": {
+    "executable": "C:\\Users\\a\\PycharmProjects\\PythonProject1\\.venv\\Scripts\\python.exe",
+    "executable_sha256": "7bcdf892816a8d651e89f008cfc2f1544a41f13089af70a227b9fc54ced8551f",
+    "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "packages": {
+      "numpy": "2.5.3",
+      "numba": "0.67.0",
+      "llvmlite": "0.49.0",
+      "psutil": "7.2.2",
+      "pandas": "3.0.5",
+      "matplotlib": "3.11.2"
+    }
+  },
+  "cache_policy": "Fresh output-local cache for each new slot; warmup unchanged; no shared cohort compilation cache",
+  "certificate": false
+}

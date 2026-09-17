@@ -1,0 +1,9 @@
+{"phase": "input_loading", "phase_started_monotonic": 169148.4824825, "utc": "2026-09-16T20:31:06.296401+00:00", "unix": 1789590666.2964225, "monotonic": 169148.4824825}
+{"phase": "warmup", "phase_started_monotonic": 169148.5965452, "utc": "2026-09-16T20:31:06.410474+00:00", "unix": 1789590666.4104846, "monotonic": 169148.5965452, "internal_time_limit": "disabled; external warm-up budget applies"}
+{"phase": "solver", "phase_started_monotonic": 169156.9923063, "utc": "2026-09-16T20:31:14.806215+00:00", "unix": 1789590674.8062265, "monotonic": 169156.9923063}
+{"phase": "solver", "phase_started_monotonic": 169156.9923063, "utc": "2026-09-16T20:31:14.809466+00:00", "unix": 1789590674.8094864, "monotonic": 169156.9955657, "solver_subphase": "independent_optimization", "configuration_graph_entered": false, "chain_graph_calls": 0, "chain_graphs_completed": 0, "states_dequeued": 0, "completed_states_lower_bound": 0}
+{"phase": "checkpoint", "phase_started_monotonic": 169157.0061982, "utc": "2026-09-16T20:31:14.820109+00:00", "unix": 1789590674.8201187, "monotonic": 169157.0061982}
+{"phase": "checkpoint", "phase_started_monotonic": 169157.0061982, "utc": "2026-09-16T20:31:14.827602+00:00", "unix": 1789590674.8276148, "monotonic": 169157.0136949, "raw_checkpoint_saved": true, "raw_checkpoint_sha256": "e9cbdcbdb9c2b571e36ba2ced42177c52d3d47954e2d14a79236ae282baf49a0"}
+{"phase": "validation", "phase_started_monotonic": 169157.0183318, "utc": "2026-09-16T20:31:14.832237+00:00", "unix": 1789590674.8322515, "monotonic": 169157.0183318}
+{"phase": "optional_measurements", "phase_started_monotonic": 169157.0253285, "utc": "2026-09-16T20:31:14.839242+00:00", "unix": 1789590674.839249, "monotonic": 169157.0253285}
+{"phase": "reporting", "phase_started_monotonic": 169157.0353314, "utc": "2026-09-16T20:31:14.849239+00:00", "unix": 1789590674.8492513, "monotonic": 169157.0353314}

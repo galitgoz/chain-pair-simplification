@@ -1,0 +1,9 @@
+{
+  "phase": "solver",
+  "status": "solver_timeout",
+  "reason": "wall-time budget exceeded",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\worker.py\", line 18, in <module>\n    raw,route=solve(A,B,config,certificate=False,observe=lambda event:phases.note(**event))\n              ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\common.py\", line 106, in solve\n    raw=alg.solve_cps(A,B,config['delta1'],config['delta2'],config['delta3'],method,certificate=False,**lim)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\cps_paper_algorithms.py\", line 200, in solve_cps\n    if time.perf_counter()-start>seconds:raise ResourceLimit('wall-time budget exceeded')\n                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncps_paper_algorithms.ResourceLimit: wall-time budget exceeded\n",
+  "utc": "2026-09-16T10:12:42.698052+00:00",
+  "unix": 1789553562.6980786,
+  "monotonic": 132044.7037273
+}

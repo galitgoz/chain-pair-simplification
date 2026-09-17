@@ -1,0 +1,76 @@
+{
+  "status": "optimal",
+  "dDF": 0.4952938521726262,
+  "verified": true,
+  "seconds": 0.041780400002608076,
+  "lower_bound": 5,
+  "states": 456,
+  "transitions": 3210,
+  "auxiliary_A": 0,
+  "auxiliary_B": 0,
+  "raw_status": "optimal_configuration_graph",
+  "route": "configuration_graph",
+  "phase": "configuration_graph",
+  "chain_graph_calls": 2,
+  "chain_graphs_completed": 2,
+  "preprocessing_chain_graph_calls": 2,
+  "configuration_graph_entered": true,
+  "certificate_enabled": false,
+  "solve_seconds": 0.0430830999976024,
+  "warmup_seconds": 0.40510650000942405,
+  "measured_execution_count": 1,
+  "kA": 5,
+  "kB": 5,
+  "k": 5,
+  "compression_removed_pct": 77.27272727272727,
+  "continuous_A_lower": 17.50983076202869,
+  "continuous_A_upper": 17.509839689248338,
+  "continuous_B_lower": 17.622436759755324,
+  "continuous_B_upper": 17.622445815347927,
+  "discrete_fidelity_A": 18.72173653804582,
+  "discrete_fidelity_B": 18.990954136114382,
+  "coupling_distance": 0.4952938521726262,
+  "coupling_budget_ratio": 0.4956282662574273,
+  "coupling_feasible": true,
+  "unequal_output_lengths": false,
+  "repeated_coupling_index": false,
+  "indices_A": [
+    0,
+    2,
+    7,
+    17,
+    21
+  ],
+  "indices_B": [
+    0,
+    2,
+    7,
+    17,
+    21
+  ],
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ]
+  ],
+  "constraints_valid": true,
+  "states_discovered": 456,
+  "transitions_examined": 3210
+}

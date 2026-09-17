@@ -1,0 +1,23 @@
+{
+  "configurations": 80,
+  "inherited": 32,
+  "new_attempts": 1,
+  "validated": 29,
+  "resource_limited": 4,
+  "unexecuted": 47,
+  "unchanged_algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "input_hashes_checked": true,
+  "bounds_checked": true,
+  "certificate_shortcuts_disabled": true,
+  "active_experiment_workers": [],
+  "pdf_count": 9,
+  "png_count": 9,
+  "notebook_saved_result_execution": "passed",
+  "final_presentation_code_sha256": "c5fe771ca30b7bdfb9def332dc541fe5923d389a859848b8f0ef16ca1340192e",
+  "pdf_marker": "Attempted required node marker once; Node executable unavailable. Figures generated with Matplotlib and PDF rendering checked.",
+  "notebook_sha256": "5c4c54342154372a46da2e99bf6d2653f6b20f8f9edb734614eb7846919d67ab",
+  "final_figures_verified": true
+}

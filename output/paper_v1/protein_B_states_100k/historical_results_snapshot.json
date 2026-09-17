@@ -1,0 +1,626 @@
+[
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\artifact_hashes.csv",
+    "sha256": "7c0c7a460632ef24abef80a6e1e1b21dfc5532ff415e345d19fc9e4f103f09fe"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempt_index.json",
+    "sha256": "95b9d8c8b440181658d5d8dd5d3feef3a0eedfb3c5acb232bfa4e7d3c84983c8"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\coverage_with_provenance.csv",
+    "sha256": "fee86b9dba11d996570267ffa50e394b418bad418e34f623b738b969dabf6b22"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\diagnostics.json",
+    "sha256": "d1751580e9c361cfe4f98ae88fc3a8447334d57b081733e94cd6610752faa8d3"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\diagnostic_execution_started.json",
+    "sha256": "e73a88675bdbf296ce9755425f3945840a55cc112b726049e24815d121e3a5e9"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\diagnostic_summary.csv",
+    "sha256": "c8dbe0ea7e686a1e3ddb9bd776b15b3dffdc6e3523ce3c11b334fdd72894b71c"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\environment.json",
+    "sha256": "1b06944a5d9b7be482371f344c0a1c2c6f072f22354d255de8f17d05064675d2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\final_audit.json",
+    "sha256": "068edd851d314439fe584d8420a6655b52bae7f20d190ecfadb208f3961e0f63"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\inherited_hurricane_paths.json",
+    "sha256": "895f93a05696d03ddf2fc038828b668c972ae7d1ce89e51109591dbe457aec4f"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\inherited_protein_paths.json",
+    "sha256": "8d704f9d8404e70b0e2e514bba0b9b16fc9db261aade0c79f962fb998a886afe"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\inherited_verified_results.csv",
+    "sha256": "9c235c233dd217e7e06fd2809c0de95b0c155c0452db23ad1d09c7ccc239af5a"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\input_manifest.csv",
+    "sha256": "d7e536d56f40ca792a5e0c8462a2592684bea9e43bcdbd51bc15268520d3f1ca"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\pilot_parameters.csv",
+    "sha256": "3fcba922fe7a59575833c4b63fb35b59a701259b5e7044fd399c6564f4667372"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\preservation_audit.json",
+    "sha256": "54c3c2d5940aec8daec1d67bc672fd54358e72e971c2fe8e3eb9ca0ffd218972"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\preservation_snapshot.csv",
+    "sha256": "4420621136dd176688e95e58da1cded1f4d5a67bf34832f4760eece17bc621b8"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\reconciliation.json",
+    "sha256": "bee7ec48bcc9b6cd1d843b84a579b98fd7654823bd1cb325d14535372ebdd03d"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\references.json",
+    "sha256": "a76c47619e735da9cce6d8ef0b8b4595a22c88ac4a33b6ae75851a8ebdc68c61"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions.csv",
+    "sha256": "4395356d2d105884a88abdb3c0ad22f04f15929eb1a7ce1a0b12d80fbb6abcc6"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regression_gate.json",
+    "sha256": "ccd31e0143fad40c1d14df1246bb2befc47e7df48161a892964d3a407ae41146"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\status.md",
+    "sha256": "eafeab8b1c234c706637353c38d22660df4629545c550c64c7763399de1bc45a"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\references\\A.json",
+    "sha256": "85317eb94c63407f40007a684ac61b6a408a40152437b253c1d4a53f9c2ab83b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\references\\B.json",
+    "sha256": "c9391ac4ffdc19b336b621a00000c0070189c23b8be974653a62e90dded2cff0"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\references\\C.json",
+    "sha256": "8923857b85db61560f26287cc16767c65c7b5c3e4a7715a85600d9bd4a4e91e6"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\triangle.npz",
+    "sha256": "0132c47094747b695a6d0ca7f3974e7642a7ba1cf551e6d51d564f22e62d159b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\configuration.json",
+    "sha256": "81c1d14f5ea9fa4034a8def635209411ee3b3f52bd01eed5f32665adf1e327c0"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\measurements.json",
+    "sha256": "c25d308ebfa2842c569a9a8c1c9876f9c1b144f3a8085b65981f3c871486ddf2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\phases.jsonl",
+    "sha256": "460fc3fd7abf46d5c156476eae5bc2fa7a232838232a40390cc5c3d77e7a4f7e"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\progress.json",
+    "sha256": "754046a6492b8c88f16cb3376158696a34b97714c101c84bbcea14fb77b12651"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\raw_solver.json",
+    "sha256": "3ea1f8988aae55ae2e1d18b1f512e9ffb4e8beba0371640694d26350e0de2ece"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\resources.jsonl",
+    "sha256": "9b8e22aa5f8956a194ac00a68cdaff6537fda74a3f92a363334f134d40808f8c"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\supervisor.json",
+    "sha256": "5cd5b5dea78f9bcf803c1f5c45ba7dc74f5ae7a30319fa9d6a88400bec60e445"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\validation.json",
+    "sha256": "c408f8f4c0eddfe91f3b581445cbbcbf9d0c46d634617b50bfae3001568b6a63"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\warmup.json",
+    "sha256": "fff612a5f40cb40baca7c9a2df872e8ba4f25b1547a09938d911005d325d40bd"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_normal_7cec68c380434f988ab1cd3bd7096c9e\\worker_finished.json",
+    "sha256": "12b9245b03e7669d7fde7c93abe6b656d436ea7302bb69d28673891f42587abe"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\configuration.json",
+    "sha256": "a998394af475691114cf58c1a7be97f439bc9fdeb004e4d4ec7a710c97b376d1"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\measurements.json",
+    "sha256": "864ece3ab7a31875e4e584b7e2eaf0a482c1e2e64691b312bef292a862ac365b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\phases.jsonl",
+    "sha256": "eb4d54b1e38e3179d0600d8d467aa442ec0a308595b461d7572d528191c6391f"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\progress.json",
+    "sha256": "8c96b7150dcf349661d9fcc5f1d2fd57ea33b705982c9cac20acc736b5a33f62"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\raw_solver.json",
+    "sha256": "6e76f9a74159c4d96fab6900761a531fcf5be602c08dfdbf680b4c72df17cd43"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\resources.jsonl",
+    "sha256": "e2fceda31033c9033b068aeae36d1ce2f8147110c3c4ea9c78bfb3d18be4663a"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\supervisor.json",
+    "sha256": "f4e3311f501e3468547be7cb929294b7132ee099a701c0cea2d214c47bde2f10"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\validation.json",
+    "sha256": "854db9ded3b1f4f408ffe8781a26f552c190fa068c97220a584a94cc13833798"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\warmup.json",
+    "sha256": "1d0820fc2c8286813860739c8317000cab20187d156ff38fa5a6163d5bc7c797"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb\\worker_finished.json",
+    "sha256": "a2b954584c4b0772c5ef84eb8a70c1be7709541a5b9b377f7c4a44c17cfc390a"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\configuration.json",
+    "sha256": "d754070881f20c9b202d1b7459b8bc9588b3b336e6c682d74c47f2a1783c7b9a"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\phases.jsonl",
+    "sha256": "971b5b16027d10a2e1c049232f3c649b355d8cc6029e9bd4c56430c85d4251e3"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\progress.json",
+    "sha256": "d830e23cc6aed8942484a18bcf1e862310033b12fd68db1dd3ec01523c9a84be"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\raw_solver.json",
+    "sha256": "17d35bf601be24e8381785bcca3e9fa3335b1853d4215ba1bf6424c2d107b9d9"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\resources.jsonl",
+    "sha256": "5a104e5984055f55b9a0f4402b9baf7e4e8701101db21ad8eeb47c4c1ee80a02"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\supervisor.json",
+    "sha256": "076fa511b6987bdff9355070ce0885ccd3ce493f40b293a731faa15c31d005de"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\validation.json",
+    "sha256": "e67a0b9eeaebcbf314b9a296e0665f846e6a0a330c827cb10bd87b779e2c9c55"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\warmup.json",
+    "sha256": "a39411604a85b8f166ab6e72738f5dc39e1cf8e5af7368bc078259f432c64bec"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d\\worker_finished.json",
+    "sha256": "8bae952b59cafbe466dcc8e073869bfa5bebb690599f45e3ae3d59f201c3c80b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\configuration.json",
+    "sha256": "65b65a938930c4d927d1fec1344ffd344fadea78dedb8616ab40514e977bf24e"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\phases.jsonl",
+    "sha256": "0562374790c78341fa2cb7d133e99aee2a60c772efdc9538a8a28021cbae8605"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\progress.json",
+    "sha256": "4660a9ecd3d05a245592a6fdf00b43c2b6688c625cb456b45efd3b567e2249bb"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\raw_solver.json",
+    "sha256": "856c19a416f2818a2b760f0723f02b5174c7e21ae1dce94c1184b38d71ba362e"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\resources.jsonl",
+    "sha256": "c51aaa54e20fc1fcc1a0dbf4cd7ba2abc53e449e2c1e1255193c0fa1872af108"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\supervisor.json",
+    "sha256": "4f4738f14e37e05ee0305656e24aef2d1d3c3e6878bd7b7755c9eceb519ef64f"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\validation.json",
+    "sha256": "92f12d45e4422b286c5ed934d8ef1c19478a02d696bfbfec91e34c8acdfcd956"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\regressions\\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b\\warmup.json",
+    "sha256": "615db0f6f59dc0312488407cf7bfcbf3c7a0219bd381f022ea3fb5beea72b8f9"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\configuration.json",
+    "sha256": "942df837a078a6fd8052ca8933547742b1891719ebfd8ad31f076307f826e485"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\phases.jsonl",
+    "sha256": "dc74c3d650dd9a381eaf8ffe1d8efd82b8c0732e0964b590bd0b9b0c9b77bcc8"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\progress.json",
+    "sha256": "f4ce4c2507491694d81cc1a770382684e4346d5ec665fd01ed4a6e0f843a4b34"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\resources.jsonl",
+    "sha256": "eac087d5cf572a1f22b12a907a0d08f934fdc89680f0de3a70970d1113b4b068"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\solver_exit.json",
+    "sha256": "a4a733f6668038f659a6e8351bf64104a868aa80d75a0e7f4c6a4599926992a2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\supervisor.json",
+    "sha256": "a9c8546a92c77aa66841d32e2ad97b127e21accd7b61e9cf64d81c8c4a99bf91"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\validation.json",
+    "sha256": "aef05e792954a74b0554a69b3780faac9f37b4448ddb8166bebea70457373bb1"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\warmup.json",
+    "sha256": "019bf1b4be47e5a3c3abccbc1133be9e720cf019537c6e96aa40daf86870af6c"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\A_a5ce9008b10f4636922695c2cf81e0dd\\worker_error.json",
+    "sha256": "755379524b917c7a0899b481eae3a46bbf0dd8b15d53d42190f1d2281cd249e1"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\configuration.json",
+    "sha256": "f9852b1c4fbff7ec8bfb4eba685479af8ba7a74a666d44741da03fe4cf377472"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\phases.jsonl",
+    "sha256": "3503bd67844ef445c1296b57c039bcd073ebdda752524b6ddd08cd8204167495"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\progress.json",
+    "sha256": "f0c4935ce721c9c6754e987cf8ee9309441c8a8958f635dd139bee62e4e529d7"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\resources.jsonl",
+    "sha256": "b474c760e9441f85cd1aeede6f458e8b3257553635b16cc8caa4bc0022e7cdb9"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\solver_exit.json",
+    "sha256": "72d44484be7974a2f89bde713646bc557047307b198bdc7554e41780ff5af7dc"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\supervisor.json",
+    "sha256": "b0c8bbd76703b9f6804dde031b2d652ab76c540026b7c84d5338f9fe272f4055"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\validation.json",
+    "sha256": "aef05e792954a74b0554a69b3780faac9f37b4448ddb8166bebea70457373bb1"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\warmup.json",
+    "sha256": "48614a2385b6f251823d16af7d967617aa133e06c7b14a651d1275223b9c6ce2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\B_cf1787d0fc88447e9f5e19a9a82f2dab\\worker_error.json",
+    "sha256": "b7a4fe8518ac7658b1d8ebc5746f4cd51f6143d237ba0838e638c198463eacb3"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\configuration.json",
+    "sha256": "4b6d1f0c4a33423d51e7c50dcc907decea2e00226e61f093e8203e848f566064"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\measurements.json",
+    "sha256": "717cbe3c0e9f354cf2fcff069ed388f42ee0340512789de79c6feed109621f28"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\phases.jsonl",
+    "sha256": "e22d364c2e41ad6f427dde29b0862524b24ae02158f94d807477562809dc0c3d"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\progress.json",
+    "sha256": "9d02d1cbabea3aa4536c0ea21b09065326629809bd651fdfd1f8d2d18b071b89"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\raw_solver.json",
+    "sha256": "6fb254e95596a034aac3c38980b3fd282eaeb481877e256eab80e31cb1962fa2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\resources.jsonl",
+    "sha256": "bd74e728bc447f23bd82869229b09a463886af227c0ba2ad02e461c0b773b2c4"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\supervisor.json",
+    "sha256": "e07df3473a6f763a870a981a0e00ea393d0bdccf80845bb2b44488452d6ce01a"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\validation.json",
+    "sha256": "0d491cdf561dfb00d5b40d64f6538bec20304287c1a6c4d8b0570c25c121a325"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\warmup.json",
+    "sha256": "d304da93dc37460abeafdb9b21ead30c9d01697c182f1ca401dcebfbc60e01bd"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v2\\attempts\\C_8c679d9e32f84779ab0c2bea3386850e\\worker_finished.json",
+    "sha256": "ebabf572d10c8499f190172f457592d3f6bc5caca58a04d309bb88bd1fb9acc8"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\artifact_hashes.csv",
+    "sha256": "4b132b5d4a0a96acd2e21927a86892e65b13b839cc48a2b4047c8b67aac3fd70"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempt_index.json",
+    "sha256": "f75f1e9f0bd7a6e8190035a2a1479ecccf506d625152fe2d03a4d7956a1aec81"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\callsite_audit.json",
+    "sha256": "f4193f20aab3e39b49e1d722c2c576eedcb10afb30e4fb22b61199ca36e1a11e"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\comparison.csv",
+    "sha256": "159baacae296a38a892829119eecdbc58548cc2a03e64c7401728cd79ab6fea9"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\configuration.json",
+    "sha256": "8b8da6d4ea111a5acb7fa8767bdb0eed756b878255db78bd294d6a1d87d9619d"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\coverage_with_provenance.csv",
+    "sha256": "e821a204ef0d52f76eb4b9d235515df0fec90aac42d386eda55d3886788de0f1"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\environment.json",
+    "sha256": "1b06944a5d9b7be482371f344c0a1c2c6f072f22354d255de8f17d05064675d2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\final_audit.json",
+    "sha256": "190e395e2604f1194ae4bc4fe8b08bbdc32b9d514e66c5dca4d9b4cc7da1107d"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\inherited_coverage.csv",
+    "sha256": "fee86b9dba11d996570267ffa50e394b418bad418e34f623b738b969dabf6b22"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\inherited_verified_results.csv",
+    "sha256": "494ead1374213785ee8bb51104fa5f2391f01efae1ce02117572191a771dccbd"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\input_manifest.csv",
+    "sha256": "d7e536d56f40ca792a5e0c8462a2592684bea9e43bcdbd51bc15268520d3f1ca"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\launch.json",
+    "sha256": "b3c3349f04dcc0f132ca030a1541cccd97e7de4716bec4396c1acdd25d698272"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\orchestration_parent.json",
+    "sha256": "eb64d17aeacc3994be591f207f279d643f3a398614db94150402c81b47b42dfb"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\pilot_parameters.csv",
+    "sha256": "3fcba922fe7a59575833c4b63fb35b59a701259b5e7044fd399c6564f4667372"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\preservation_audit.json",
+    "sha256": "ab2bc07873fb66c16d97617cce741a22ca471630f02de81fcb7c8a09f7479a96"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\preservation_snapshot.csv",
+    "sha256": "277e2d848b684a7bac0b9b11e7397f1a108f51bb97bcd3bc93e971e63017f963"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\progress.png",
+    "sha256": "9ccb90f6f303a84669588572b9241060871a7fe03904abe6311503dbeaee607c"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\reconciliation.json",
+    "sha256": "5f510079bd6a0b117aae17218a8b18409ccb43997ff0582ada189a98a5bac5b2"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\reference_A.json",
+    "sha256": "85317eb94c63407f40007a684ac61b6a408a40152437b253c1d4a53f9c2ab83b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\result_summary.json",
+    "sha256": "0365bc13b133257d3b498989e887172ece860fcbc5d69d3f15f6a656590a8fb0"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\status.md",
+    "sha256": "a271159c14fa7e68e232b8a5942ecf6192a82b3cd72ea597cf4f22a46ee6bec8"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\configuration.json",
+    "sha256": "5c533a8072fba3182c7591680c6a0f8e616791b9c320a5db0cf8f07c1f7edec3"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\measurements.json",
+    "sha256": "cbb15a965be0da09397e5ca8102d0acd2baacbf42dc98a44ccc057fd7fe02e1b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\phases.jsonl",
+    "sha256": "c90fc79b6caa0454ce1b3c42df499356a354bbc257708dcc20831c5954283959"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\progress.json",
+    "sha256": "24af50ac215eff02d30c01ccfa2e242d5adadba3d22ed1a07ab8be37d0485d7b"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\raw_solver.json",
+    "sha256": "4d06f15ccd8107be724002d8012d8e02268ad44ee75093a5335d53df75ef242c"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\resources.jsonl",
+    "sha256": "f1e0d18c4c3e71daa348f327a6ae2888fb60d5114ad3043bd6ed3f048b4712fa"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\supervisor.json",
+    "sha256": "822d20d454158cf5e054a91a03f77723f2160fe81ab6a60f320ca7f7196ca241"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\validation.json",
+    "sha256": "82d737342610a009914880a0e9be368ff7a664a2c47e2d44fb2a16f702822435"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\warmup.json",
+    "sha256": "853b39059acb36e129bb63b6fc44afe609a3936672ad32faf580dc3995d4bb3c"
+  },
+  {
+    "path": "output\\paper_v1\\graph_only_v3\\attempts\\A_7239568e76984b44844f1c1e27a0d371\\worker_finished.json",
+    "sha256": "ddc019d919e9cc014642e6135fd16ba86cdbb5fe50e5bac195fa5635a3580c5b"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\artifact_hashes.json",
+    "sha256": "0eb6e892bd505ae46234dffb506fbf772d9a4cc67bc74a853c0a2da8b0682124"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempt_index.json",
+    "sha256": "0675f6d91ba6d83de8b36629bd7de556ea280edd66b7f44040825c0b19b71043"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\audit_saved.py",
+    "sha256": "c424722ebb812a6f789a7b9a190e23786fb89708b4401dcae11791037fcbf246"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\callsite_audit.json",
+    "sha256": "77df35eb7507130198a6690e296e812acd313ec0da88af45ec9c81ca629738cb"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\comparison.csv",
+    "sha256": "7dfb3307eb96062fc7c57f7f6964e198ce0674eaeee15f2c90f62b9a19f5f96c"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\completion_check.json",
+    "sha256": "aba64c53a7b2bcd1a288a9bdcabdff593b8629fa37397b58ea7644a00b7e3dd9"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\configuration.json",
+    "sha256": "771a216527e7866c00fde931d56bfa9610f8874cd00c32b37b70143dd5eca89d"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\coverage_with_provenance.csv",
+    "sha256": "5980e21c698999322887450c55e92012587778bad64e9385bd54be6b6405198d"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\final_audit.json",
+    "sha256": "adff15aafae11d6078b1c75a5719156c0dd07dfd186f23944efe9c8eae726e0c"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\historical_results_snapshot.json",
+    "sha256": "3d9ddab3a87248c0f4064243afdbf08118b8cbcb3cfda2d155512d8d0d588380"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\inherited_coverage.csv",
+    "sha256": "e821a204ef0d52f76eb4b9d235515df0fec90aac42d386eda55d3886788de0f1"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\inherited_verified_results.csv",
+    "sha256": "96b9484f378ddff2ac7f83c3a5d6c21f6bb2dbf4d115213b4355aa29670cb7ed"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\launch.json",
+    "sha256": "331d9409e5d88fbb6d5e15484dc020c6dcaa814892e5d8911e729f0369de40d0"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\provenance.json",
+    "sha256": "a31fd8371896623ee5c77729430c9a2a73a5f79985fc9817468b711462c10f30"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\reference_evidence.json",
+    "sha256": "c9391ac4ffdc19b336b621a00000c0070189c23b8be974653a62e90dded2cff0"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\result_summary.json",
+    "sha256": "657d8a02652c79207faa80eebe798b9e4cf369dfa58f296d4d48f509921c6ea5"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\solver_exit_checkpoint.json",
+    "sha256": "bcc34bbad388eeec845ec61fd323761f8bdbb9c4e87a22cd353bcce3e976a92c"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\status.md",
+    "sha256": "fe2f992de4645e214b9d946fb6326a44c41f506182c843eafa55c27ad24ca9e7"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\configuration.json",
+    "sha256": "9dcd29536ca447d3df7a1d0964d9ae862f7c002219d3674e4e6a81d649816f56"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\phases.jsonl",
+    "sha256": "d143b3d02f3ab4e9b65261e08078b226441179c076f23f6a5fd300bccc99842c"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\progress.json",
+    "sha256": "9d0d27f0a0068f665b86f93532fb5f027ffda1456627837888ef05fc3f5ecdd5"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\resources.jsonl",
+    "sha256": "dc879889161c253dc47f68bba28e7eade8261f7563ab21d9169e5ee44b90c425"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\solver_exit.json",
+    "sha256": "e0fd49c80233879f3b63b8f0f1de27697c0a402c775850758f8e75696042dc97"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\stdout.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\supervisor.json",
+    "sha256": "c10ecbcd280c806defc89df66a3131b038216d86769a385a64824be837e42267"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\validation.json",
+    "sha256": "f2746d8e389b3f2e88822bbe546c414a6ad4ffe8b522d2fb5c0ed5d400d534c6"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\warmup.json",
+    "sha256": "28434b13531ebf8ba1fac7504feef5f3e6b5514ab9390d247b2e2312ce71ed19"
+  },
+  {
+    "path": "output\\paper_v1\\protein_B_transition_10m\\attempts\\B_639bf87048a2410abc87d1a988505de2\\worker_error.json",
+    "sha256": "1bdfda18201eb88441242623dd65c95f6d2ef58abdbbcd402dbac363c33c610b"
+  }
+]

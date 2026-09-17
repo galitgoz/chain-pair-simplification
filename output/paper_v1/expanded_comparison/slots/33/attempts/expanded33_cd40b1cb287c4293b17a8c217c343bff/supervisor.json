@@ -1,0 +1,18 @@
+{
+  "status": "validation_timeout",
+  "limiting_phase": "validation",
+  "phase_elapsed_seconds": 30.11523130000569,
+  "process_seconds": 68.09998749999795,
+  "approximate_sampled_tree_rss_peak_mib": 225.83203125,
+  "memory_scope": "sum of sampled process-tree RSS, not exact algorithm memory",
+  "process_exit_code": 15,
+  "samples": 370,
+  "owned_pids": [
+    12528,
+    3376,
+    17136
+  ],
+  "utc": "2026-09-16T12:57:33.827972+00:00",
+  "unix": 1789563453.8280082,
+  "monotonic": 141935.8756826
+}

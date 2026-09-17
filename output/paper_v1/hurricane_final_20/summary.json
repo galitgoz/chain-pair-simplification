@@ -1,0 +1,20 @@
+{
+  "planned": 80,
+  "observed": 80,
+  "validated": 79,
+  "resource_limited": 1,
+  "validation_incomplete": 0,
+  "pending": 0,
+  "eligible_pool": 2209,
+  "selected_pairs": 20,
+  "reused_prior_storms": 0,
+  "reused_within_storms": 0,
+  "continuous_matched": 19,
+  "continuous_equal": 17,
+  "continuous_extra": 2,
+  "continuous_equal_k_repairs": 13,
+  "discrete_matched": 20,
+  "discrete_equal": 20,
+  "discrete_extra": 0,
+  "discrete_equal_k_repairs": 0
+}

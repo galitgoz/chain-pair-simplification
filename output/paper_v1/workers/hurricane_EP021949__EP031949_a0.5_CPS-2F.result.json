@@ -1,0 +1,7 @@
+{
+  "status": "other_resource_limit",
+  "route": "none",
+  "solve_seconds": 4.158822100012912,
+  "warmup_seconds": 1.6471371999941766,
+  "failure_reason": "product transition budget exceeded"
+}

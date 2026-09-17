@@ -1,0 +1,5 @@
+method,validated_count,solver_median_seconds,solver_min_seconds,solver_max_seconds,sampled_peak_min_mib,sampled_peak_max_mib,scope
+Independent continuous,10,0.011754499995731749,0.008670800016261637,0.1780047999927774,210.77734375,229.890625,"Validated single observations across distinct configurations, including disclosed reused observations; not timing repetitions"
+Independent discrete,10,0.006742099998518825,0.0050389000098221,0.017387200001394376,144.80078125,215.1953125,"Validated single observations across distinct configurations, including disclosed reused observations; not timing repetitions"
+CPS-2F,9,3.305430599983083,0.3757056000176817,13.417730900022434,220.89453125,239.37109375,"Validated single observations across distinct configurations, including disclosed reused observations; not timing repetitions"
+CPS-3F,10,0.032612900002277456,0.029119999991962686,0.1703372999909334,194.2578125,215.77734375,"Validated single observations across distinct configurations, including disclosed reused observations; not timing repetitions"

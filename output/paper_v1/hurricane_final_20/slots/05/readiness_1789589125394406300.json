@@ -1,0 +1,717 @@
+{
+  "utc": "2026-09-16T20:05:25.394374+00:00",
+  "unix": 1789589125.394395,
+  "monotonic": 167607.576715,
+  "ready": false,
+  "samples": [
+    {
+      "utc": "2026-09-16T20:04:59.888496+00:00",
+      "unix": 1789589099.88851,
+      "monotonic": 167582.070763,
+      "cpu_percent": 10.9,
+      "available_mib": 3394.921875,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 31.8
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 20.2
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 18.5
+        },
+        {
+          "pid": 15240,
+          "name": "chrome.exe",
+          "cpu_one_core": 9.6
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 4.5
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 1064,
+          "name": "csrss.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 140,
+          "name": "",
+          "cpu_one_core": 0.0
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:02.324304+00:00",
+      "unix": 1789589102.3243165,
+      "monotonic": 167584.5065761,
+      "cpu_percent": 10.9,
+      "available_mib": 3388.21875,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 32.7
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 18.6
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 6.4
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 4.5
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 2.6
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 4460,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 12588,
+          "name": "SearchIndexer.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 2824,
+          "name": "claude.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:04.755937+00:00",
+      "unix": 1789589104.755947,
+      "monotonic": 167586.9382126,
+      "cpu_percent": 7.5,
+      "available_mib": 3386.44921875,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 32.1
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 18.0
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 6.4
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 2.6
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 140,
+          "name": "",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 184,
+          "name": "Registry",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 696,
+          "name": "smss.exe",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 984,
+          "name": "csrss.exe",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 992,
+          "name": "SecurityHealthSystray.exe",
+          "cpu_one_core": 0.0
+        },
+        {
+          "pid": 1056,
+          "name": "wininit.exe",
+          "cpu_one_core": 0.0
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:07.377641+00:00",
+      "unix": 1789589107.3776534,
+      "monotonic": 167589.5599258,
+      "cpu_percent": 8.9,
+      "available_mib": 3382.09765625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 35.2
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 24.5
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 15.0
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 8.3
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.6
+        },
+        {
+          "pid": 1064,
+          "name": "csrss.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 1.8
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 23092,
+          "name": "vmmem",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 12588,
+          "name": "SearchIndexer.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:10.111173+00:00",
+      "unix": 1789589110.1112688,
+      "monotonic": 167592.2935519,
+      "cpu_percent": 52.5,
+      "available_mib": 3470.69140625,
+      "top": [
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 257.6
+        },
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 41.5
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 20.9
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 9.0
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 4.9
+        },
+        {
+          "pid": 1224,
+          "name": "lsass.exe",
+          "cpu_one_core": 4.8
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 4.3
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 3.6
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.8
+        },
+        {
+          "pid": 1908,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 3484,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 2476,
+          "name": "cef_server.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:14.035625+00:00",
+      "unix": 1789589114.0356562,
+      "monotonic": 167596.2179469,
+      "cpu_percent": 99.9,
+      "available_mib": 3413.74609375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 286.1
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 230.1
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 59.0
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 41.9
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 24.8
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 8.2
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 5.4
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 4.3
+        },
+        {
+          "pid": 12588,
+          "name": "SearchIndexer.exe",
+          "cpu_one_core": 4.3
+        },
+        {
+          "pid": 3868,
+          "name": "msedgewebview2.exe",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 2260,
+          "name": "MemCompression",
+          "cpu_one_core": 2.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:17.023515+00:00",
+      "unix": 1789589117.0235436,
+      "monotonic": 167599.2058421,
+      "cpu_percent": 70.5,
+      "available_mib": 3261.0,
+      "top": [
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 199.9
+        },
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 158.9
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 33.3
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 29.9
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 14.1
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 6.6
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 4.1
+        },
+        {
+          "pid": 1064,
+          "name": "csrss.exe",
+          "cpu_one_core": 2.2
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 2.1
+        },
+        {
+          "pid": 2260,
+          "name": "MemCompression",
+          "cpu_one_core": 1.0
+        },
+        {
+          "pid": 2524,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.0
+        },
+        {
+          "pid": 3484,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.0
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:19.900243+00:00",
+      "unix": 1789589119.9002717,
+      "monotonic": 167602.0825772,
+      "cpu_percent": 34.4,
+      "available_mib": 3282.4609375,
+      "top": [
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 54.2
+        },
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 50.5
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 30.9
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 30.4
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 13.3
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 6.0
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.3
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 3.3
+        },
+        {
+          "pid": 7368,
+          "name": "chrome.exe",
+          "cpu_one_core": 2.7
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 1.6
+        },
+        {
+          "pid": 23092,
+          "name": "vmmem",
+          "cpu_one_core": 1.6
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 1.1
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:22.670960+00:00",
+      "unix": 1789589122.6709821,
+      "monotonic": 167604.8532947,
+      "cpu_percent": 23.5,
+      "available_mib": 3282.5390625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 51.5
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 33.7
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 28.2
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 13.1
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 6.8
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 1.1
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.1
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 7868,
+          "name": "jetbrainsd.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 11832,
+          "name": "chrome.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 12588,
+          "name": "SearchIndexer.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T20:05:25.323925+00:00",
+      "unix": 1789589125.3239586,
+      "monotonic": 167607.5062781,
+      "cpu_percent": 15.5,
+      "available_mib": 3291.02734375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 55.9
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 26.5
+        },
+        {
+          "pid": 19452,
+          "name": "python.exe",
+          "cpu_one_core": 24.6
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 12.4
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 4.6
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 2.3
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 22088,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.2
+        },
+        {
+          "pid": 3484,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.1
+        },
+        {
+          "pid": 1064,
+          "name": "csrss.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 2476,
+          "name": "cef_server.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    }
+  ],
+  "competing": [
+    {
+      "pid": 11492,
+      "name": "pycharm64.exe",
+      "cpu_samples": [
+        31.8,
+        32.7,
+        32.1,
+        35.2,
+        41.5,
+        286.1,
+        158.9,
+        50.5,
+        51.5,
+        55.9
+      ]
+    }
+  ],
+  "reason": "Sustained competing computation or insufficient memory; checkpoint and stop"
+}

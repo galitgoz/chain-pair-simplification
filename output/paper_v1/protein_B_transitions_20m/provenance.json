@@ -1,0 +1,18 @@
+{
+  "utc": "2026-09-16T11:01:11.157322+00:00",
+  "unix": 1789556471.1573486,
+  "monotonic": 134953.1898669,
+  "previous_output": "output\\paper_v1\\protein_B_states_100k_repeat1",
+  "transition_followup": true,
+  "only_configuration_change": {
+    "graph_limits.max_transitions": [
+      10000000,
+      20000000
+    ]
+  },
+  "previous_configuration_sha256": "fb8ad87ca8996970e373c93e936efa18b82906f9498f2c05782f9ffc075392d4",
+  "reference_supplied_to_solver": false,
+  "input_sha256": "7b773f6fd281824e25d8e444c9a70b1ca04a33b497237bdb6ee4b0605a6d1365",
+  "existing_subsampling_w": 16,
+  "inherited_verified": 24
+}

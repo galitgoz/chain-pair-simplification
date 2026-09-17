@@ -1,0 +1,17 @@
+claim,value,source
+planned,188,combined_results.csv
+eligible,180,combined_results.csv
+observed,180,combined_results.csv
+validated,178,combined_results.csv
+resource_limited,2,combined_results.csv
+blocked,8,combined_results.csv
+pending,0,combined_results.csv
+new_observed,140,combined_results.csv
+new_validated,139,combined_results.csv
+new_resource_limited,1,combined_results.csv
+continuous_matched,43,matched_comparisons.csv
+continuous_equal,38,matched_comparisons.csv
+continuous_extra,5,matched_comparisons.csv
+discrete_matched,45,matched_comparisons.csv
+discrete_equal,45,matched_comparisons.csv
+equal_k_repairs,24,matched_comparisons.csv

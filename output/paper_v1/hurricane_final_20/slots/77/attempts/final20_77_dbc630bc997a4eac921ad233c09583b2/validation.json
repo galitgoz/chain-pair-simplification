@@ -1,0 +1,153 @@
+{
+  "status": "validated",
+  "feasibility_passed": true,
+  "optimality_independently_proven": false,
+  "solver_optimality_claim": true,
+  "checks": {
+    "A_original_vertex_membership": true,
+    "B_original_vertex_membership": true,
+    "A_fidelity": true,
+    "B_fidelity": true
+  },
+  "kA": 28,
+  "kB": 32,
+  "k": 32,
+  "coupling_distance": 529.4905368904152,
+  "coupling_feasible": true,
+  "coupling_constraint_required": true,
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      3,
+      6
+    ],
+    [
+      3,
+      7
+    ],
+    [
+      4,
+      8
+    ],
+    [
+      5,
+      9
+    ],
+    [
+      6,
+      10
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      8,
+      12
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      10,
+      14
+    ],
+    [
+      11,
+      15
+    ],
+    [
+      12,
+      16
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      14,
+      18
+    ],
+    [
+      15,
+      19
+    ],
+    [
+      16,
+      20
+    ],
+    [
+      17,
+      21
+    ],
+    [
+      18,
+      22
+    ],
+    [
+      19,
+      23
+    ],
+    [
+      20,
+      24
+    ],
+    [
+      21,
+      25
+    ],
+    [
+      22,
+      26
+    ],
+    [
+      23,
+      27
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      25,
+      29
+    ],
+    [
+      26,
+      30
+    ],
+    [
+      27,
+      31
+    ]
+  ],
+  "validation_seconds": 0.005372399988118559,
+  "raw_checkpoint_sha256": "587fbc5f993af9e74a183ed395fca26459733f2e8d3a1d0c7f06aecbe0cac827",
+  "utc": "2026-09-16T21:02:04.038367+00:00",
+  "unix": 1789592524.0383773,
+  "monotonic": 171006.228399
+}

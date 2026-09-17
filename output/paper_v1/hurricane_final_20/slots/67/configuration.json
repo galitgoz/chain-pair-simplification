@@ -1,0 +1,41 @@
+{
+  "domain": "hurricane",
+  "pair": "EP081993__EP121989",
+  "case": "hurricane:EP081993__EP121989:a0.5",
+  "nA": 56,
+  "nB": 45,
+  "units": "projected km",
+  "alpha": 0.5,
+  "s_A": 79.16976957910924,
+  "s_B": 105.54077417664948,
+  "delta1": 39.58488478955462,
+  "delta2": 52.77038708832474,
+  "delta3": 457.382013117886,
+  "input_file": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP081993__EP121989.npz",
+  "method": "CPS-2F",
+  "diagnostic": "final20_67",
+  "certificate": false,
+  "input_sha256": "4ac28373bff6ea6afc5eb44c48cbbb5bb19ff12c6caef7db2d6707a2952d1834",
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 20000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "configuration_id": "hurricane:EP081993__EP121989:a0.5|CPS-2F"
+}

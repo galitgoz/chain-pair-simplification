@@ -1,0 +1,9 @@
+{
+  "phase": "checkpoint",
+  "phase_started_monotonic": 147252.6783625,
+  "utc": "2026-09-16T14:26:10.637089+00:00",
+  "unix": 1789568770.6371026,
+  "monotonic": 147252.6862142,
+  "raw_checkpoint_saved": true,
+  "raw_checkpoint_sha256": "cb5687dd7a7f6da56179e35ecfc296fef8a9a03310d2773f8a764b563049bb6e"
+}

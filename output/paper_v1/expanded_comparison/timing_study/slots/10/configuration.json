@@ -1,0 +1,45 @@
+{
+  "domain": "protein",
+  "pair": "1o7j.a__1d9q.d",
+  "case": "protein:1o7j.a__1d9q.d:a0.5",
+  "nA": 22,
+  "nB": 22,
+  "units": "angstrom",
+  "alpha": 0.5,
+  "s_A": 18.95299827936545,
+  "s_B": 20.20350417600859,
+  "delta1": 9.476499139682725,
+  "delta2": 10.101752088004297,
+  "delta3": 47.96448297438429,
+  "input_file": "output\\paper_v1\\inputs\\protein_1o7j.a__1d9q.d.npz",
+  "diagnostic": "timing010",
+  "method": "Independent discrete",
+  "certificate": false,
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 20000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "input_sha256": "6da737c8ea96bfb47844846e5920c7268988254098012fbdabfcb166eda79bc3",
+  "parameter_file_sha256": "3fcba922fe7a59575833c4b63fb35b59a701259b5e7044fd399c6564f4667372",
+  "graph_limits_applicable": false,
+  "internal_seconds_applicable": false,
+  "independent_discrete_chain_edge_default": 2000000,
+  "algorithms": {
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876",
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7"
+  },
+  "configuration_id": "protein:1o7j.a__1d9q.d:a0.5|Independent discrete|repetition1"
+}

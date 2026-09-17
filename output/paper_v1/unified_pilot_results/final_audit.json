@@ -1,0 +1,13 @@
+{
+  "rows": 32,
+  "new_attempts": 30,
+  "reused": 2,
+  "validated": 29,
+  "resource_limited": 3,
+  "unexecuted": 0,
+  "raw_saved_before_validation": true,
+  "algorithm_and_execution_core_unchanged": true,
+  "historical_evidence_hashes_unchanged": true,
+  "notebook_display_executed_without_optimization": true,
+  "active_workers": []
+}

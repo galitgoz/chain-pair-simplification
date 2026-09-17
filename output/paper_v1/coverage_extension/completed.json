@@ -1,0 +1,15 @@
+{
+  "utc": "2026-09-16T18:57:42.815698+00:00",
+  "unix": 1789585062.8157122,
+  "monotonic": 163544.9836425,
+  "counts": {
+    "planned": 56,
+    "eligible": 48,
+    "finished": 48,
+    "validated": 48,
+    "resource_limited": 0,
+    "validation_incomplete": 0,
+    "blocked": 8,
+    "pending": 0
+  }
+}

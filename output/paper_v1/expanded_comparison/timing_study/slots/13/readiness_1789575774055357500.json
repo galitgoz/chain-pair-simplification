@@ -1,0 +1,717 @@
+{
+  "utc": "2026-09-16T16:22:54.055304+00:00",
+  "unix": 1789575774.0553396,
+  "monotonic": 154256.1049144,
+  "ready": false,
+  "samples": [
+    {
+      "utc": "2026-09-16T16:22:14.672825+00:00",
+      "unix": 1789575734.672835,
+      "monotonic": 154216.7224085,
+      "cpu_percent": 9.2,
+      "available_mib": 2764.83984375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 22.9
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 19.1
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 8.9
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 4.5
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 4.4
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 17320,
+          "name": "SearchProtocolHost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 12588,
+          "name": "SearchIndexer.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 21880,
+          "name": "OpenConsole.exe",
+          "cpu_one_core": 1.3
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:17.158797+00:00",
+      "unix": 1789575737.1588078,
+      "monotonic": 154219.2083811,
+      "cpu_percent": 9.6,
+      "available_mib": 2762.75,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 30.9
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 19.5
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 6.3
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 5.1
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 4.5
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 3.8
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.3
+        },
+        {
+          "pid": 1224,
+          "name": "lsass.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 1528,
+          "name": "svchost.exe",
+          "cpu_one_core": 0.6
+        },
+        {
+          "pid": 7868,
+          "name": "jetbrainsd.exe",
+          "cpu_one_core": 0.6
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:19.631494+00:00",
+      "unix": 1789575739.6315053,
+      "monotonic": 154221.6810785,
+      "cpu_percent": 22.9,
+      "available_mib": 2732.5625,
+      "top": [
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 33.4
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 28.9
+        },
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 26.5
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 18.9
+        },
+        {
+          "pid": 19068,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 15.8
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 9.4
+        },
+        {
+          "pid": 15484,
+          "name": "claude.exe",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 17228,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 6.9
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 4.4
+        },
+        {
+          "pid": 3484,
+          "name": "chrome.exe",
+          "cpu_one_core": 2.5
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.3
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:28.245151+00:00",
+      "unix": 1789575748.2451818,
+      "monotonic": 154230.2947554,
+      "cpu_percent": 32.7,
+      "available_mib": 2671.48828125,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 495.6
+        },
+        {
+          "pid": 19068,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 34.8
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 24.1
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 12.7
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 11.2
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 8.6
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 6.3
+        },
+        {
+          "pid": 17228,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 5.0
+        },
+        {
+          "pid": 7668,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 4.8
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 3.2
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.0
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 2.4
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:32.943806+00:00",
+      "unix": 1789575752.943836,
+      "monotonic": 154234.9934098,
+      "cpu_percent": 100.0,
+      "available_mib": 2658.43359375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 653.1
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 39.0
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 25.2
+        },
+        {
+          "pid": 23716,
+          "name": "chrome.exe",
+          "cpu_one_core": 8.6
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 8.1
+        },
+        {
+          "pid": 13260,
+          "name": "chrome.exe",
+          "cpu_one_core": 6.3
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 4.4
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 4.4
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.6
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 3.5
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 2.8
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 2.7
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:36.669775+00:00",
+      "unix": 1789575756.6697943,
+      "monotonic": 154238.7193678,
+      "cpu_percent": 99.8,
+      "available_mib": 2716.9140625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 631.7
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 44.0
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 30.1
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 8.2
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 7.4
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 7.4
+        },
+        {
+          "pid": 23716,
+          "name": "chrome.exe",
+          "cpu_one_core": 7.1
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 5.8
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 3.7
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 2.5
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 2.4
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 2.1
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:39.805427+00:00",
+      "unix": 1789575759.8054512,
+      "monotonic": 154241.8550248,
+      "cpu_percent": 89.9,
+      "available_mib": 2754.125,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 631.7
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 40.8
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 29.5
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 11.1
+        },
+        {
+          "pid": 15036,
+          "name": "svchost.exe",
+          "cpu_one_core": 6.5
+        },
+        {
+          "pid": 13260,
+          "name": "chrome.exe",
+          "cpu_one_core": 6.0
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 4.0
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 2.5
+        },
+        {
+          "pid": 7668,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 2.0
+        },
+        {
+          "pid": 23608,
+          "name": "Spotify.exe",
+          "cpu_one_core": 2.0
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.8
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 1.5
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:43.995611+00:00",
+      "unix": 1789575763.9956353,
+      "monotonic": 154246.045209,
+      "cpu_percent": 96.9,
+      "available_mib": 2752.625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 707.1
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 24.7
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 20.5
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 5.2
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 4.4
+        },
+        {
+          "pid": 7476,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.9
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 1.5
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 1.5
+        },
+        {
+          "pid": 10352,
+          "name": "codex.exe",
+          "cpu_one_core": 1.1
+        },
+        {
+          "pid": 19068,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 1.1
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.0
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 1.0
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:50.021174+00:00",
+      "unix": 1789575770.021203,
+      "monotonic": 154252.0707768,
+      "cpu_percent": 91.6,
+      "available_mib": 2752.08984375,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 543.5
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 43.3
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 26.5
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 15.7
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 13.8
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 7.2
+        },
+        {
+          "pid": 4272,
+          "name": "Spotify.exe",
+          "cpu_one_core": 4.6
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 4.2
+        },
+        {
+          "pid": 13288,
+          "name": "msedgewebview2.exe",
+          "cpu_one_core": 4.2
+        },
+        {
+          "pid": 15536,
+          "name": "Photos.exe",
+          "cpu_one_core": 3.6
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 3.5
+        },
+        {
+          "pid": 12588,
+          "name": "SearchIndexer.exe",
+          "cpu_one_core": 3.4
+        }
+      ]
+    },
+    {
+      "utc": "2026-09-16T16:22:53.829199+00:00",
+      "unix": 1789575773.8292284,
+      "monotonic": 154255.8788021,
+      "cpu_percent": 87.0,
+      "available_mib": 2745.56640625,
+      "top": [
+        {
+          "pid": 11492,
+          "name": "pycharm64.exe",
+          "cpu_one_core": 610.7
+        },
+        {
+          "pid": 4,
+          "name": "System",
+          "cpu_one_core": 44.3
+        },
+        {
+          "pid": 17156,
+          "name": "python.exe",
+          "cpu_one_core": 31.3
+        },
+        {
+          "pid": 1768,
+          "name": "dwm.exe",
+          "cpu_one_core": 10.3
+        },
+        {
+          "pid": 4404,
+          "name": "MsMpEng.exe",
+          "cpu_one_core": 8.2
+        },
+        {
+          "pid": 15424,
+          "name": "audiodg.exe",
+          "cpu_one_core": 6.3
+        },
+        {
+          "pid": 12804,
+          "name": "chrome.exe",
+          "cpu_one_core": 2.1
+        },
+        {
+          "pid": 7868,
+          "name": "jetbrainsd.exe",
+          "cpu_one_core": 1.7
+        },
+        {
+          "pid": 17320,
+          "name": "SearchProtocolHost.exe",
+          "cpu_one_core": 1.7
+        },
+        {
+          "pid": 3424,
+          "name": "svchost.exe",
+          "cpu_one_core": 1.6
+        },
+        {
+          "pid": 3484,
+          "name": "chrome.exe",
+          "cpu_one_core": 1.6
+        },
+        {
+          "pid": 17228,
+          "name": "ChatGPT.exe",
+          "cpu_one_core": 1.3
+        }
+      ]
+    }
+  ],
+  "competing": [
+    {
+      "pid": 11492,
+      "name": "pycharm64.exe",
+      "cpu_samples": [
+        22.9,
+        30.9,
+        26.5,
+        495.6,
+        653.1,
+        631.7,
+        631.7,
+        707.1,
+        543.5,
+        610.7
+      ]
+    }
+  ],
+  "reason": "Sustained competing computation or insufficient memory; checkpoint and stop"
+}

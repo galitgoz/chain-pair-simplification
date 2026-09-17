@@ -1,0 +1,9 @@
+chain,before_index,after_index,before_residue,after_residue,missing_label_seq_ids,ca_distance,peptide_distance,reason
+1toh.a,14,15,177,189,"[23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33]",24.764186358529923,22.543235459889075,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+4eca.c,10,11,11,13,[12],5.404324564642655,3.1469135672909716,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+1d9q.d,48,49,65,76,"[66, 67, 68, 69, 70, 71, 72, 73, 74, 75]",15.160229219902977,15.60845671423027,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+1d9q.d,128,129,155,162,"[156, 157, 158, 159, 160, 161]",14.22572701129893,13.643151102293048,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+4eca.b,10,11,11,13,[12],5.330301023394462,3.1394907230313596,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+4eca.d,10,11,11,13,[12],5.594755401266444,3.2571258802815723,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+3ntx.a,278,279,280,286,"[284, 285, 286, 287, 288]",7.399141774557383,7.0845174853337864,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold
+3jq0.a,127,128,164,175,"[134, 135, 136, 137, 138, 139, 140, 141, 142, 143]",18.621134498198547,19.534179737066008,absent selected polymer residues; C-alpha distance exceeds threshold; C-N distance exceeds threshold

@@ -1,0 +1,42 @@
+{
+  "domain": "protein",
+  "pair": "1o7j.a__4eca.d",
+  "nA": 22,
+  "nB": 22,
+  "units": "angstrom",
+  "alpha": 1.0,
+  "s_A": 18.95299827936545,
+  "s_B": 17.56200321371436,
+  "delta1": 18.95299827936545,
+  "delta2": 17.56200321371436,
+  "delta3": 15.364049921814237,
+  "input_file": "output\\paper_v1\\expanded_comparison\\inputs\\protein_1o7j.a__4eca.d.npz",
+  "method": "Independent discrete",
+  "certificate": false,
+  "input_sha256": "926bd75812d2daa4cb742c7dbd881611b05dc2d93343e85c35a1267077868b86",
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 20000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "attempt_id": "slot01_a21dc5c0aa204ab3b617cea12e9c1fdf",
+  "configuration_id": "protein:1o7j.a__4eca.d:a1|Independent discrete",
+  "case": "protein:1o7j.a__4eca.d:a1",
+  "diagnostic": "expanded46"
+}

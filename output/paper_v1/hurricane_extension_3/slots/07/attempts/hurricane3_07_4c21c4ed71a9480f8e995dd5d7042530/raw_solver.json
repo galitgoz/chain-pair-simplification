@@ -1,0 +1,209 @@
+{
+  "schema_version": 3,
+  "certificate_enabled": false,
+  "configuration": {
+    "domain": "hurricane",
+    "pair": "EP111995__EP032014",
+    "case": "hurricane:EP111995__EP032014:a0.5",
+    "nA": 41,
+    "nB": 41,
+    "units": "projected km",
+    "alpha": 0.5,
+    "s_A": 59.50894462915785,
+    "s_B": 55.57607403939651,
+    "delta1": 29.754472314578926,
+    "delta2": 27.788037019698255,
+    "delta3": 405.6324822546883,
+    "input_file": "output\\paper_v1\\hurricane_extension_3\\inputs\\hurricane_EP111995__EP032014.npz",
+    "method": "CPS-2F",
+    "diagnostic": "hurricane3_07",
+    "certificate": false,
+    "input_sha256": "19c00cd52bda54c9369680072326d33e4ceaea5dd21ed511a2f524a7b5fdf7b8",
+    "algorithms": {
+      "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+      "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+    },
+    "graph_limits": {
+      "seconds": 55.0,
+      "max_states": 100000,
+      "max_transitions": 20000000,
+      "max_chain_edges": 800000
+    },
+    "phase_budgets": {
+      "startup": 60.0,
+      "input_loading": 15.0,
+      "warmup": 120.0,
+      "solver": 60.0,
+      "checkpoint": 5.0,
+      "validation": 30.0,
+      "optional_measurements": 30.0,
+      "reporting": 10.0
+    },
+    "memory_mib": 512,
+    "configuration_id": "hurricane:EP111995__EP032014:a0.5|CPS-2F",
+    "attempt_id": "hurricane3_07_4c21c4ed71a9480f8e995dd5d7042530",
+    "code_version": {
+      "notebooks_paper\\graph_only_v3\\build_notebook.py": "7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb",
+      "notebooks_paper\\graph_only_v3\\common.py": "b5aaddeec687d811c95046f9cecf84d8bcd94cc940412420c21e6bf600e912bb",
+      "notebooks_paper\\graph_only_v3\\controlled_followup.py": "790ffb8a91dba55fd56d7cec5761abb8e47858b6e77a57f6ceae343328526704",
+      "notebooks_paper\\graph_only_v3\\expanded_comparison.py": "b1d869d4dc0a35091d13a8dfebd8a7e109379e61510b9036c039f961088d02a2",
+      "notebooks_paper\\graph_only_v3\\investigate_repeat.py": "5b2e153d7aff058a2c6e5e3f71dda45e715183d5eb4bef675e98bcec854a6af3",
+      "notebooks_paper\\graph_only_v3\\prepare.py": "03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b",
+      "notebooks_paper\\graph_only_v3\\render_and_audit.py": "cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015",
+      "notebooks_paper\\graph_only_v3\\report.py": "86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a",
+      "notebooks_paper\\graph_only_v3\\run_once.py": "676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93",
+      "notebooks_paper\\graph_only_v3\\supervisor.py": "2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25",
+      "notebooks_paper\\graph_only_v3\\worker.py": "17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393"
+    }
+  },
+  "configuration_sha256": "a0ed4310fab7d5b9f6de3df6a0e053b503c2e1ad742b6e4a25a7f286302376c6",
+  "input_sha256": "19c00cd52bda54c9369680072326d33e4ceaea5dd21ed511a2f524a7b5fdf7b8",
+  "method": "CPS-2F",
+  "code_version": {
+    "notebooks_paper\\graph_only_v3\\build_notebook.py": "7e3d861e03d083d656076e3b0b45e6f5c98ab1786806d1d8eb78632d9a947dfb",
+    "notebooks_paper\\graph_only_v3\\common.py": "b5aaddeec687d811c95046f9cecf84d8bcd94cc940412420c21e6bf600e912bb",
+    "notebooks_paper\\graph_only_v3\\controlled_followup.py": "790ffb8a91dba55fd56d7cec5761abb8e47858b6e77a57f6ceae343328526704",
+    "notebooks_paper\\graph_only_v3\\expanded_comparison.py": "b1d869d4dc0a35091d13a8dfebd8a7e109379e61510b9036c039f961088d02a2",
+    "notebooks_paper\\graph_only_v3\\investigate_repeat.py": "5b2e153d7aff058a2c6e5e3f71dda45e715183d5eb4bef675e98bcec854a6af3",
+    "notebooks_paper\\graph_only_v3\\prepare.py": "03ea7bf80ea27d91595e62b70b0c0782be55cf5b4d09c3852011cbe63c1c3b5b",
+    "notebooks_paper\\graph_only_v3\\render_and_audit.py": "cdbeeab604584f0ae671bd4070917599dfd19b16283da5d4c4cddbc63df66015",
+    "notebooks_paper\\graph_only_v3\\report.py": "86f28e35b44329cea42d4979b1387544a47cc698ce1bade4f5d4beac7b3d4e0a",
+    "notebooks_paper\\graph_only_v3\\run_once.py": "676283c47e2ff731632417e16423ecaede44e007dfc1bfe18b9e3f8e8c88aa93",
+    "notebooks_paper\\graph_only_v3\\supervisor.py": "2981aa27aa0d53ccc2e64afcdd60fb924ffcbe6908f71e48324d61c25c5b7c25",
+    "notebooks_paper\\graph_only_v3\\worker.py": "17b004d00a8972f9307ff4df5e95f128401298f631ae744b47b74fe9a77e6393"
+  },
+  "solver_status": "optimal_configuration_graph",
+  "solution_route": "configuration_graph",
+  "raw_result": {
+    "status": "optimal_configuration_graph",
+    "indices_A": [
+      0,
+      5,
+      21,
+      24,
+      27,
+      34,
+      37,
+      40
+    ],
+    "indices_B": [
+      0,
+      3,
+      8,
+      14,
+      31,
+      34,
+      36,
+      40
+    ],
+    "coupling": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ],
+      [
+        6,
+        6
+      ],
+      [
+        7,
+        7
+      ]
+    ],
+    "k": 8,
+    "dDF": 405.6324822546883,
+    "verified": true,
+    "seconds": 18.36695480000344,
+    "lower_bound": 8,
+    "states": 9335,
+    "transitions": 5300017,
+    "auxiliary_A": 81,
+    "auxiliary_B": 90
+  },
+  "observation": {
+    "route": "configuration_graph",
+    "solver_subphase": "configuration_graph",
+    "configuration_graph_entered": true,
+    "chain_graph_calls": 2,
+    "chain_graphs_completed": 2,
+    "states_dequeued": 9335,
+    "completed_states_lower_bound": 9334,
+    "last_completed_chain_edges": 5665,
+    "last_completed_chain_auxiliary": 90,
+    "single_graph_A": {
+      "dense_states": 5002,
+      "active_states": 203,
+      "edges_including_waits": 6367,
+      "auxiliary": 81,
+      "extended_vertices": 122,
+      "original_vertices": 41,
+      "construction_completed": true
+    },
+    "single_graph_B": {
+      "dense_states": 5371,
+      "active_states": 187,
+      "edges_including_waits": 5665,
+      "auxiliary": 90,
+      "extended_vertices": 131,
+      "original_vertices": 41,
+      "construction_completed": true
+    },
+    "queue_size": 0,
+    "product_transitions": 5300017,
+    "states_discovered": 9335,
+    "observed_solver_seconds": 18.388971600012155
+  },
+  "solver_seconds": 18.389011899998877,
+  "resource_limits": {
+    "graph": {
+      "seconds": 55.0,
+      "max_states": 100000,
+      "max_transitions": 20000000,
+      "max_chain_edges": 800000
+    },
+    "phase_budgets": {
+      "startup": 60.0,
+      "input_loading": 15.0,
+      "warmup": 120.0,
+      "solver": 60.0,
+      "checkpoint": 5.0,
+      "validation": 30.0,
+      "optional_measurements": 30.0,
+      "reporting": 10.0
+    },
+    "memory_mib": 512
+  },
+  "solver_internal_validation": "CPS finish() checks endpoints/order, fidelity, and computes/validates discrete coupling before returning; included in solver time. Independent discrete does not perform this finish().",
+  "external_validation_performed": false,
+  "utc": "2026-09-16T19:20:44.335952+00:00",
+  "unix": 1789586444.335978,
+  "monotonic": 164926.5099324
+}

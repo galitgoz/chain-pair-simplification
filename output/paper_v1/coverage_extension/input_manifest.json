@@ -1,0 +1,588 @@
+{
+  "inputs": [
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__4eca.b",
+      "individuals": [
+        "1o7j",
+        "4eca"
+      ],
+      "nA_full": 325,
+      "nB_full": 325,
+      "paper_reported_B": 325,
+      "B_fragments": 2,
+      "A_author_chain": "A",
+      "B_author_chain": "B",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": true,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing supplied index-Kabsch alignment; arrays reused exactly",
+      "gap_policy": "historical supplied geometric chain has omitted residue 12; retained as supplied, not claimed biologically contiguous",
+      "source_coordinate_rounding_A": 0.001,
+      "source_rigid_distance_discrepancies": [
+        0.0,
+        0.000867972628846303
+      ],
+      "source_files": [
+        "data\\decimated protein backbones\\decimated_curves.csv",
+        "data\\decimated protein backbones\\decimated_pairs.csv"
+      ],
+      "nA": 22,
+      "nB": 22,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__4eca.b.npz",
+      "input_sha256": "87bc3a01b5c6351d83a9d76da5b2f97dc170b6c90e59a9fad4988458a096ada9",
+      "s_A": 18.95299827936545,
+      "s_B": 17.585842182888463,
+      "delta3": 15.18472410022651,
+      "delta1": 9.476499139682725,
+      "delta2": 8.792921091444232,
+      "source_hashes": {
+        "data\\decimated protein backbones\\decimated_curves.csv": "df7be1390ec5e6cee2abbc722403d16dc3689397313d5af91d082816271deedb",
+        "data\\decimated protein backbones\\decimated_pairs.csv": "35b2e5d2b582233de37b2dfaa04ca2d14a68226567eaddf2c18c3312b79235c9"
+      }
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__4eca.c",
+      "individuals": [
+        "1o7j",
+        "4eca"
+      ],
+      "nA_full": 325,
+      "nB_full": 325,
+      "paper_reported_B": 325,
+      "B_fragments": 2,
+      "A_author_chain": "A",
+      "B_author_chain": "C",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": true,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing supplied index-Kabsch alignment; arrays reused exactly",
+      "gap_policy": "historical supplied geometric chain has omitted residue 12; retained as supplied, not claimed biologically contiguous",
+      "source_coordinate_rounding_A": 0.001,
+      "source_rigid_distance_discrepancies": [
+        0.0,
+        0.0010728555814196739
+      ],
+      "source_files": [
+        "data\\decimated protein backbones\\decimated_curves.csv",
+        "data\\decimated protein backbones\\decimated_pairs.csv"
+      ],
+      "nA": 22,
+      "nB": 22,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__4eca.c.npz",
+      "input_sha256": "39de7ee2c8cc32da7607c02a6a91687aee0a5a0c52ac9c2a56c4ff02fb4de066",
+      "s_A": 18.95299827936545,
+      "s_B": 17.65986642753239,
+      "delta3": 15.338020113430543,
+      "delta1": 9.476499139682725,
+      "delta2": 8.829933213766195,
+      "source_hashes": {
+        "data\\decimated protein backbones\\decimated_curves.csv": "df7be1390ec5e6cee2abbc722403d16dc3689397313d5af91d082816271deedb",
+        "data\\decimated protein backbones\\decimated_pairs.csv": "35b2e5d2b582233de37b2dfaa04ca2d14a68226567eaddf2c18c3312b79235c9"
+      }
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__3ntx.a",
+      "individuals": [
+        "1o7j",
+        "3ntx"
+      ],
+      "nA_full": 325,
+      "nB_full": 331,
+      "paper_reported_B": 322,
+      "B_fragments": 2,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": false,
+      "blocked_reason": "Internal chain break(s); no existing uncropped whole-chain gap-handling policy. Existing preparation splits fragments; cropping/bridging not introduced.",
+      "alignment": "not performed",
+      "gap_policy": "blocked; no new gap bridging",
+      "nA": 22,
+      "nB": 22
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__1wls.a",
+      "individuals": [
+        "1o7j",
+        "1wls"
+      ],
+      "nA_full": 325,
+      "nB_full": 328,
+      "paper_reported_B": 316,
+      "B_fragments": 1,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing US-align rigid sequential structural_fit applied to entire observed unequal-length chains before w=16",
+      "gap_policy": "no internal breaks in selected observed chain; terminal missing residues documented",
+      "alignment_record": "output\\paper_v1\\coverage_extension\\inputs\\1o7j.a__1wls.a\\alignment\\alignment.json",
+      "source_files": [
+        "data/pdb_cache/1wls.cif",
+        "data/raw protein backbones/1o7j.a.raw"
+      ],
+      "nA": 22,
+      "nB": 22,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__1wls.a.npz",
+      "input_sha256": "3e35280d1c981235ff03ba1f9960677a0de32ad9561d8e22a7cb9de8e5677ecb",
+      "s_A": 18.95299827936545,
+      "s_B": 21.80664548131348,
+      "delta3": 15.999722568438287,
+      "delta1": 9.476499139682725,
+      "delta2": 10.90332274065674,
+      "source_hashes": {
+        "data/pdb_cache/1wls.cif": "ad17b9b2b0a849b09a9d15ec32161a7f605a3d0392e6618187b0315b6dbd12cf",
+        "data/raw protein backbones/1o7j.a.raw": "4b644003b60d249981866fed427b764aa57de44ea22f2147b24e76e2b0accd2d"
+      }
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__2eq5.a",
+      "individuals": [
+        "1o7j",
+        "2eq5"
+      ],
+      "nA_full": 325,
+      "nB_full": 215,
+      "paper_reported_B": 215,
+      "B_fragments": 1,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing US-align rigid sequential structural_fit applied to entire observed unequal-length chains before w=16",
+      "gap_policy": "no internal breaks in selected observed chain; terminal missing residues documented",
+      "alignment_record": "output\\paper_v1\\coverage_extension\\inputs\\1o7j.a__2eq5.a\\alignment\\alignment.json",
+      "source_files": [
+        "data/pdb_cache/2eq5.cif",
+        "data/raw protein backbones/1o7j.a.raw"
+      ],
+      "nA": 22,
+      "nB": 15,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2eq5.a.npz",
+      "input_sha256": "4c34d1b8d5160e061ace244753add2bf13b3efd79790e7d9a6b314d589819d0b",
+      "s_A": 18.95299827936545,
+      "s_B": 18.756863664496112,
+      "delta3": 41.74655581235364,
+      "delta1": 9.476499139682725,
+      "delta2": 9.378431832248056,
+      "source_hashes": {
+        "data/pdb_cache/2eq5.cif": "d7b61ee1199d14532bdce0783ddfc356fd9c0d46d8e949bcb1430434ecaa966d",
+        "data/raw protein backbones/1o7j.a.raw": "4b644003b60d249981866fed427b764aa57de44ea22f2147b24e76e2b0accd2d"
+      }
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__2zsk.a",
+      "individuals": [
+        "1o7j",
+        "2zsk"
+      ],
+      "nA_full": 325,
+      "nB_full": 226,
+      "paper_reported_B": 219,
+      "B_fragments": 1,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing US-align rigid sequential structural_fit applied to entire observed unequal-length chains before w=16",
+      "gap_policy": "no internal breaks in selected observed chain; terminal missing residues documented",
+      "alignment_record": "output\\paper_v1\\coverage_extension\\inputs\\1o7j.a__2zsk.a\\alignment\\alignment.json",
+      "source_files": [
+        "data/pdb_cache/2zsk.cif",
+        "data/raw protein backbones/1o7j.a.raw"
+      ],
+      "nA": 22,
+      "nB": 16,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2zsk.a.npz",
+      "input_sha256": "3ec5446d75ccd9c280f57f8b26a0d1cc98e8d224da5d5fa3a122540eb7aff2e1",
+      "s_A": 18.95299827936545,
+      "s_B": 19.125304289974302,
+      "delta3": 41.96523997114909,
+      "delta1": 9.476499139682725,
+      "delta2": 9.562652144987151,
+      "source_hashes": {
+        "data/pdb_cache/2zsk.cif": "ce5a249a9b8063aefceb7c3645b58d70c960fbc2a92afe12cd59f89a34089d74",
+        "data/raw protein backbones/1o7j.a.raw": "4b644003b60d249981866fed427b764aa57de44ea22f2147b24e76e2b0accd2d"
+      }
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__1zq1.a",
+      "individuals": [
+        "1o7j",
+        "1zq1"
+      ],
+      "nA_full": 325,
+      "nB_full": 437,
+      "paper_reported_B": 418,
+      "B_fragments": 1,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing US-align rigid sequential structural_fit applied to entire observed unequal-length chains before w=16",
+      "gap_policy": "no internal breaks in selected observed chain; terminal missing residues documented",
+      "alignment_record": "output\\paper_v1\\coverage_extension\\inputs\\1o7j.a__1zq1.a\\alignment\\alignment.json",
+      "source_files": [
+        "data/pdb_cache/1zq1.cif",
+        "data/raw protein backbones/1o7j.a.raw"
+      ],
+      "nA": 22,
+      "nB": 29,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__1zq1.a.npz",
+      "input_sha256": "abe5c9f23d524064337134c626eec6262dc0d76df4df10beebde2cb83a9c1b33",
+      "s_A": 18.95299827936545,
+      "s_B": 20.376654361976797,
+      "delta3": 61.13431499102384,
+      "delta1": 9.476499139682725,
+      "delta2": 10.188327180988399,
+      "source_hashes": {
+        "data/pdb_cache/1zq1.cif": "4fe5d3df84227a8fc99696273eedf0f2aabba10910d3e2068024c94cf5cf4bd0",
+        "data/raw protein backbones/1o7j.a.raw": "4b644003b60d249981866fed427b764aa57de44ea22f2147b24e76e2b0accd2d"
+      }
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__3jq0.a",
+      "individuals": [
+        "1o7j",
+        "3jq0"
+      ],
+      "nA_full": 325,
+      "nB_full": 478,
+      "paper_reported_B": 457,
+      "B_fragments": 2,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": false,
+      "blocked_reason": "Internal chain break(s); no existing uncropped whole-chain gap-handling policy. Existing preparation splits fragments; cropping/bridging not introduced.",
+      "alignment": "not performed",
+      "gap_policy": "blocked; no new gap bridging",
+      "nA": 22,
+      "nB": 31
+    },
+    {
+      "domain": "protein",
+      "pair": "1o7j.a__2fep.a",
+      "individuals": [
+        "1o7j",
+        "2fep"
+      ],
+      "nA_full": 325,
+      "nB_full": 273,
+      "paper_reported_B": 273,
+      "B_fragments": 1,
+      "A_author_chain": "A",
+      "B_author_chain": "A",
+      "model": 1,
+      "units": "angstrom",
+      "subsampling": "w=16 with last endpoint appended if necessary",
+      "existing_prepared": false,
+      "eligible": true,
+      "blocked_reason": null,
+      "alignment": "existing US-align rigid sequential structural_fit applied to entire observed unequal-length chains before w=16",
+      "gap_policy": "no internal breaks in selected observed chain; terminal missing residues documented",
+      "alignment_record": "output\\paper_v1\\coverage_extension\\inputs\\1o7j.a__2fep.a\\alignment\\alignment.json",
+      "source_files": [
+        "data/pdb_cache/2fep.cif",
+        "data/raw protein backbones/1o7j.a.raw"
+      ],
+      "nA": 22,
+      "nB": 18,
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2fep.a.npz",
+      "input_sha256": "d171f0ed7be03baa883be172bf5fe7cfd57fe2ffdce82b27f61f4033476c5648",
+      "s_A": 18.95299827936545,
+      "s_B": 21.355321927970397,
+      "delta3": 49.17725043249195,
+      "delta1": 9.476499139682725,
+      "delta2": 10.677660963985199,
+      "source_hashes": {
+        "data/pdb_cache/2fep.cif": "c561b0cb555521c7b7addb49bb38642627247134784e856d5627b0c00f8083a4",
+        "data/raw protein backbones/1o7j.a.raw": "4b644003b60d249981866fed427b764aa57de44ea22f2147b24e76e2b0accd2d"
+      }
+    },
+    {
+      "domain": "hurricane",
+      "pair": "AL182011__AL061926",
+      "nA": 31,
+      "nB": 27,
+      "individuals": [
+        "AL182011",
+        "AL061926"
+      ],
+      "features": [
+        3.4339872044851463,
+        0.13815033848081718,
+        0.5379265053644502,
+        0.2990048249015015
+      ],
+      "basin": "atlantic",
+      "standardized_features": [
+        -0.8886973638456469,
+        -0.42089332243491423,
+        -2.5818208338769546,
+        2.715867516870871
+      ],
+      "size_band": 0,
+      "selection_score": [
+        0,
+        -3.0957770829482842,
+        "AL182011__AL061926"
+      ],
+      "eligible": true,
+      "blocked_reason": null,
+      "units": "projected km",
+      "subsampling": "none; every supplied track vertex",
+      "alignment": "unchanged common basin frame; no independent alignment",
+      "source_files": [
+        "data/hurricanes/AL182011.txt",
+        "data/hurricanes/AL061926.txt"
+      ],
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_AL182011__AL061926.npz",
+      "input_sha256": "ba58f2c03df52031d3334018fbe8e621d469f60aa4cbe71d7b712273476973cc",
+      "s_A": 55.574054511762604,
+      "s_B": 70.78002602575945,
+      "delta3": 785.7446885238548,
+      "delta1": 27.787027255881302,
+      "delta2": 35.39001301287973,
+      "source_hashes": {
+        "data/hurricanes/AL182011.txt": "184f81bfa6d1d3651fefb86e6dd696c996e720ed42b93cc8bad893ffe1f8a099",
+        "data/hurricanes/AL061926.txt": "3dbccb3d3bf1696a755368885ef6bbb0d0762ae9f5d0ef99fde539efbe9d86d7"
+      }
+    },
+    {
+      "domain": "hurricane",
+      "pair": "EP141997__EP092000",
+      "nA": 34,
+      "nB": 25,
+      "individuals": [
+        "EP141997",
+        "EP092000"
+      ],
+      "features": [
+        3.5263605246161616,
+        0.3074846997479607,
+        0.9719752396367717,
+        0.024237963513110458
+      ],
+      "basin": "pacific",
+      "standardized_features": [
+        -0.4861450599325271,
+        0.5671293151132755,
+        0.8356093259202658,
+        -1.3055524841891866
+      ],
+      "size_band": 1,
+      "selection_score": [
+        0,
+        -3.086161926126787,
+        "EP141997__EP092000"
+      ],
+      "eligible": true,
+      "blocked_reason": null,
+      "units": "projected km",
+      "subsampling": "none; every supplied track vertex",
+      "alignment": "unchanged common basin frame; no independent alignment",
+      "source_files": [
+        "data/hurricanes/EP141997.txt",
+        "data/hurricanes/EP092000.txt"
+      ],
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_EP141997__EP092000.npz",
+      "input_sha256": "ecaedec88bea9b8978999fa4f7e9d2ed13fd72d095668c5b24c2734ed0f2238b",
+      "s_A": 86.15367090553,
+      "s_B": 89.62529736846373,
+      "delta3": 470.2295889817335,
+      "delta1": 43.076835452765,
+      "delta2": 44.81264868423187,
+      "source_hashes": {
+        "data/hurricanes/EP141997.txt": "fe558fad395ae57dcf536c68c5d70e4e62a7ee2790e1d0746f18d07777648b47",
+        "data/hurricanes/EP092000.txt": "1cbff2782b011ffe549ee5ced0248e74686710c5ef20515a17c77a8e891c0676"
+      }
+    },
+    {
+      "domain": "hurricane",
+      "pair": "EP211990__EP152008",
+      "nA": 26,
+      "nB": 38,
+      "individuals": [
+        "EP211990",
+        "EP152008"
+      ],
+      "features": [
+        3.6375861597263857,
+        0.3794896217049037,
+        0.5853214223271791,
+        0.07209101021218027
+      ],
+      "basin": "pacific",
+      "standardized_features": [
+        -0.0014365358227898996,
+        0.9872595968587226,
+        -2.2086626931878595,
+        -0.6051870975667996
+      ],
+      "size_band": 2,
+      "selection_score": [
+        0,
+        -3.131016562562619,
+        "EP211990__EP152008"
+      ],
+      "eligible": true,
+      "blocked_reason": null,
+      "units": "projected km",
+      "subsampling": "none; every supplied track vertex",
+      "alignment": "unchanged common basin frame; no independent alignment",
+      "source_files": [
+        "data/hurricanes/EP211990.txt",
+        "data/hurricanes/EP152008.txt"
+      ],
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_EP211990__EP152008.npz",
+      "input_sha256": "65bdc8d3eea9992d1beaddb2846878c75be0c05b7809a08882c9e55aeab693ca",
+      "s_A": 127.77269081969911,
+      "s_B": 82.56665267460714,
+      "delta3": 234.85273869420817,
+      "delta1": 63.886345409849554,
+      "delta2": 41.28332633730357,
+      "source_hashes": {
+        "data/hurricanes/EP211990.txt": "b623f39c266f56b148cb14a65cf188a55d57a3e382c49baaf11e63bafa4e8f82",
+        "data/hurricanes/EP152008.txt": "55adb9be73fbe12c0dfc91321f3609fb10d933af8342c195c3fc6e5043427fad"
+      }
+    },
+    {
+      "domain": "hurricane",
+      "pair": "EP041981__EP211992",
+      "nA": 25,
+      "nB": 40,
+      "individuals": [
+        "EP041981",
+        "EP211992"
+      ],
+      "features": [
+        3.6888794541139363,
+        0.47000362924573563,
+        0.9184378963309321,
+        0.24764476300756672
+      ],
+      "basin": "pacific",
+      "standardized_features": [
+        0.22209374111990854,
+        1.515385653474391,
+        0.41408953507114626,
+        1.9641743210018068
+      ],
+      "size_band": 3,
+      "selection_score": [
+        0,
+        -3.4342308407955207,
+        "EP041981__EP211992"
+      ],
+      "eligible": true,
+      "blocked_reason": null,
+      "units": "projected km",
+      "subsampling": "none; every supplied track vertex",
+      "alignment": "unchanged common basin frame; no independent alignment",
+      "source_files": [
+        "data/hurricanes/EP041981.txt",
+        "data/hurricanes/EP211992.txt"
+      ],
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_EP041981__EP211992.npz",
+      "input_sha256": "1559555895c7c428ab5c79bae86f9aecd02e4ff060cbfdfb2ca311471c4213b6",
+      "s_A": 106.27442337310019,
+      "s_B": 68.55375651078134,
+      "delta3": 779.3533485826824,
+      "delta1": 53.137211686550096,
+      "delta2": 34.27687825539067,
+      "source_hashes": {
+        "data/hurricanes/EP041981.txt": "9c87efd280a688501575517f2c7314dc8165745dacd09cb285f15ceb121d3b7a",
+        "data/hurricanes/EP211992.txt": "39fe514cc976c03ae4c614f6c237241308084cfe22ce4ce94827e8d98823c3c4"
+      }
+    },
+    {
+      "domain": "hurricane",
+      "pair": "AL181887__AL091888",
+      "nA": 26,
+      "nB": 64,
+      "individuals": [
+        "AL181887",
+        "AL091888"
+      ],
+      "features": [
+        4.1588830833596715,
+        0.9007865453381899,
+        0.6157776382712477,
+        0.22280733582375922
+      ],
+      "basin": "atlantic",
+      "standardized_features": [
+        2.270315495323938,
+        4.028893660847447,
+        -1.9688693642312634,
+        1.6006598638830116
+      ],
+      "size_band": 4,
+      "selection_score": [
+        0,
+        -3.94755499438147,
+        "AL181887__AL091888"
+      ],
+      "eligible": true,
+      "blocked_reason": null,
+      "units": "projected km",
+      "subsampling": "none; every supplied track vertex",
+      "alignment": "unchanged common basin frame; no independent alignment",
+      "source_files": [
+        "data/hurricanes/AL181887.txt",
+        "data/hurricanes/AL091888.txt"
+      ],
+      "input_file": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_AL181887__AL091888.npz",
+      "input_sha256": "6d9b056dfe76b1e50c23bc5a0d5b4f256ed31bcbd8dab24f41a890c4fb482890",
+      "s_A": 203.59220072287778,
+      "s_B": 103.34059101547193,
+      "delta3": 1460.4827080122416,
+      "delta1": 101.79610036143889,
+      "delta2": 51.670295507735965,
+      "source_hashes": {
+        "data/hurricanes/AL181887.txt": "d9bdec59a5478c8d9918ba7524b012c7773404e94bd3088e857e9eeedf79981a",
+        "data/hurricanes/AL091888.txt": "b304e7d4939ebfa2c35cff125f9cc6aab2fe1798e2c503c77fcc4bcd99d25db4"
+      }
+    }
+  ],
+  "utc": "2026-09-16T17:52:53.413265+00:00",
+  "unix": 1789581173.4132748,
+  "monotonic": 159655.5492967
+}

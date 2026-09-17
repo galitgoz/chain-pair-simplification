@@ -1,0 +1,8 @@
+# Final hurricane cohort: selection frozen before optimization
+Seed: 20260916, NumPy default_rng (PCG64), candidates sorted by identifiers.
+Sampling frame: unordered pairs in the supplied pairs.csv; not all possible storm combinations.
+Eligibility: finite two-dimensional full tracks, at least two vertices, declared sizes matching actual sizes, compatible AL/EP/CP basin frame, and positive mean edge lengths. No upper size cap. Previously tested unordered pairs and duplicate source rows are excluded with reasons.
+Quartiles: numpy.quantile(max(nA,nB), [.25,.5,.75]); ties enter the lower interval via searchsorted(side=left). Each quartile is subdivided by ratio <=1.5 versus >1.5.
+Allocation: round-robin one slot at a time across lexicographically sorted nonempty strata until 20 slots are allocated. Strata at capacity are skipped, redistributing deficits deterministically among remaining nonempty strata; empty strata are retained with zero allocation. No selected pair is replaced after solving.
+Selection: round-robin across allocated strata. Within a stratum first minimize the number of storm identities already used in previous or current cohorts, then choose uniformly using the seeded generator among tied candidates in sorted pair order. Record every reuse. This preference-constrained stratified sample is not a simple random sample; unweighted percentages describe the selected cohort, not the archive.
+Method order rotates by pair: the four existing method names shifted by pair index modulo four. One attempt each, no repeats. Alpha=.5 was chosen using earlier pilot evidence. All scientific and resource settings remain unchanged.

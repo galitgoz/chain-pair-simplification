@@ -1,0 +1,6 @@
+{
+  "diagnostic": "C",
+  "reference_k": null,
+  "reference_verified": false,
+  "evidence_kind": "No verified identical-configuration reference in the frozen-protocol prior runs"
+}

@@ -1,0 +1,18 @@
+{
+  "planned": 188,
+  "eligible": 180,
+  "observed": 180,
+  "validated": 178,
+  "resource_limited": 2,
+  "blocked": 8,
+  "pending": 0,
+  "new_observed": 140,
+  "new_validated": 139,
+  "new_resource_limited": 1,
+  "continuous_matched": 43,
+  "continuous_equal": 38,
+  "continuous_extra": 5,
+  "discrete_matched": 45,
+  "discrete_equal": 45,
+  "equal_k_repairs": 24
+}

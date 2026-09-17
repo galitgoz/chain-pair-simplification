@@ -1,0 +1,8 @@
+{
+  "path": "notebooks_paper\\coverage_extension.py",
+  "frozen_sha256": "ee81b36569bd8d907be4d3e79b512d4419f8f1a2cef82a76d67a1008188b44bf",
+  "new_sha256": "d4e7491c9ff67164bc203eab66b2464f78f3518f84d5b08e9b6682ac1fba4a0b",
+  "utc": "2026-09-17T05:29:29.249480+00:00",
+  "change": "Orchestration only: unchanged readiness criteria; 30-second rechecks, 900-second continuous and 3600-second session waiting caps; worker phases unchanged",
+  "scientific_configuration_changed": false
+}

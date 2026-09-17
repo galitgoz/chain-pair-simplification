@@ -1,0 +1,134 @@
+{
+  "status": "optimal",
+  "raw_status": "optimal_independent_baseline",
+  "route": "independent_optimization",
+  "phase": "independent_optimization",
+  "chain_graph_calls": 0,
+  "chain_graphs_completed": 0,
+  "preprocessing_chain_graph_calls": 0,
+  "configuration_graph_entered": false,
+  "certificate_enabled": false,
+  "solve_seconds": 0.014332899998407811,
+  "warmup_seconds": 0.8309140000055777,
+  "measured_execution_count": 1,
+  "kA": 16,
+  "kB": 16,
+  "k": 16,
+  "compression_removed_pct": 27.27272727272727,
+  "continuous_A_lower": 9.354520277520901,
+  "continuous_A_upper": 9.354525447175092,
+  "continuous_B_lower": 9.475171168974878,
+  "continuous_B_upper": 9.475176555438056,
+  "discrete_fidelity_A": 10.841550627101272,
+  "discrete_fidelity_B": 11.296232026653843,
+  "coupling_distance": 0.9993252723713151,
+  "coupling_budget_ratio": 0.9999999999999999,
+  "coupling_feasible": true,
+  "unequal_output_lengths": false,
+  "repeated_coupling_index": false,
+  "indices_A": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21
+  ],
+  "indices_B": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    16,
+    21
+  ],
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      4,
+      4
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      7
+    ],
+    [
+      8,
+      8
+    ],
+    [
+      9,
+      9
+    ],
+    [
+      10,
+      10
+    ],
+    [
+      11,
+      11
+    ],
+    [
+      12,
+      12
+    ],
+    [
+      13,
+      13
+    ],
+    [
+      14,
+      14
+    ],
+    [
+      15,
+      15
+    ]
+  ],
+  "constraints_valid": true,
+  "states_discovered": null,
+  "transitions_examined": null
+}

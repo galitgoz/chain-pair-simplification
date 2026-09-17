@@ -1,0 +1,41 @@
+{
+  "new_slots_finished": 24,
+  "new_slots_total": 24,
+  "new_slots_finished_percent": 100.0,
+  "reused_observations": 16,
+  "validated": 39,
+  "resource_limited": 1,
+  "validation_incomplete": 0,
+  "failed": 0,
+  "pending": 0,
+  "solver_completed": 39,
+  "pair": "EP012014__EP212006",
+  "method": "CPS-3F",
+  "nA": 30,
+  "nB": 29,
+  "configuration_id": "hurricane:EP012014__EP212006:a0.5|CPS-3F",
+  "phase": "completed",
+  "phase_budget_seconds": null,
+  "attempt_directory": "output\\paper_v1\\expanded_comparison\\slots\\76\\attempts\\expanded76_b5080725e48e4dd8bd107e4a0bb2ca1a",
+  "phase_elapsed_seconds": 0.007213800010504201,
+  "tree_rss_mib": 177.546875,
+  "utc": "2026-09-16T15:03:53.879761+00:00",
+  "unix": 1789571033.8797746,
+  "monotonic": 149515.9291123,
+  "pause_reason": null,
+  "total_batch_elapsed_seconds": 731.4994435000117,
+  "graph_counters": {
+    "states_discovered": 269,
+    "states_dequeued": 269,
+    "completed_states_lower_bound": 268,
+    "product_transitions": 777,
+    "queue_size": 0,
+    "chain_graphs_completed": 2,
+    "counter_timestamp": "2026-09-16T15:03:53.499038+00:00"
+  },
+  "counter_note": "states_dequeued counts heap pops; completed_states_lower_bound counts prior expanded nonterminal states; not search completion",
+  "budget_used_percent": {
+    "states_discovered": 0.269,
+    "product_transitions": 0.003885
+  }
+}

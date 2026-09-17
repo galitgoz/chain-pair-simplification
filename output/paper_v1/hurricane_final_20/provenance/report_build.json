@@ -1,0 +1,9 @@
+{
+  "utc": "2026-09-17T05:32:36.846563+00:00",
+  "reporting_python": "C:\\Users\\a\\PycharmProjects\\PythonProject1\\.venv\\Scripts\\python.exe",
+  "reporting_python_version": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": "b8e82e4ca409a94e94460f618f23fb962776f9641ad9b6aedb8955802a2109e0",
+  "source_results_sha256": "899ec51ed5aa8d6981738dc114ec8c2d42620a81fdcda720e7789efba177f79f",
+  "optimization_executed": false
+}

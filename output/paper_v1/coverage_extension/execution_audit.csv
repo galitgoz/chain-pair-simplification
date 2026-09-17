@@ -1,0 +1,49 @@
+configuration_id,attempt_count,status,validated,hashes_match
+protein:1o7j.a__4eca.b:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__4eca.b:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__4eca.b:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__4eca.b:a0.5|CPS-3F,1,validated,True,True
+protein:1o7j.a__4eca.c:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__4eca.c:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__4eca.c:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__4eca.c:a0.5|CPS-3F,1,validated,True,True
+protein:1o7j.a__1wls.a:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__1wls.a:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__1wls.a:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__1wls.a:a0.5|CPS-3F,1,validated,True,True
+protein:1o7j.a__2eq5.a:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__2eq5.a:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__2eq5.a:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__2eq5.a:a0.5|CPS-3F,1,validated,True,True
+protein:1o7j.a__2zsk.a:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__2zsk.a:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__2zsk.a:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__2zsk.a:a0.5|CPS-3F,1,validated,True,True
+protein:1o7j.a__1zq1.a:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__1zq1.a:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__1zq1.a:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__1zq1.a:a0.5|CPS-3F,1,validated,True,True
+protein:1o7j.a__2fep.a:a0.5|Independent continuous,1,validated,True,True
+protein:1o7j.a__2fep.a:a0.5|Independent discrete,1,validated,True,True
+protein:1o7j.a__2fep.a:a0.5|CPS-2F,1,validated,True,True
+protein:1o7j.a__2fep.a:a0.5|CPS-3F,1,validated,True,True
+hurricane:AL182011__AL061926:a0.5|Independent continuous,1,validated,True,True
+hurricane:AL182011__AL061926:a0.5|Independent discrete,1,validated,True,True
+hurricane:AL182011__AL061926:a0.5|CPS-2F,1,validated,True,True
+hurricane:AL182011__AL061926:a0.5|CPS-3F,1,validated,True,True
+hurricane:EP141997__EP092000:a0.5|Independent continuous,1,validated,True,True
+hurricane:EP141997__EP092000:a0.5|Independent discrete,1,validated,True,True
+hurricane:EP141997__EP092000:a0.5|CPS-2F,1,validated,True,True
+hurricane:EP141997__EP092000:a0.5|CPS-3F,1,validated,True,True
+hurricane:EP211990__EP152008:a0.5|Independent continuous,1,validated,True,True
+hurricane:EP211990__EP152008:a0.5|Independent discrete,1,validated,True,True
+hurricane:EP211990__EP152008:a0.5|CPS-2F,1,validated,True,True
+hurricane:EP211990__EP152008:a0.5|CPS-3F,1,validated,True,True
+hurricane:EP041981__EP211992:a0.5|Independent continuous,1,validated,True,True
+hurricane:EP041981__EP211992:a0.5|Independent discrete,1,validated,True,True
+hurricane:EP041981__EP211992:a0.5|CPS-2F,1,validated,True,True
+hurricane:EP041981__EP211992:a0.5|CPS-3F,1,validated,True,True
+hurricane:AL181887__AL091888:a0.5|Independent continuous,1,validated,True,True
+hurricane:AL181887__AL091888:a0.5|Independent discrete,1,validated,True,True
+hurricane:AL181887__AL091888:a0.5|CPS-2F,1,validated,True,True
+hurricane:AL181887__AL091888:a0.5|CPS-3F,1,validated,True,True

@@ -1,0 +1,12 @@
+.venv/
+venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.nbc
+*.nbi
+.env
+.env.*
+*.pem
+*.key

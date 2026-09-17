@@ -1,0 +1,41 @@
+{
+  "domain": "protein",
+  "pair": "1o7j.a__2fep.a",
+  "case": "protein:1o7j.a__2fep.a:a0.5",
+  "nA": 22,
+  "nB": 18,
+  "units": "angstrom",
+  "alpha": 0.5,
+  "s_A": 18.95299827936545,
+  "s_B": 21.355321927970397,
+  "delta1": 9.476499139682725,
+  "delta2": 10.677660963985199,
+  "delta3": 49.17725043249195,
+  "input_file": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2fep.a.npz",
+  "method": "Independent continuous",
+  "diagnostic": "coverage33",
+  "certificate": false,
+  "input_sha256": "d171f0ed7be03baa883be172bf5fe7cfd57fe2ffdce82b27f61f4033476c5648",
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 20000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "configuration_id": "protein:1o7j.a__2fep.a:a0.5|Independent continuous"
+}

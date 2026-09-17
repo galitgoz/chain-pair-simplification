@@ -1,0 +1,45 @@
+{
+  "status": "validated",
+  "feasibility_passed": true,
+  "optimality_independently_proven": false,
+  "solver_optimality_claim": true,
+  "checks": {
+    "A_original_vertex_membership": true,
+    "B_original_vertex_membership": true,
+    "A_fidelity": true,
+    "B_fidelity": true
+  },
+  "kA": 4,
+  "kB": 5,
+  "k": 5,
+  "coupling_distance": 411.59259248787515,
+  "coupling_feasible": false,
+  "coupling_constraint_required": false,
+  "coupling": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      2,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      3,
+      4
+    ]
+  ],
+  "validation_seconds": 0.001128700008848682,
+  "raw_checkpoint_sha256": "4bcf25762f1110e9dff6e9bcb7cb609cf7ccb1bedd72eefcfede470aa1e91b91",
+  "utc": "2026-09-16T19:57:21.282047+00:00",
+  "unix": 1789588641.2820563,
+  "monotonic": 167123.4630823
+}

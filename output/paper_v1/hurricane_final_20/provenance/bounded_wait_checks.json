@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "automatic recovery",
+    "30-second cadence",
+    "continuous cap",
+    "cumulative cap before first check"
+  ],
+  "optimization_executed": false
+}

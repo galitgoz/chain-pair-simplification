@@ -1,0 +1,22 @@
+check,outcome,reason,details,seconds
+exhaustive_2d_Independent continuous_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,81.16177959999186
+exhaustive_2d_Independent continuous_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.002717099996516481
+exhaustive_2d_Independent discrete_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,10.774395300002652
+exhaustive_2d_Independent discrete_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.002331900002900511
+exhaustive_2d_CPS-2F_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,11.910547600011341
+exhaustive_2d_CPS-2F_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.01016840001102537
+exhaustive_2d_CPS-3F_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.004595100006554276
+exhaustive_2d_CPS-3F_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.005320199998095632
+exhaustive_3d_Independent continuous_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.002343399988603778
+exhaustive_3d_Independent continuous_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.0030209000105969608
+exhaustive_3d_Independent discrete_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.0029100999963702634
+exhaustive_3d_Independent discrete_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.0025722999998833984
+exhaustive_3d_CPS-2F_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.0070567999937338755
+exhaustive_3d_CPS-2F_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.005769399998825975
+exhaustive_3d_CPS-3F_1.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.009684499993454665
+exhaustive_3d_CPS-3F_0.0_0.0,PASS,,Exhaustive optimum agrees; validation and graph route checked.,0.009174400009214878
+checkpoint_normal,PASS,,output\paper_v1\graph_only_v2\regressions\regression_normal_7cec68c380434f988ab1cd3bd7096c9e; raw checkpoint survived; validated,16.470893899997463
+checkpoint_validation_failure,PASS,,output\paper_v1\graph_only_v2\regressions\regression_validation_failure_e36b7da6c8094ae9af0e183971f1303d; raw checkpoint survived; validation_failed,23.309765300000436
+checkpoint_validation_timeout,PASS,,output\paper_v1\graph_only_v2\regressions\regression_validation_timeout_35bcc89a4ea0424fb3b0d5c8df2f5c2b; raw checkpoint survived; validation_incomplete,30.103019599991967
+checkpoint_optional_failure,PASS,,output\paper_v1\graph_only_v2\regressions\regression_optional_failure_2818e7e10e3c424aa35059bc56dafafb; raw checkpoint survived; validated,35.16983380001329
+independent_delta3_not_required,PASS,,Independent baseline coupling exceeds delta3 and remains feasible under its own definition.,0.0014839999930700287

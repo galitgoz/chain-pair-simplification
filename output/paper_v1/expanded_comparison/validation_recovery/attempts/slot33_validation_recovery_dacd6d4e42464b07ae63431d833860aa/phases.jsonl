@@ -1,0 +1,4 @@
+{"phase": "input_loading", "phase_started_monotonic": 146935.4716563, "utc": "2026-09-16T14:20:53.422564+00:00", "unix": 1789568453.4225771, "monotonic": 146935.4716563}
+{"phase": "warmup", "phase_started_monotonic": 146935.5812889, "utc": "2026-09-16T14:20:53.532197+00:00", "unix": 1789568453.5322092, "monotonic": 146935.5812889, "internal_time_limit": "disabled; external warm-up budget applies"}
+{"phase": "validation", "phase_started_monotonic": 146944.6316545, "utc": "2026-09-16T14:21:02.582538+00:00", "unix": 1789568462.582574, "monotonic": 146944.6316545}
+{"phase": "reporting", "phase_started_monotonic": 146944.6434725, "utc": "2026-09-16T14:21:02.594376+00:00", "unix": 1789568462.5943918, "monotonic": 146944.6434725}

@@ -1,0 +1,6 @@
+domain,method,status,count
+hurricane,CPS-2F,transition_budget_limit,1
+hurricane,CPS-2F,validated,19
+hurricane,CPS-3F,validated,20
+hurricane,Independent continuous,validated,20
+hurricane,Independent discrete,validated,20

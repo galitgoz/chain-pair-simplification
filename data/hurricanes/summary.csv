@@ -1,0 +1,5 @@
+dataset,dim,curves,points_median,c_cube_min,c_cube_median,c_cube_max,c_ball_min,c_ball_median,c_ball_max,ratio_max,published_cube
+hurricane tracks (HURDAT2),2,1295,36,2.01,2.98,9.01,2.01,2.41,8.0,1.411,Hurdat2 in ISAAC 2020 Table 1
+character trajectories (UCI),2,1429,123,3.08,6.74,10.45,2.63,5.96,10.09,1.412,"Pen: min 4.07, avg 8.79, max 20.82"
+protein backbones (PDB),3,8,325,49.28,50.33,50.77,41.2,42.05,43.2,1.205,not measured there
+synthetic serpentine/spiral/zigzag,2,20,142,2.12,9.19,64.07,2.05,7.87,52.47,1.375,by construction

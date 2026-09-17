@@ -1,0 +1,41 @@
+{
+  "domain": "protein",
+  "pair": "1o7j.a__1qd1.b",
+  "nA": 22,
+  "nB": 22,
+  "units": "angstrom",
+  "alpha": 0.5,
+  "s_A": 18.95299827936545,
+  "s_B": 21.781594580427484,
+  "delta1": 9.476499139682725,
+  "delta2": 10.890797290213742,
+  "delta3": 35.978995691931146,
+  "input_file": "output\\paper_v1\\expanded_comparison\\inputs\\protein_1o7j.a__1qd1.b.npz",
+  "method": "Independent continuous",
+  "certificate": false,
+  "input_sha256": "ee71f8b3980b2ceeb3dfe43be7b165082559212dfed03bb475480ffc13dfaa10",
+  "algorithms": {
+    "curve_algorithms.py": "85e1f6444f23091810a3042decc3e2945a273d2b83cb5da3c6b76f8b495c98e7",
+    "cps_paper_algorithms.py": "49bca757aacc4d81c9263416c79b91da6fbb2df5358e9e4bb80d97d08802d876"
+  },
+  "graph_limits": {
+    "seconds": 55.0,
+    "max_states": 100000,
+    "max_transitions": 20000000,
+    "max_chain_edges": 800000
+  },
+  "phase_budgets": {
+    "startup": 60.0,
+    "input_loading": 15.0,
+    "warmup": 120.0,
+    "solver": 60.0,
+    "checkpoint": 5.0,
+    "validation": 30.0,
+    "optional_measurements": 30.0,
+    "reporting": 10.0
+  },
+  "memory_mib": 512,
+  "configuration_id": "protein:1o7j.a__1qd1.b:a0.5|Independent continuous|repetition2",
+  "case": "protein:1o7j.a__1qd1.b:a0.5",
+  "diagnostic": "timing060"
+}
