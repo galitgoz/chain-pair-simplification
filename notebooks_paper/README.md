@@ -1,4 +1,6 @@
-# Paper experiments — Stage 1 only
+# Historical Stage 1 experiment notebooks
+
+> This page describes the initial pilot, not the final 43-pair comparison. For current summaries, start with the [repository README](../README.md) and [reproduction guide](../docs/REPRODUCING.md). The instructions below are historical context, not a recommended current run sequence.
 
 Start with `00_data_and_protocol.ipynb`, then `01_correctness.ipynb` and the two domain notebooks. Saved tables and the current completion status are under `../output/paper_v1/`. Notebooks 04 and 05 remain planned.
 
