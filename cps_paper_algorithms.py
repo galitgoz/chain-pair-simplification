@@ -1,8 +1,7 @@
 """Paper configuration DAGs; continuous GCS is in curve_algorithms.py.
 
 CPS-3F: Fan et al. section 4, Algorithm 1 (explicit graph version).
-CPS-2F: Gozoltzani local thesis chapters 3--5, Algorithms 1--2.
-Anchored endpoints; asynchronous discrete coupling; objective max(kA,kB).
+CPS-2F: Anchored endpoints; asynchronous discrete coupling; objective max(kA,kB).
 """
 import heapq
 import itertools
