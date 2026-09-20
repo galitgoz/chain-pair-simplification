@@ -7,7 +7,7 @@ This repository compares **CPS-2F** (continuous input fidelity, discrete output 
 | Goal | Entry point |
 | --- | --- |
 | Inspect the algorithms | [cps_paper_algorithms.py](cps_paper_algorithms.py), [curve_algorithms.py](curve_algorithms.py) |
-| Recompute the main numerical comparisons | Standard-library command below |
+| Recompute the main numerical comparisons | [Quick start](#quick-start-numerical-results-without-solver-execution) |
 | Understand reproduction requirements | [Reproduction guide](docs/REPRODUCING.md) |
 | Find current versus historical files | [Repository map](docs/REPOSITORY_MAP.md) |
 | Generate additional compression views | [Reporting guide](reporting/README.md) |
@@ -28,37 +28,20 @@ The primary dataset contains **45 eligible pairs** (12 protein, 33 hurricane). T
 
 The comparison uses `alpha = 0.5`, chosen using earlier pilot evidence. Fidelity thresholds are half the respective mean input edge lengths; the coupling threshold is the input discrete Fréchet distance. Compression differences depend on the fidelity definitions and tolerance regime. Primary observations, historical diagnostics and timing repetitions must not be pooled as distinct input pairs.
 
-## Historical snapshot and implementation notes
+## Data and methods
 
-Research code, experiment notebooks, and saved experimental records for continuous and discrete chain pair simplification.
+Protein inputs are prepared C-alpha backbone curves from RCSB PDB. Hurricane inputs are projected NOAA HURDAT2 tracks. Source versions, preprocessing, shared protein references and interpretation limits are documented in the [reproduction guide](docs/REPRODUCING.md#data-provenance).
 
-### File inventory
+Output vertices are selected from the inputs in order, with fixed endpoints. Auxiliary points are internal matching locations, not extra output vertices. Feasibility validation and the algorithm's optimality claim are distinct.
 
-- `cps_paper_algorithms.py` and `curve_algorithms.py`: core algorithms.
-- `notebooks_paper/`: experiment orchestration, correctness checks, reporting, and notebooks. Subdirectories retain the historical experiment stages.
-- `data/`: supplied hurricane tracks and protein inputs/prepared data.
-- `output/paper_v1/`: saved experimental records, configurations, validations, tables, and figures. These are historical observations, not new executions.
-- `requirements-analysis.txt`: pinned analysis environment requirements.
-- Existing `README-*.md` and stage READMEs document earlier workflows and may describe an earlier stage rather than the latest analysis.
+## Reproduction status
 
-### Full analysis environment
+The numerical summary command is checked against the saved paper counts and timing medians. The original full experiment environment used Python 3.14 on Windows; full solver execution on a clean installation has not yet been validated. See [environment requirements and limitations](docs/REPRODUCING.md#solver-execution-current-limitations) before running experiments.
 
-Create a separate Python environment and install the dependencies from `requirements-analysis.txt`. The saved experiment environment used Python 3.14. Additional runner dependencies may be required; consult imports and the saved environment audits. This snapshot has not yet been tested by rerunning the full experiment suite on a clean machine.
+Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. The [cleanup record](docs/REPOSITORY_HYGIENE.md) documents removal of regenerable files. `snapshot_manifest.json` describes the initial import, not subsequent revisions.
 
-Open this directory as the project root in PyCharm. Start by reading saved results and notebook code. Do not execute all notebooks indiscriminately: historical runners can write to fixed output paths. Use a fresh output directory for new experiments. Notebook embedded outputs were cleared for version control; external result records and figures are retained.
+## Citation and reuse
 
-Some historical helper scripts and provenance records contain original absolute paths. Those records describe the source machine; adapt operational paths before rerunning an affected script.
+Repository: <https://github.com/galitgoz/chain-pair-simplification>. Record the commit used alongside this URL when citing experiments; no numbered software release is currently designated.
 
-### Interpretation
-
-IC is the independent continuous baseline. CPS-2F uses continuous fidelity to each input and discrete coupling between simplified outputs; CPS-3F uses discrete distances for all three constraints. Auxiliary points are internal matching locations, not extra output vertices. The output objective is `k = max(kA, kB)`.
-
-The primary common comparison contains 43 pairs (12 protein and 31 hurricane pairs) with validated outputs from all methods. Historical incomplete attempts are retained for provenance and are not part of that completed comparison. Timing repetitions are separate observations, not additional distinct pairs.
-
-### Snapshot and data provenance
-
-`snapshot_manifest.json` records the initial copied file hashes, not a live integrity manifest for later repository revisions. The original working project was left unchanged. See the [data provenance guide](docs/REPRODUCING.md#data-provenance), data READMEs and per-run manifests for source provenance. Source data and third-party materials retain their respective rights. No redistribution license is asserted by this snapshot.
-
-### Citing and reusing the code
-
-Repository: <https://github.com/galitgoz/chain-pair-simplification>. Record the commit used alongside this URL when citing experiments. No numbered release is implied. A software license has not yet been selected; public visibility alone does not grant a reuse license.
+A software license has not yet been selected. Source data and third-party materials retain their respective rights.
