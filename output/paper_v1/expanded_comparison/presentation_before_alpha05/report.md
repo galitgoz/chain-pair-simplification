@@ -15,8 +15,8 @@ Inherited observations retain their original attempt paths and are not new measu
 | CPS-3F | 8/20 | 0 | 12 |
 
 ## Inputs and protocol
-[Input manifest](input_manifest.csv), [exact configurations](configuration_manifest.json),
-[selection rule](selection_rule.md), [candidate ranking evidence](candidate_selection.json).
+[Input manifest](../input_manifest.csv), [exact configurations](../configuration_manifest.json),
+[selection rule](../selection_rule.md), [candidate ranking evidence](../candidate_selection.json).
 Three new pairs per domain were selected before solving, using input geometry and
 reuse penalties only. Protein sizes are all 22/22 after supplied w=16 sampling of
 already prepared 325-point curves; these are not full-resolution backbones.
@@ -57,8 +57,8 @@ Thus joint feasibility can change even when optimum output size does not increas
 This illustration is not a general zero-cost claim or evidence of topology preservation.
 
 ## Computational cost and graph size
-[Graph-bound table](graph_bounds.csv), [derivation and source references](graph_bounds.md).
-[Compact state comparison](graph_state_summary.csv); [source files and hashes](source_references.json).
+[Graph-bound table](graph_bounds.csv), [derivation and source references](../graph_bounds.md).
+[Compact state comparison](graph_state_summary.csv); [source files and hashes](../source_references.json).
 Observed discovered states are compared with explicit finite products of index sets,
 not a big-O expression with constant one. Active states, dense slots, auxiliary
 locations, edges including waits and candidate checks are distinct. Missing historical
@@ -101,7 +101,7 @@ runs of a pair do not create independent input pairs. Manuscript experiments are
 used as verified evidence. No further experiments are authorized or launched here.
 
 ## Files
-[Complete results](results.csv), [completion](completion.csv), [captions](figure_captions.md),
+[Complete results](results.csv), [completion](completion.csv), [captions](../figure_captions.md),
 figures/*.pdf and *.png, raw per-attempt checkpoints/validation/phase/resource logs in slots/.
 
 ## Execution pause and limits on conclusions

@@ -11,3 +11,9 @@ __pycache__/
 *.pem
 *.key
 reproduced/
+
+# Regenerable visualization caches and visual inspection previews only.
+# Do not ignore data/pdb_cache: it contains source records for reproducibility.
+output/**/cache/
+output/**/report_cache/
+output/**/qa/*.png
