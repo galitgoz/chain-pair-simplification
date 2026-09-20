@@ -1,4 +1,10 @@
 """Expand existing notebooks without rebuilding or discarding their custom cells."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 import json,re,shutil,copy,sys
 import nbformat as nbf
@@ -6,7 +12,7 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[2]
 per_basin=None if '--all' in sys.argv else 16
 suffix='all' if per_basin is None else 'expanded'
 base_out=f'output/hurricane_cps_{suffix}'

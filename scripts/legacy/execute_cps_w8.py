@@ -1,4 +1,10 @@
 """Execute the user's current notebook at w=8, preserving the w=16 artifacts."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 import re,json,sys,subprocess
 import nbformat
@@ -6,7 +12,7 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
-root=Path(__file__).resolve().parent
+root=Path(__file__).resolve().parents[2]
 path=root/'0.analyze_CPS.ipynb'
 backup=root/'output/cps_papers/0.analyze_CPS_before_w8.ipynb'
 if not backup.exists():backup.write_bytes(path.read_bytes())

@@ -42,6 +42,6 @@ Historical workflows and evidence are retained for traceability. Use the [reposi
 
 ## Citation and reuse
 
-Repository: <https://github.com/galitgoz/chain-pair-simplification>. Record the commit used alongside this URL when citing experiments; no numbered software release is currently designated.
+Repository: <https://github.com/galitgoz/chain-pair-simplification>. The [v1.0.0 research snapshot](https://github.com/galitgoz/chain-pair-simplification/tree/v1.0.0) provides a fixed version for citation. Citation metadata are available in [CITATION.cff](CITATION.cff), and changes are recorded in [CHANGELOG.md](CHANGELOG.md).
 
-A software license has not yet been selected. Source data and third-party materials retain their respective rights.
+The original software is licensed under the [MIT License](LICENSE). This license does not relicense upstream datasets or third-party research publications; those retain their respective rights.

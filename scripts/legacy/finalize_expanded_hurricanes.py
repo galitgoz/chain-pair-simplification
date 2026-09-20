@@ -1,10 +1,16 @@
 """Check expanded scope, cache provenance, and agreement between both notebooks."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 import json,ast,shutil
 import nbformat
 import pandas as pd
 import numpy as np
-root=Path(__file__).resolve().parent
+root=Path(__file__).resolve().parents[2]
 base=root/'output/hurricane_cps_expanded';aux=root/'output/hurricane_auxiliary_expanded'
 r=pd.read_csv(base/'comparison.csv');old=pd.read_csv(root/'output/hurricane_cps/comparison.csv')
 manifest=json.loads((base/'manifest.json').read_text())

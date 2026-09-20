@@ -1,11 +1,17 @@
 """Refresh track figures from saved solutions without repeating optimization."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 import copy
 import nbformat as nbf
 from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
-root=Path(__file__).resolve().parent;path=root/'1.analyze_CPS.ipynb'
+root=Path(__file__).resolve().parents[2];path=root/'1.analyze_CPS.ipynb'
 nb=nbf.read(path,4)
 loading=next(c for c in nb.cells if c.cell_type=='code' and 'tracks, metadata, candidate_pairs=load_hurricanes' in c.source)
 index=next(i for i,c in enumerate(nb.cells) if c.cell_type=='code' and c.source.startswith('track_plots('))

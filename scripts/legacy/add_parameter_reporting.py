@@ -1,4 +1,10 @@
 """Add the explicit per-pair parameter table without repeating solver work."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 import json,subprocess,sys,hashlib,copy
 import nbformat
@@ -6,7 +12,7 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
-root=Path(__file__).resolve().parent;path=root/'0.analyze_CPS.ipynb'
+root=Path(__file__).resolve().parents[2];path=root/'0.analyze_CPS.ipynb'
 old=nbformat.read(path,as_version=4)
 previous=json.loads((root/'output/cps_papers/manifest.json').read_text())
 for name in ('curve_algorithms.py','cps_paper_algorithms.py','cps_notebook_run.py','cps_notebook_data.py'):

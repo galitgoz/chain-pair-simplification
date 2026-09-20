@@ -1,4 +1,10 @@
 """Execute only new graph reporting; preserve existing solver results and cells."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 import copy, json, sys
 import nbformat as nbf
@@ -6,7 +12,7 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parents[2]
 heading = r'''### 8.3 Configuration graph G: measured size versus theory
 
 Here graph size means **the number of vertices (valid configurations), $|V(G)|$**, before anchored-endpoint reachability pruning. All pairs are counted, including certificate and resource-limited cases. No joint optimization is rerun.

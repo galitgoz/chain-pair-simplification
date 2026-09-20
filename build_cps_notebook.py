@@ -253,7 +253,7 @@ manifest = dict(ws=list(WS), alphas=list(ALPHAS), include_table3=INCLUDE_TABLE3,
  sha256={str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in source_files})
 (OUT/'manifest.json').write_text(json.dumps(manifest,indent=2))
 display(manifest)''')
-from add_graph_reporting import heading as graph_heading, source as graph_source
+from scripts.legacy.add_graph_reporting import heading as graph_heading, source as graph_source
 graph_index = next(i for i,c in enumerate(cells) if c.source.startswith('## 9.'))
 cells[graph_index:graph_index] = [nbf.v4.new_markdown_cell(graph_heading), nbf.v4.new_code_cell(graph_source)]
 nb.cells=cells

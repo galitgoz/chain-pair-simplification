@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this research software, please cite this version and its repository."
+type: software
+title: "Chain pair simplification"
+authors:
+  - family-names: Gozoltzani
+    given-names: Galit
+version: 1.0.0
+date-released: 2026-09-20
+repository-code: "https://github.com/galitgoz/chain-pair-simplification"
+url: "https://github.com/galitgoz/chain-pair-simplification/tree/v1.0.0"
+license: MIT

@@ -1,4 +1,10 @@
 """Update the notebook builder's presentation and input contract."""
+
+# Historical helper: run from the repository root.
+import sys as _sys
+from pathlib import Path as _Path
+_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 
 p=Path('build_cps_notebook.py')
