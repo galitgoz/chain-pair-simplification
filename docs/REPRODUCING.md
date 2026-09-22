@@ -27,7 +27,7 @@ The summary checks verify recorded paper counts and rounded medians and reject d
 
 Follow [reporting/README.md](../reporting/README.md) to create the two supplementary compression views. These scripts require Matplotlib and write under `reporting/saved/compression_preview/`. This is not a single-command reproduction of every manuscript figure.
 
-The historical analysis package versions are in `requirements-analysis.txt`. Create a separate environment with the original Python 3.14 interpreter:
+The analysis package versions are pinned in `requirements-analysis.txt`, including SciPy (required by Numba's linear-algebra routines) and psutil (used by the process supervisor). Create a separate environment with Python 3.14:
 
 ```sh
 python -m venv .venv
@@ -49,7 +49,9 @@ python -m pip install -r requirements-analysis.txt
 python -m pip install -e .
 ```
 
-A clean installation of this historical environment and a full solver rerun have not yet been validated. The dependency-free summary command is a separate entry point and does not require that environment.
+The pinned dependencies and editable installation were verified in an isolated Windows/Python 3.14.0 environment with system and user site-packages disabled. `python -m pip check`, the six summary/layout tests, 100 small-instance algorithm checks, the documented plotting commands and a fresh notebook kernel passed. The dependency-free summary command is a separate entry point and does not require this environment.
+
+All 180 observed configurations were also rerun from the saved inputs, using their original thresholds and resource budgets with fresh configurations recording the current source hashes. All 178 previously validated solutions passed feasibility validation and reproduced both output vertex counts. The same two CPS-2F configurations remained resource-limited; one reached its time limit rather than its historical transition limit. These checks do not reproduce historical timings or rebuild inputs from external sources. New run artifacts were kept outside the published repository.
 
 ## Solver execution: current limitations
 
@@ -59,7 +61,6 @@ Historical provenance paths are mapped through `docs/provenance/relocated_files.
 
 - Use a fresh output location. Historical scripts can write fixed paths, refuse reruns or resume old schedules; do not execute all notebooks as one pipeline.
 - `notebooks_paper/graph_only_v3/supervisor.py` uses Windows-specific process flags. That solver runner is not currently portable to POSIX.
-- The supervisor imports `psutil`; a solver environment should include it explicitly rather than relying on transitive notebook dependencies.
 - Protein preparation may require US-align. `src/setup_structural_alignment.py` downloads its Windows executable from the upstream provider. It is unnecessary for reading saved inputs or numerical summaries.
 - Preparation in `notebooks_paper/coverage_extension.py` also expects `papers/chain_pair_simplification.pdf`, which is not bundled. Supply that research source or refactor the preparation dependency before rebuilding the inputs.
 - Original machine paths remain in some historical helpers and provenance records. Distinguish operational paths from archived provenance text.

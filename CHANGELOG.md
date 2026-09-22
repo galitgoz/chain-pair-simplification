@@ -2,7 +2,8 @@
 
 ## Unreleased
 
-- Independently verified saved inputs and thresholds, checked frozen reporting tables, and documented review scope.
+- Added the missing SciPy dependency and pinned the supervisor's psutil dependency for isolated installations.
+
 - Clarified the tagged citation target and how to avoid overwriting historical reports during checks.
 
 - Moved 46 root-level Python files into `src/` and added editable-install metadata.
@@ -12,7 +13,7 @@
 
 ## 1.0.0 — 2026-09-20
 
-First tagged research snapshot for citation. This version packages the saved experiments and numerical reproduction entry point; it does not claim a clean-machine validation of the full historical solver workflow.
+First tagged research snapshot for citation. This version packages the saved experiments and numerical reproduction entry point; the isolated-environment checks documented on `main` were performed after this tag.
 
 - Added paper-focused documentation and a standard-library summary command.
 - Checked the common cohort (43 pairs), paper counts and median solver times.
@@ -21,4 +22,4 @@ First tagged research snapshot for citation. This version packages the saved exp
 - Moved 12 historical maintenance helpers into `scripts/legacy/` and adjusted their root-path handling and the notebook builder import.
 - Added an MIT license for the original software and citation metadata.
 
-Core optimization algorithms and recorded experimental results are unchanged. Third-party data and research publications retain their upstream rights. Full solver environment installation, automated CI and portability remain documented limitations.
+Core optimization algorithms and recorded experimental results are unchanged. Third-party data and research publications retain their upstream rights. At this release, clean-environment installation, automated CI and portability had not been validated.

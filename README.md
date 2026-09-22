@@ -51,9 +51,9 @@ Output vertices are selected from the inputs in order, with fixed endpoints. Aux
 
 ## Reproduction status
 
-The numerical summary command is checked against the saved paper counts and timing medians. Input-file hashes and all three thresholds were independently checked for all 45 eligible pairs; see the [accuracy review](docs/ACCURACY_REVIEW.md). The original full experiment environment used Python 3.14 on Windows; full solver execution on a clean installation has not yet been validated. See [environment requirements and limitations](docs/REPRODUCING.md#solver-execution-current-limitations) before running experiments.
+Installation and solver execution were checked in an isolated Windows/Python 3.14 environment using the saved inputs. All 180 observed configurations were rerun: 178 produced validated solutions with the same output sizes as the saved results, and the same two configurations remained resource-limited. Rebuilding inputs from external sources and running every historical notebook remain outside this check; see the [reproduction guide](docs/REPRODUCING.md#solver-execution-current-limitations).
 
-Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. The [cleanup record](docs/REPOSITORY_HYGIENE.md) documents removal of regenerable files. `docs/provenance/snapshot_manifest.json` describes the initial import, not subsequent revisions.
+Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. `docs/provenance/snapshot_manifest.json` describes the initial import, not subsequent revisions.
 
 ## Citation and reuse
 
