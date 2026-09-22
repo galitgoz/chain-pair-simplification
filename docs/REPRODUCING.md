@@ -18,6 +18,7 @@ Run the summary regression checks with:
 
 ```sh
 python -m unittest discover -s reporting -p test_summarize_primary.py
+python -m unittest discover -s tests
 ```
 
 They verify the recorded paper counts and rounded medians and reject duplicate observations or mismatched thresholds. They do not execute the optimizers.
@@ -37,6 +38,7 @@ On Windows PowerShell:
 ```powershell
 .venv\Scripts\Activate.ps1
 python -m pip install -r requirements-analysis.txt
+python -m pip install -e .
 ```
 
 For saved-result analysis on a POSIX shell:
@@ -44,20 +46,25 @@ For saved-result analysis on a POSIX shell:
 ```sh
 source .venv/bin/activate
 python -m pip install -r requirements-analysis.txt
+python -m pip install -e .
 ```
 
 A clean installation of this historical environment and a full solver rerun have not yet been validated. The dependency-free summary command is a separate entry point and does not require that environment.
 
 ## Solver execution: current limitations
 
+Python modules now live in `src/`. The editable installation above preserves their original import names. Run script commands from the repository root, using the new path (for example, `python src/verify_cps_papers.py`). Earlier notebooks are in `notebooks/legacy/`; their initial setup cell locates the repository and sets the working directory. Install the modules in the same environment as the notebook kernel.
+
+Historical provenance paths are mapped through `docs/provenance/relocated_files.json` when checking saved source hashes. Recorded results and hashes are not rewritten. Strict checks of historical orchestration code may still reject a resume after code changes; use the cited `v1.0.0` snapshot when investigating that exact historical layout.
+
 - Use a fresh output location. Historical scripts can write fixed paths, refuse reruns or resume old schedules; do not execute all notebooks as one pipeline.
 - `notebooks_paper/graph_only_v3/supervisor.py` uses Windows-specific process flags. That solver runner is not currently portable to POSIX.
 - The supervisor imports `psutil`; a solver environment should include it explicitly rather than relying on transitive notebook dependencies.
-- Protein preparation may require US-align. `setup_structural_alignment.py` downloads its Windows executable from the upstream provider. It is unnecessary for reading saved inputs or numerical summaries.
+- Protein preparation may require US-align. `src/setup_structural_alignment.py` downloads its Windows executable from the upstream provider. It is unnecessary for reading saved inputs or numerical summaries.
 - Preparation in `notebooks_paper/coverage_extension.py` also expects `papers/chain_pair_simplification.pdf`, which is not bundled. Supply that research source or refactor the preparation dependency before rebuilding the inputs.
 - Original machine paths remain in some historical helpers and provenance records. Distinguish operational paths from archived provenance text.
 
-Small-instance correctness checks are in `verify_cps_papers.py` and `notebooks_paper/correctness_checks.py`. Their runners write result files and should be isolated before execution. Checking the saved-result summaries is not a substitute for checking algorithm correctness.
+Small-instance correctness checks are in `src/verify_cps_papers.py` and `notebooks_paper/correctness_checks.py`. Their runners write result files and should be isolated before execution. Checking the saved-result summaries is not a substitute for checking algorithm correctness.
 
 ## Data provenance
 

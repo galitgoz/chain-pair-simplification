@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import copy, json, sys
@@ -44,13 +44,13 @@ display(Markdown(f'[Graph counts and exact budgets]({OUT.relative_to(ROOT).as_po
 graph_manifest = dict(ws=list(WS), alphas=list(ALPHAS), checks=graph_count_checks,
     rows=len(graph_sizes), definition='full valid vertices before reachability pruning',
     sha256={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest()
-            for name in ['cps_graph_sizes.py','cps_paper_algorithms.py','curve_algorithms.py']},
+            for name in ['src/cps_graph_sizes.py','src/cps_paper_algorithms.py','src/curve_algorithms.py']},
     comparison_sha256=hashlib.sha256((OUT/'comparison.csv').read_bytes()).hexdigest())
 (OUT/'graph_size_manifest.json').write_text(json.dumps(graph_manifest,indent=2))
 '''
 
 if __name__ == '__main__':
-    path = ROOT/'0.analyze_CPS.ipynb'
+    path = ROOT/'notebooks/legacy/0.analyze_CPS.ipynb'
     nb = nbf.read(path, as_version=4)
     backup = ROOT/'output/cps_papers_w8/0.analyze_CPS_before_graph_sizes.ipynb'
     if not backup.exists(): backup.write_bytes(path.read_bytes())

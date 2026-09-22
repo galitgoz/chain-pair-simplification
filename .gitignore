@@ -11,6 +11,9 @@ __pycache__/
 *.pem
 *.key
 reproduced/
+*.egg-info/
+build/
+dist/
 
 # Regenerable visualization caches and visual inspection previews only.
 # Do not ignore data/pdb_cache: it contains source records for reproducibility.

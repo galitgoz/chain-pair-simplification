@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import json,subprocess,sys,hashlib,copy
@@ -12,13 +12,13 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
-root=Path(__file__).resolve().parents[2];path=root/'0.analyze_CPS.ipynb'
+root=Path(__file__).resolve().parents[2];path=root/'notebooks/legacy/0.analyze_CPS.ipynb'
 old=nbformat.read(path,as_version=4)
 previous=json.loads((root/'output/cps_papers/manifest.json').read_text())
-for name in ('curve_algorithms.py','cps_paper_algorithms.py','cps_notebook_run.py','cps_notebook_data.py'):
+for name in ('src/curve_algorithms.py','src/cps_paper_algorithms.py','src/cps_notebook_run.py','src/cps_notebook_data.py'):
     assert hashlib.sha256((root/name).read_bytes()).hexdigest()==previous['sha256'][name]
 try:
-    subprocess.run([sys.executable,str(root/'build_cps_notebook.py')],check=True,cwd=root)
+    subprocess.run([sys.executable,str(root/'src/build_cps_notebook.py')],check=True,cwd=root)
     generated=nbformat.read(path,as_version=4)
     index=next(i for i,c in enumerate(generated.cells) if c.source.startswith('from cps_parameter_table import configured_parameter_table'))
     source=generated.cells[index]

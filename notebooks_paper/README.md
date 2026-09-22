@@ -6,7 +6,7 @@ Start with `00_data_and_protocol.ipynb`, then `01_correctness.ipynb` and the two
 
 ## Shared code
 
-- `paper_core.py`: frozen protocol, input adapters, method dispatch, isolated worker orchestration, measurement and plots. Optimization remains in the unchanged root modules `curve_algorithms.py` and `cps_paper_algorithms.py`.
+- `paper_core.py`: frozen protocol, input adapters, method dispatch, isolated worker orchestration, measurement and plots. Optimization remains in the unchanged root modules `src/curve_algorithms.py` and `src/cps_paper_algorithms.py`.
 - `correctness_checks.py`: exhaustive small-input and targeted checks; reuses pure legacy oracle functions without calling their result-writing runners.
 - `pilot_worker.py`: warm-up, one solver execution, independent constraint validation, saved output indices/coupling.
 - `inspect_stage1.py` / `audit_setup.py`: initial inventory and preservation snapshots. Do not rerun them over an existing audit snapshot.

@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import json,re,shutil,copy,sys
@@ -18,7 +18,7 @@ suffix='all' if per_basin is None else 'expanded'
 base_out=f'output/hurricane_cps_{suffix}'
 aux_out=f'output/hurricane_auxiliary_{suffix}'
 backup=ROOT/'output/hurricane_before_expansion';backup.mkdir(exist_ok=True)
-for filename in ['1.analyze_CPS.ipynb','0.analyze_hurricans.ipynb']:
+for filename in ['notebooks/legacy/1.analyze_CPS.ipynb','notebooks/legacy/0.analyze_hurricans.ipynb']:
     if not (backup/filename).exists():shutil.copy2(ROOT/filename,backup/filename)
 target=ROOT/base_out;target.mkdir(exist_ok=True)
 for filename in ['comparison.csv','paths.json','manifest.json']:
@@ -46,7 +46,7 @@ def client(nb):
     km=KernelManager(kernel_name='protein-analysis',kernel_spec_manager=KernelSpecManager(kernel_dirs=[str(ROOT/'.analysis_kernels')]))
     return NotebookClient(nb,km=km,timeout=172800,resources={'metadata':{'path':str(ROOT)}})
 
-path=ROOT/'1.analyze_CPS.ipynb'
+path=ROOT/'notebooks/legacy/1.analyze_CPS.ipynb'
 nb=configure(nbf.read(path,4),'output/hurricane_cps',base_out)
 def progress(cell,cell_index,**kwargs):
     nbf.write(nb,path);print(f'Base cell {cell_index+1}/{len(nb.cells)}',flush=True)
@@ -56,7 +56,7 @@ finally:nbf.write(nb,path)
 
 # Preserve the auxiliary notebook's own instructional cells. Shared cells receive
 # matching refreshed results; only auxiliary construction/reporting runs again.
-path_aux=ROOT/'0.analyze_hurricans.ipynb'
+path_aux=ROOT/'notebooks/legacy/0.analyze_hurricans.ipynb'
 aux=configure(nbf.read(path_aux,4),'output/hurricane_auxiliary',aux_out)
 def normalized(source):
     return source.replace(base_out,'OUTPUT').replace(aux_out,'OUTPUT')

@@ -7,7 +7,7 @@ def code(s):return n.v4.new_code_cell(s)
 setup="""from pathlib import Path
 import sys,json
 ROOT=Path.cwd()
-while not (ROOT/'cps_paper_algorithms.py').exists(): ROOT=ROOT.parent
+while not (ROOT/'src/cps_paper_algorithms.py').exists(): ROOT=ROOT.parent
 sys.path.insert(0,str(ROOT/'notebooks_paper/graph_only_v1'))
 from graph_core import OUT,METHODS,compact_results,plot_domain
 import pandas as pd

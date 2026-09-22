@@ -22,7 +22,9 @@ COLORS = dict(zip(METHODS,['#377eb8','#984ea3','#e66101','#1b9e77']))
 CAPTIONS = {}
 
 def read(p): return json.loads(Path(p).read_text(encoding='utf-8'))
-def sha(p): return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def sha(p):
+    from repository_paths import resolve_recorded_path
+    return hashlib.sha256(resolve_recorded_path(p).read_bytes()).hexdigest()
 def dump(p,x): Path(p).write_text(json.dumps(x,indent=2,ensure_ascii=False),encoding='utf-8')
 def tex(x):
     s=str(x)

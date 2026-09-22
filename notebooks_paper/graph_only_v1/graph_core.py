@@ -2,7 +2,7 @@
 from pathlib import Path
 import os,sys,time,json
 ROOT=Path(__file__).resolve().parents[2]
-sys.path.insert(0,str(ROOT/'notebooks_paper'));sys.path.insert(0,str(ROOT))
+sys.path.insert(0,str(ROOT/'notebooks_paper'));sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 import paper_core as previous
 OUT=ROOT/'output/paper_v1/graph_only_v1'
 os.environ['NUMBA_CACHE_DIR']=str(OUT/'cache')

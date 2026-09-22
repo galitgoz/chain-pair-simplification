@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import sys,json,subprocess,hashlib
@@ -13,15 +13,15 @@ from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
 root=Path(__file__).resolve().parents[2]
-path=root/'0.analyze_CPS.ipynb';old=nbformat.read(path,as_version=4)
+path=root/'notebooks/legacy/0.analyze_CPS.ipynb';old=nbformat.read(path,as_version=4)
 out=root/'output/cps_papers';previous=json.loads((out/'manifest.json').read_text())
 hashes={k.replace('\\','/'):v for k,v in previous['sha256'].items()}
-for name in ['curve_algorithms.py','cps_paper_algorithms.py','cps_notebook_data.py',
-             'cps_notebook_run.py','data/decimated protein backbones/decimated_curves.csv']:
+for name in ['src/curve_algorithms.py','src/cps_paper_algorithms.py','src/cps_notebook_data.py',
+             'src/cps_notebook_run.py','data/decimated protein backbones/decimated_curves.csv']:
     assert hashlib.sha256((root/name).read_bytes()).hexdigest()==hashes[name],name
 assert previous['ws']==[16] and previous['alphas']==[1,2,4] and previous['input_scope']=='supplied'
 (out/'solver_run_manifest.json').write_text(json.dumps(previous,indent=2))
-subprocess.run([sys.executable,str(root/'build_cps_notebook.py')],cwd=root,check=True)
+subprocess.run([sys.executable,str(root/'src/build_cps_notebook.py')],cwd=root,check=True)
 nb=nbformat.read(path,as_version=4)
 saved={c.source:c for c in old.cells if c.cell_type=='code'}
 for c in nb.cells:

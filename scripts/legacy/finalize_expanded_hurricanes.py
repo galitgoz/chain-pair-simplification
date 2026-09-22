@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import json,ast,shutil
@@ -32,7 +32,7 @@ retry=previous_limits.merge(r,on=['case','method','pair','alpha'])
 assert (~retry.reused_verified_result.astype(bool)).all()
 retry[['pair','alpha','method','status','k','seconds','reason']].to_csv(base/'retried_cases.csv',index=False)
 shutil.copy2(base/'retried_cases.csv',aux/'retried_cases.csv')
-for name in ['1.analyze_CPS.ipynb','0.analyze_hurricans.ipynb']:
+for name in ['notebooks/legacy/1.analyze_CPS.ipynb','notebooks/legacy/0.analyze_hurricans.ipynb']:
     path=root/name;nb=nbformat.read(path,4)
     config=next(c.source for c in nb.cells if c.cell_type=='code' and 'PAIRS_PER_BASIN=' in c.source)
     assert 'PAIRS_PER_BASIN=16' in config and 'seconds=120.' in config and 'max_transitions=20_000_000' in config
@@ -45,7 +45,7 @@ for name in ['1.analyze_CPS.ipynb','0.analyze_hurricans.ipynb']:
             table_output.data['text/html']=r[columns].to_html(index=False,float_format=lambda x:f'{x:.3f}')
         if c.cell_type=='markdown' and c.source.startswith('## 6.'):
             c.source+='\n\n**Timing provenance:** `reused_verified_result=True` identifies cached exact solutions. Their seconds are from the original solve; they were not timed again. New and previously unfinished cases use the increased limits. See `retried_cases.csv` for the three original NA cases.'
-    if name=='0.analyze_hurricans.ipynb':
+    if name=='notebooks/legacy/0.analyze_hurricans.ipynb':
         # Copy refreshed shared output links to this notebook's own artifact folder.
         nb=nbformat.reads(nbformat.writes(nb).replace('output/hurricane_cps_expanded/','output/hurricane_auxiliary_expanded/'),4)
     nbformat.validate(nb);nbformat.write(nb,path)

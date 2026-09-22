@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import json,subprocess,sys,hashlib
@@ -12,13 +12,13 @@ from nbclient import NotebookClient
 from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
-root=Path(__file__).resolve().parents[2];path=root/'0.analyze_CPS.ipynb'
+root=Path(__file__).resolve().parents[2];path=root/'notebooks/legacy/0.analyze_CPS.ipynb'
 old=nbformat.read(path,as_version=4)
 previous=json.loads((root/'output/cps_papers/manifest.json').read_text())
-for name in ('curve_algorithms.py','cps_paper_algorithms.py','cps_notebook_run.py','cps_notebook_data.py'):
+for name in ('src/curve_algorithms.py','src/cps_paper_algorithms.py','src/cps_notebook_run.py','src/cps_notebook_data.py'):
     assert hashlib.sha256((root/name).read_bytes()).hexdigest()==previous['sha256'][name]
 try:
-    subprocess.run([sys.executable,str(root/'build_cps_notebook.py')],check=True,cwd=root)
+    subprocess.run([sys.executable,str(root/'src/build_cps_notebook.py')],check=True,cwd=root)
     nb=nbformat.read(path,as_version=4)
     source=next(c for c in nb.cells if c.source.startswith('from cps_quality_plots import academic_dual_bars'))
     bootstrap=nbformat.v4.new_code_cell('''from pathlib import Path
@@ -46,7 +46,7 @@ CONTACT_SEQUENCE_SEPARATION=previous['contact_sequence_separation']
     nb.cells[0].source+='\n\n*Reporting update: verified existing solver outputs were retained; the additional grouped-bar figures were newly rendered. Run All recomputes the full experiment.*'
     nbformat.write(nb,path)
     assert sum('image/png' in o.get('data',{}) for o in source.outputs)==len(previous['ws'])*len(previous['alphas'])
-    subprocess.run([sys.executable,str(root/'validate_cps_deliverable.py')],check=True,cwd=root)
+    subprocess.run([sys.executable,str(root/'src/validate_cps_deliverable.py')],check=True,cwd=root)
     print('Added 3 dual-bar figures (PDF, SVG, PNG) to the executed notebook.')
 except Exception:
     nbformat.write(old,path)

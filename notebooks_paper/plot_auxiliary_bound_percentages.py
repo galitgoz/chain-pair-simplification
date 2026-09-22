@@ -169,7 +169,7 @@ Counts come from the single primary alpha=0.5 observation chosen in combined_res
     (OUT/'captions.md').write_text(captions,encoding='utf-8')
     audit=dict(pairs=45,hurricane_pairs=33,protein_pairs=12,common_hurricane_pairs=31,common_protein_pairs=12,
                limited_pairs=df[df.subsequent_search_resource_limited][['pair','aA','aB','nA','nB','percentage_A','percentage_B','construction_completed_A','construction_completed_B']].to_dict('records'),
-               optimization_executed=False,source_sha256={str(p.relative_to(ROOT)):digest(p) for p in [SOURCE,METRICS,ROOT/'cps_paper_algorithms.py',Path(__file__)]})
+               optimization_executed=False,source_sha256={str(p.relative_to(ROOT)):digest(p) for p in [SOURCE,METRICS,ROOT/'src/cps_paper_algorithms.py',Path(__file__)]})
     (OUT/'audit.json').write_text(json.dumps(audit,indent=2),encoding='utf-8')
     print(json.dumps(audit,indent=2))
     return df

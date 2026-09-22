@@ -17,7 +17,7 @@ P=np.array([[0.,0.],[1,1],[2,0.]])
 fixture=OUT/'regressions/triangle.npz';np.savez(fixture,A=P,B=P)
 base=dict(diagnostic='regression',pair='synthetic_triangle',case='synthetic:triangle',alpha=None,input_file=str(fixture.relative_to(ROOT)),
           input_sha256=sha(fixture),method='CPS-2F',delta1=1.,delta2=0.,delta3=0.,graph_limits=BASE_GRAPH_LIMITS,
-          phase_budgets=BUDGETS,memory_mib=512,algorithms={x:sha(ROOT/x) for x in ['cps_paper_algorithms.py','curve_algorithms.py']},
+          phase_budgets=BUDGETS,memory_mib=512,algorithms={x:sha(ROOT/x) for x in ['src/cps_paper_algorithms.py','src/curve_algorithms.py']},
           certificate=False,parameter_file_sha256=None)
 for dim in [2,3]:
     A=np.pad(P,((0,0),(0,dim-2)));B=A.copy()

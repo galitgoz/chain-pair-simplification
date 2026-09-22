@@ -2,7 +2,7 @@
 from pathlib import Path
 import os,sys,json,hashlib,time,itertools,traceback,subprocess
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'output/paper_v1'
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 os.environ['NUMBA_CACHE_DIR']=str(OUT/'cache')
 os.environ['MPLCONFIGDIR']=str(OUT/'cache/matplotlib')
 os.environ['OPENBLAS_NUM_THREADS']='1';os.environ['OMP_NUM_THREADS']='1'
@@ -17,7 +17,9 @@ PROTOCOL=dict(alphas=[.5,1.],protein_existing_stride=16,endpoints='retain first 
     thresholds='delta1=alpha*mean_edge(A); delta2=alpha*mean_edge(B); delta3=unrounded discrete Frechet(A,B)',
     scope='Stage 1 pipeline pilot, not final paper parameter selection')
 
-def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def sha(p):
+    from repository_paths import resolve_recorded_path
+    return hashlib.sha256(resolve_recorded_path(p).read_bytes()).hexdigest()
 
 def prepare_protocol():
     from curve_algorithms import discrete_frechet
@@ -87,7 +89,7 @@ def prepare_protocol():
     pd.DataFrame(shared,columns=['pair_1','pair_2','shared_ids','shared_structures']).to_csv(OUT/'shared_entities.csv',index=False)
     frozen=dict(**PROTOCOL,configurations=len(params)*len(METHODS),method_names=METHODS,
         parameter_sha256=sha(OUT/'pilot_parameters.csv'),input_manifest_sha256=sha(OUT/'input_manifest.csv'),
-        algorithms={name:sha(ROOT/name) for name in ['curve_algorithms.py','cps_paper_algorithms.py']})
+        algorithms={name:sha(ROOT/name) for name in ['src/curve_algorithms.py','src/cps_paper_algorithms.py']})
     (OUT/'protocol.json').write_text(json.dumps(frozen,indent=2))
     return manifest,params
 

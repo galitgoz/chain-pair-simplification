@@ -5,7 +5,7 @@ No optimizer implementation is defined here. No timing repetitions are launched.
 from pathlib import Path
 import sys,json,time,argparse,shutil
 ROOT=Path(__file__).resolve().parents[1]
-sys.path[:0]=[str(ROOT),str(ROOT/'notebooks_paper/graph_only_v3')]
+sys.path[:0]=[str(ROOT/'src'),str(ROOT),str(ROOT/'notebooks_paper/graph_only_v3')]
 import numpy as np
 import pandas as pd
 import expanded_comparison as existing
@@ -171,7 +171,7 @@ def prepare():
     pd.DataFrame(inputs).to_csv(OUT/'input_manifest.csv',index=False)
     atomic(OUT/'configuration_manifest.json',dict(rows=rows,algorithms=alg,source_old_manifest=sha(OLD/'execution_manifest_alpha05.json'),
         old_timing_completed=read(OLD/'timing_study/completed.json'),old_pending_slots=[117,118,119,120],selection_rule_sha256=sha(OUT/'selection_rule.md'),
-        execution_dependencies={str(p.relative_to(ROOT)):sha(p) for p in [Path(__file__),ROOT/'protein_data.py',ROOT/'small_pair_data.py',ROOT/'decimation_algorithms.py',exe]+list((ROOT/'notebooks_paper/graph_only_v3').glob('*.py'))},**stamp()))
+        execution_dependencies={str(p.relative_to(ROOT)):sha(p) for p in [Path(__file__),ROOT/'src/protein_data.py',ROOT/'src/small_pair_data.py',ROOT/'src/decimation_algorithms.py',exe]+list((ROOT/'notebooks_paper/graph_only_v3').glob('*.py'))},**stamp()))
     pd.DataFrame([{k:v for k,v in r.items() if k!='configuration'}|dict(configuration_json=json.dumps(r['configuration'])) for r in rows]).to_csv(OUT/'run_manifest.csv',index=False)
     for r in rows:
         slot=OUT/'slots'/f"{r['plan_order']:02d}";slot.mkdir(exist_ok=True)

@@ -3,11 +3,11 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 
-p=Path('build_cps_notebook.py')
+p=Path('src/build_cps_notebook.py')
 s=p.read_text(encoding='utf-8')
 start=s.index('**Scope:**')
 end=s.index('\n\nSources:',start)
@@ -24,11 +24,11 @@ s=s[:start]+'''The residue maps preserve first-model Cα selections and document
 start=s.index("code('''from curve_algorithms import shortest_independent")
 end=s.index("\nmd('''## 5.",start)
 s=s[:start]+'''md("### 4.1 Global continuous Fréchet: free-space geometry and GCS\\n\\nThese executable definitions implement the global cost-layer sweep. Auxiliary functions include a continuous decision predicate and a discrete distance evaluator.")
-geometry = (root/'curve_algorithms.py').read_text(encoding='utf-8')
+geometry = (root/'src/curve_algorithms.py').read_text(encoding='utf-8')
 geometry = geometry[:geometry.index('def cps_discrete_reference')]
 code(geometry.replace('cache=True', 'cache=False'))
 md("### 4.2 Joint solvers: discrete and continuous configuration graphs\\n\\nThe two graph builders share the two-count dynamic program. `certificate=False` forces graph execution; the default also accepts a feasible pair attaining the independent lower bound.")
-joint = (root/'cps_paper_algorithms.py').read_text(encoding='utf-8')
+joint = (root/'src/cps_paper_algorithms.py').read_text(encoding='utf-8')
 joint = joint.replace('from curve_algorithms import (ball_segment_interval, segment_frechet_decision,\\n    continuous_decision, discrete_frechet, shortest_independent)', '# Geometry functions are defined in the preceding cell.')
 code(joint.replace('cache=True', 'cache=False'))
 '''+s[end:]

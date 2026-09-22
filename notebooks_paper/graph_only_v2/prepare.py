@@ -47,7 +47,7 @@ for id,pair,alpha,method,change in [('A','AL031854__AL011991',.5,'CPS-2F',{'max_
                memory_mib=512,input_sha256=inp.input_sha256,parameter_file_sha256=sha(OUT/'pilot_parameters.csv'),
                graph_limits_applicable=method.startswith('CPS'),internal_seconds_applicable=method.startswith('CPS'),
                independent_discrete_chain_edge_default=2000000 if method=='Independent discrete' else None,
-               algorithms={x:sha(ROOT/x) for x in ['cps_paper_algorithms.py','curve_algorithms.py']})
+               algorithms={x:sha(ROOT/x) for x in ['src/cps_paper_algorithms.py','src/curve_algorithms.py']})
     configs.append(row)
 atomic(OUT/'diagnostics.json',configs)
 snapshot=[]
@@ -56,7 +56,7 @@ for base in [ROOT/'notebooks_paper',ROOT/'output']:
         if not p.is_file() or OUT in p.parents or ROOT/'notebooks_paper/graph_only_v2' in p.parents:continue
         if any(x in p.parts for x in ['cache','__pycache__']):continue
         snapshot.append(dict(path=str(p.relative_to(ROOT)),sha256=sha(p)))
-for x in ['cps_paper_algorithms.py','curve_algorithms.py']:snapshot.append(dict(path=x,sha256=sha(ROOT/x)))
+for x in ['src/cps_paper_algorithms.py','src/curve_algorithms.py']:snapshot.append(dict(path=x,sha256=sha(ROOT/x)))
 pd.DataFrame(snapshot).to_csv(OUT/'preservation_snapshot.csv',index=False)
 (OUT/'status.md').write_text('# Graph-only v2: repair and three diagnostics\n\nReconciled v1: 100 passing checks; 22 verified results, including 8 graph CPS results; 10 missing (5 transition limits, 2 chain-edge limits, 3 unsplit external timeouts). No newer graph results found. Inherited results are not new executions. Regression and reference checks precede the three diagnostic attempts.\n')
 print(json.dumps(dict(verified=22,CPS_graph=8,checks=100,missing_causes=counts,diagnostics=3),indent=2))

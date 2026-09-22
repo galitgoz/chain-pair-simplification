@@ -3,7 +3,7 @@
 # Historical helper: run from the repository root.
 import sys as _sys
 from pathlib import Path as _Path
-_sys.path.insert(0, str(_Path(__file__).resolve().parents[2]))
+_sys.path[:0] = [str(_Path(__file__).resolve().parents[2] / 'src'), str(_Path(__file__).resolve().parents[2])]
 
 from pathlib import Path
 import re,json,sys,subprocess
@@ -13,7 +13,7 @@ from jupyter_client import KernelManager
 from jupyter_client.kernelspec import KernelSpecManager
 
 root=Path(__file__).resolve().parents[2]
-path=root/'0.analyze_CPS.ipynb'
+path=root/'notebooks/legacy/0.analyze_CPS.ipynb'
 backup=root/'output/cps_papers/0.analyze_CPS_before_w8.ipynb'
 if not backup.exists():backup.write_bytes(path.read_bytes())
 nb=nbformat.read(path,as_version=4)
@@ -40,5 +40,5 @@ def progress(cell,cell_index,**kwargs):
 client=NotebookClient(nb,km=km,timeout=7200,resources={'metadata':{'path':str(root)}},on_cell_start=progress)
 try:client.execute()
 finally:nbformat.write(nb,path)
-subprocess.run([sys.executable,str(root/'validate_cps_deliverable.py'),'output/cps_papers_w8'],check=True,cwd=root)
+subprocess.run([sys.executable,str(root/'src/validate_cps_deliverable.py'),'output/cps_papers_w8'],check=True,cwd=root)
 print('Completed and validated the stride-8 notebook.',flush=True)

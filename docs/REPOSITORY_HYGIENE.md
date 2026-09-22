@@ -8,6 +8,6 @@ Generated font caches and QA preview PNGs are now ignored by Git. Visual-check s
 
 Eighteen pre-existing local links were repaired: historical notebook PDF links now lead to the research-source guide, and seven links in the archived expanded-comparison report now resolve to their original parent directory. Scientific content and numerical result records were not changed.
 
-The original `snapshot_manifest.json` describes the initial import and is deliberately not rewritten. It is not a current-file manifest.
+The original `docs/provenance/snapshot_manifest.json` describes the initial import and is deliberately not rewritten. It is not a current-file manifest.
 
 The repository still includes historical experiment stages for traceability. This cleanup does not claim they are a minimal portable execution package; see the [repository map](REPOSITORY_MAP.md) and [reproduction limitations](REPRODUCING.md).

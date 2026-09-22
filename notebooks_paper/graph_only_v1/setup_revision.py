@@ -30,7 +30,7 @@ for base in [ROOT/'notebooks_paper',ROOT/'output']:
         if not p.is_file() or OUT in p.parents or Path(__file__).parent in p.parents:continue
         if any(x in p.parts for x in ['cache','__pycache__']):continue
         snapshot.append(dict(path=str(p.relative_to(ROOT)),sha256=sha(p)))
-for name in ['cps_paper_algorithms.py','curve_algorithms.py']:snapshot.append(dict(path=name,sha256=sha(ROOT/name)))
+for name in ['src/cps_paper_algorithms.py','src/curve_algorithms.py']:snapshot.append(dict(path=name,sha256=sha(ROOT/name)))
 pd.DataFrame(snapshot).to_csv(OUT/'preservation_snapshot.csv',index=False)
 active=[]
 for p in psutil.process_iter(['pid','ppid','cmdline']):

@@ -12,7 +12,7 @@ CPS-2F; AL031854__AL011991; α=0.5. Both complete supplied tracks retain all 25 
 import json,pandas as pd
 from IPython.display import display
 ROOT=Path.cwd()
-while not (ROOT/'cps_paper_algorithms.py').exists(): ROOT=ROOT.parent
+while not (ROOT/'src/cps_paper_algorithms.py').exists(): ROOT=ROOT.parent
 OUT=ROOT/'output/paper_v1/graph_only_v3'
 # Central parameters: frozen before the single attempt.
 PARAMETERS=json.loads((OUT/'configuration.json').read_text())

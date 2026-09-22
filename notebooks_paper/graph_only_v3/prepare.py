@@ -3,7 +3,9 @@ from pathlib import Path
 import sys,json,hashlib,shutil,datetime
 ROOT=Path(__file__).resolve().parents[2];HERE=Path(__file__).parent
 OUT=ROOT/'output/paper_v1/graph_only_v3';V2=OUT.parent/'graph_only_v2'
-def sha(p):return hashlib.sha256(Path(p).read_bytes()).hexdigest()
+def sha(p):
+    from repository_paths import resolve_recorded_path
+    return hashlib.sha256(resolve_recorded_path(p).read_bytes()).hexdigest()
 if (OUT/'launch.json').exists():raise SystemExit('An attempt already exists: inspect it; do not duplicate.')
 assert not (OUT/'configuration.json').exists(),'Prepared version exists; inspect before proceeding.'
 OUT.mkdir(parents=True,exist_ok=True)

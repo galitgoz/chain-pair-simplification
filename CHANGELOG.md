@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Moved 46 root-level Python files into `src/` and added editable-install metadata.
+- Moved five earlier notebooks to `notebooks/legacy/`, three historical guides to `docs/legacy/`, and the initial import manifest to `docs/provenance/`.
+- Updated imports, repository-relative paths, notebook setup and documentation links for the new layout.
+- Preserved algorithm implementations, input data, recorded outputs and the `v1.0.0` citation tag.
+
 ## 1.0.0 — 2026-09-20
 
 First tagged research snapshot for citation. This version packages the saved experiments and numerical reproduction entry point; it does not claim a clean-machine validation of the full historical solver workflow.

@@ -6,7 +6,7 @@ This repository compares **CPS-2F** (continuous input fidelity, discrete output 
 
 | Goal | Entry point |
 | --- | --- |
-| Inspect the algorithms | [cps_paper_algorithms.py](cps_paper_algorithms.py), [curve_algorithms.py](curve_algorithms.py) |
+| Inspect the algorithms | [cps_paper_algorithms.py](src/cps_paper_algorithms.py), [curve_algorithms.py](src/curve_algorithms.py) |
 | Recompute the main numerical comparisons | [Quick start](#quick-start-numerical-results-without-solver-execution) |
 | Understand reproduction requirements | [Reproduction guide](docs/REPRODUCING.md) |
 | Find current versus historical files | [Repository map](docs/REPOSITORY_MAP.md) |
@@ -28,6 +28,21 @@ The primary dataset contains **45 eligible pairs** (12 protein, 33 hurricane). T
 
 The comparison uses `alpha = 0.5`, chosen using earlier pilot evidence. Fidelity thresholds are half the respective mean input edge lengths; the coupling threshold is the input discrete Fréchet distance. Compression differences depend on the fidelity definitions and tolerance regime. Primary observations, historical diagnostics and timing repetitions must not be pooled as distinct input pairs.
 
+## Repository layout
+
+| Directory | Contents |
+| --- | --- |
+| `src/` | Algorithm implementations, data preparation and analysis scripts |
+| `notebooks_paper/` | Paper experiment workflows and notebooks |
+| `notebooks/legacy/` | Earlier analysis notebooks |
+| `reporting/` | Saved-result summaries and supplementary plots |
+| `data/`, `output/` | Input data and preserved experimental evidence |
+| `docs/` | Reproduction guide, historical guides and provenance |
+| `scripts/legacy/` | One-off historical maintenance tools |
+| `tests/` | Repository layout and historical-path checks |
+
+For solver and notebook workflows, install the local modules with `python -m pip install -e .` after installing the analysis dependencies. Run scripts from the repository root, for example `python src/verify_cps_papers.py`. The numerical quick start above needs no installation. See the [reproduction guide](docs/REPRODUCING.md).
+
 ## Data and methods
 
 Protein inputs are prepared C-alpha backbone curves from RCSB PDB. Hurricane inputs are projected NOAA HURDAT2 tracks. Source versions, preprocessing, shared protein references and interpretation limits are documented in the [reproduction guide](docs/REPRODUCING.md#data-provenance).
@@ -38,7 +53,7 @@ Output vertices are selected from the inputs in order, with fixed endpoints. Aux
 
 The numerical summary command is checked against the saved paper counts and timing medians. The original full experiment environment used Python 3.14 on Windows; full solver execution on a clean installation has not yet been validated. See [environment requirements and limitations](docs/REPRODUCING.md#solver-execution-current-limitations) before running experiments.
 
-Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. The [cleanup record](docs/REPOSITORY_HYGIENE.md) documents removal of regenerable files. `snapshot_manifest.json` describes the initial import, not subsequent revisions.
+Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. The [cleanup record](docs/REPOSITORY_HYGIENE.md) documents removal of regenerable files. `docs/provenance/snapshot_manifest.json` describes the initial import, not subsequent revisions.
 
 ## Citation and reuse
 

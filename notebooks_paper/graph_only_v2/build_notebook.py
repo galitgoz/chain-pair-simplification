@@ -12,7 +12,7 @@ This stage preserves 22 verified v1 results and performs only A, B and C once ea
 import json, pandas as pd
 from IPython.display import display
 ROOT=Path.cwd()
-while not (ROOT/'cps_paper_algorithms.py').exists(): ROOT=ROOT.parent
+while not (ROOT/'src/cps_paper_algorithms.py').exists(): ROOT=ROOT.parent
 OUT=ROOT/'output/paper_v1/graph_only_v2'
 # Central parameter cell: the exact limits and thresholds committed before execution.
 PARAMETERS=json.loads((OUT/'diagnostics.json').read_text())

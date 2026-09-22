@@ -2,11 +2,13 @@
 from pathlib import Path
 import os,sys,json,hashlib,time,datetime
 ROOT=Path(__file__).resolve().parents[2];OUT=Path(os.environ.get('CPS_EXPERIMENT_OUTPUT',str(ROOT/'output/paper_v1/graph_only_v3'))).resolve()
-sys.path.insert(0,str(ROOT))
+sys.path[:0] = [str(ROOT / 'src'), str(ROOT)]
 os.environ['NUMBA_CACHE_DIR']=str(OUT/'cache');os.environ['MPLCONFIGDIR']=str(OUT/'cache/matplotlib')
 os.environ['OPENBLAS_NUM_THREADS']='1';os.environ['OMP_NUM_THREADS']='1'
 
-def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+def sha(path):
+    from repository_paths import resolve_recorded_path
+    return hashlib.sha256(resolve_recorded_path(path).read_bytes()).hexdigest()
 def stamp():return dict(utc=datetime.datetime.now(datetime.timezone.utc).isoformat(),unix=time.time(),monotonic=time.monotonic())
 def serial(value):
     if hasattr(value,'tolist'):return value.tolist()

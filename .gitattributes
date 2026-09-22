@@ -1,0 +1,2 @@
+# Preserve the exact bytes of the initial import manifest.
+docs/provenance/snapshot_manifest.json -text
