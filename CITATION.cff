@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this research software, please cite this version and its repository."
+message: "These citation details describe the tagged v1.0.0 research snapshot. If using newer code from main, also record the exact commit."
 type: software
 title: "Chain pair simplification"
 authors:

@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Independently verified saved inputs and thresholds, checked frozen reporting tables, and documented review scope.
+- Clarified the tagged citation target and how to avoid overwriting historical reports during checks.
+
 - Moved 46 root-level Python files into `src/` and added editable-install metadata.
 - Moved five earlier notebooks to `notebooks/legacy/`, three historical guides to `docs/legacy/`, and the initial import manifest to `docs/provenance/`.
 - Updated imports, repository-relative paths, notebook setup and documentation links for the new layout.

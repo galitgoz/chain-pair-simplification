@@ -14,14 +14,14 @@ Outputs contain the matched observations, CPS solver-time medians, IC/CPS-2F obj
 
 These are saved-result reproductions, not new optimizer executions or timing measurements.
 
-Run the summary regression checks with:
+Run the summary and repository-layout checks with:
 
 ```sh
 python -m unittest discover -s reporting -p test_summarize_primary.py
 python -m unittest discover -s tests
 ```
 
-They verify the recorded paper counts and rounded medians and reject duplicate observations or mismatched thresholds. They do not execute the optimizers.
+The summary checks verify recorded paper counts and rounded medians and reject duplicate observations or mismatched thresholds. The layout checks verify import locations and resolution of relocated provenance paths. Neither suite executes the optimizers.
 
 ## Additional figures
 
@@ -53,7 +53,7 @@ A clean installation of this historical environment and a full solver rerun have
 
 ## Solver execution: current limitations
 
-Python modules now live in `src/`. The editable installation above preserves their original import names. Run script commands from the repository root, using the new path (for example, `python src/verify_cps_papers.py`). Earlier notebooks are in `notebooks/legacy/`; their initial setup cell locates the repository and sets the working directory. Install the modules in the same environment as the notebook kernel.
+Python modules now live in `src/`. The editable installation above preserves their original import names and requires this repository's data and supporting files. Historical scripts generally expect the repository root as their working directory and may overwrite archived outputs; inspect their destinations before execution. Earlier notebooks are in `notebooks/legacy/`; their initial setup cell locates the repository and sets the working directory. Install the modules in the same environment as the notebook kernel.
 
 Historical provenance paths are mapped through `docs/provenance/relocated_files.json` when checking saved source hashes. Recorded results and hashes are not rewritten. Strict checks of historical orchestration code may still reject a resume after code changes; use the cited `v1.0.0` snapshot when investigating that exact historical layout.
 
@@ -65,6 +65,8 @@ Historical provenance paths are mapped through `docs/provenance/relocated_files.
 - Original machine paths remain in some historical helpers and provenance records. Distinguish operational paths from archived provenance text.
 
 Small-instance correctness checks are in `src/verify_cps_papers.py` and `notebooks_paper/correctness_checks.py`. Their runners write result files and should be isolated before execution. Checking the saved-result summaries is not a substitute for checking algorithm correctness.
+
+For example, `src/verify_cps_papers.py` writes `output/cps_papers/algorithm_checks.json` relative to the working directory. After the editable installation, its small-instance checks can be run in an empty temporary working directory with `python -m verify_cps_papers`, keeping that generated report separate from archived evidence. This does not apply automatically to other runners, which may derive fixed output paths from their source location.
 
 ## Data provenance
 

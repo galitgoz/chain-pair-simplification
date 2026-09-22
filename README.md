@@ -41,7 +41,7 @@ The comparison uses `alpha = 0.5`, chosen using earlier pilot evidence. Fidelity
 | `scripts/legacy/` | One-off historical maintenance tools |
 | `tests/` | Repository layout and historical-path checks |
 
-For solver and notebook workflows, install the local modules with `python -m pip install -e .` after installing the analysis dependencies. Run scripts from the repository root, for example `python src/verify_cps_papers.py`. The numerical quick start above needs no installation. See the [reproduction guide](docs/REPRODUCING.md).
+For solver and notebook workflows, install the local modules with `python -m pip install -e .` after installing the analysis dependencies. This editable installation is intended for use within this repository; data and experiment files are not bundled as a standalone Python package. Some historical runners overwrite saved reports, so consult the [reproduction guide](docs/REPRODUCING.md) before executing them. The numerical quick start above needs no installation.
 
 ## Data and methods
 
@@ -51,12 +51,14 @@ Output vertices are selected from the inputs in order, with fixed endpoints. Aux
 
 ## Reproduction status
 
-The numerical summary command is checked against the saved paper counts and timing medians. The original full experiment environment used Python 3.14 on Windows; full solver execution on a clean installation has not yet been validated. See [environment requirements and limitations](docs/REPRODUCING.md#solver-execution-current-limitations) before running experiments.
+The numerical summary command is checked against the saved paper counts and timing medians. Input-file hashes and all three thresholds were independently checked for all 45 eligible pairs; see the [accuracy review](docs/ACCURACY_REVIEW.md). The original full experiment environment used Python 3.14 on Windows; full solver execution on a clean installation has not yet been validated. See [environment requirements and limitations](docs/REPRODUCING.md#solver-execution-current-limitations) before running experiments.
 
 Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. The [cleanup record](docs/REPOSITORY_HYGIENE.md) documents removal of regenerable files. `docs/provenance/snapshot_manifest.json` describes the initial import, not subsequent revisions.
 
 ## Citation and reuse
 
 Repository: <https://github.com/galitgoz/chain-pair-simplification>. The [v1.0.0 research snapshot](https://github.com/galitgoz/chain-pair-simplification/tree/v1.0.0) provides a fixed version for citation. Citation metadata are available in [CITATION.cff](CITATION.cff), and changes are recorded in [CHANGELOG.md](CHANGELOG.md).
+
+`CITATION.cff` describes the tagged `v1.0.0` snapshot. The `main` branch includes subsequent repository-organization changes and is a development version; use the tag when citing that snapshot, or record the exact commit when using newer code.
 
 The original software is licensed under the [MIT License](LICENSE). This license does not relicense upstream datasets or third-party research publications; those retain their respective rights.
