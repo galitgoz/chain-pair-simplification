@@ -3,7 +3,7 @@ import json
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-root=Path(__file__).resolve().parent/'saved'/'compression_preview'
+root=Path(__file__).resolve().parents[1]/'reproduced/figures'
 data=json.loads((root/'pair_mapping_and_values.json').read_text(encoding='utf-8'))
 assert len(data)==43
 fig,ax=plt.subplots(figsize=(6.6,6.4),layout='constrained')

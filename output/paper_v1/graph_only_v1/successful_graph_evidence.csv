@@ -1,9 +1,0 @@
-pair,alpha,method,raw_status,chain_graphs_completed,configuration_graph_entered,states_discovered,transitions_examined
-1o7j.a__1d9q.d,1.0,CPS-3F,optimal_configuration_graph,2,True,5038.0,131421.0
-1o7j.a__1hfj.c,0.5,CPS-2F,optimal_configuration_graph,2,True,1273.0,168920.0
-1o7j.a__1hfj.c,0.5,CPS-3F,optimal_configuration_graph,2,True,42.0,108.0
-1o7j.a__1hfj.c,1.0,CPS-3F,optimal_configuration_graph,2,True,456.0,3210.0
-AL031854__AL011991,0.5,CPS-3F,optimal_configuration_graph,2,True,522.0,6544.0
-AL031854__AL011991,1.0,CPS-3F,optimal_configuration_graph,2,True,1742.0,49344.0
-EP021949__EP031949,0.5,CPS-3F,optimal_configuration_graph,2,True,301.0,1923.0
-EP021949__EP031949,1.0,CPS-3F,optimal_configuration_graph,2,True,575.0,5345.0

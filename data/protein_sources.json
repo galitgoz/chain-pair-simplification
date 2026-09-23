@@ -1,0 +1,107 @@
+[
+  {
+    "pdb_id": "1o7j",
+    "url": "https://files.rcsb.org/download/1O7J.cif",
+    "retrieved_utc": "2026-09-14T07:55:06.865125+00:00",
+    "status": "available",
+    "sha256": "da222d63c753ca2f3d3d00c0cddc7e3b5e2292854e1f4303d7b6337f371970e7"
+  },
+  {
+    "pdb_id": "1hfj",
+    "url": "https://files.rcsb.org/download/1HFJ.cif",
+    "retrieved_utc": "2026-09-14T07:55:06.865890+00:00",
+    "status": "available",
+    "sha256": "dfaf436eca91202590d7f9427d2019c03184fa7e9bb8eeb24cf91d7f96e74701"
+  },
+  {
+    "pdb_id": "1qd1",
+    "url": "https://files.rcsb.org/download/1QD1.cif",
+    "retrieved_utc": "2026-09-14T07:55:06.867811+00:00",
+    "status": "available",
+    "sha256": "db8982cb28058a81ae3f2e923d76a8312c215d6c130f2b611cead9ad80cef818"
+  },
+  {
+    "pdb_id": "1toh",
+    "url": "https://files.rcsb.org/download/1TOH.cif",
+    "retrieved_utc": "2026-09-14T07:55:06.871047+00:00",
+    "status": "available",
+    "sha256": "a2278e50c0b1598a870d3e7274b410819d34b08560083e87aa8752548da2ab0c"
+  },
+  {
+    "pdb_id": "4eca",
+    "url": "https://files.rcsb.org/download/4ECA.cif",
+    "retrieved_utc": "2026-09-14T07:55:06.872003+00:00",
+    "status": "available",
+    "sha256": "b3acad9ec1655371688b3f22e7c8397f39da15af26ca96e82598cf25a9f86471"
+  },
+  {
+    "pdb_id": "1d9q",
+    "url": "https://files.rcsb.org/download/1D9Q.cif",
+    "retrieved_utc": "2026-09-14T07:55:06.874175+00:00",
+    "status": "available",
+    "sha256": "d3ae040a9856e489c92253a096cc7cb71483bed1c5d71c23cac8f785fdb1ef77"
+  },
+  {
+    "pdb_id": "3ntx",
+    "url": "https://files.rcsb.org/download/3NTX.cif",
+    "retrieved_utc": "2026-09-14T07:55:09.925861+00:00",
+    "status": "available",
+    "sha256": "21de159f8a898f1cc355fc478387728b32557f7ae2af128bc9d0db86c749da95"
+  },
+  {
+    "pdb_id": "1wls",
+    "url": "https://files.rcsb.org/download/1WLS.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.018007+00:00",
+    "status": "available",
+    "sha256": "ad17b9b2b0a849b09a9d15ec32161a7f605a3d0392e6618187b0315b6dbd12cf"
+  },
+  {
+    "pdb_id": "2eq5",
+    "url": "https://files.rcsb.org/download/2EQ5.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.185855+00:00",
+    "status": "available",
+    "sha256": "d7b61ee1199d14532bdce0783ddfc356fd9c0d46d8e949bcb1430434ecaa966d"
+  },
+  {
+    "pdb_id": "2zsk",
+    "url": "https://files.rcsb.org/download/2ZSK.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.301239+00:00",
+    "status": "available",
+    "sha256": "ce5a249a9b8063aefceb7c3645b58d70c960fbc2a92afe12cd59f89a34089d74"
+  },
+  {
+    "pdb_id": "1zq1",
+    "url": "https://files.rcsb.org/download/1ZQ1.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.367249+00:00",
+    "status": "available",
+    "sha256": "4fe5d3df84227a8fc99696273eedf0f2aabba10910d3e2068024c94cf5cf4bd0"
+  },
+  {
+    "pdb_id": "3jq0",
+    "url": "https://files.rcsb.org/download/3JQ0.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.505287+00:00",
+    "status": "available",
+    "sha256": "ff5c0540a426738d88d390134412f66ca439788e5a48666f9335b2b7850f292f"
+  },
+  {
+    "pdb_id": "2fep",
+    "url": "https://files.rcsb.org/download/2FEP.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.679069+00:00",
+    "status": "available",
+    "sha256": "c561b0cb555521c7b7addb49bb38642627247134784e856d5627b0c00f8083a4"
+  },
+  {
+    "pdb_id": "4cea",
+    "url": "https://files.rcsb.org/download/4CEA.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.740097+00:00",
+    "status": "available",
+    "sha256": "fdf90ee27a6e5730dbaf4d88a2473b4924ea184416320a1ede73626a2c9cf289"
+  },
+  {
+    "pdb_id": "107j",
+    "url": "https://files.rcsb.org/download/107J.cif",
+    "retrieved_utc": "2026-09-14T07:55:10.798074+00:00",
+    "status": "unavailable",
+    "error": "HTTP Error 404: Not Found"
+  }
+]

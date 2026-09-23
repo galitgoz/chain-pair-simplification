@@ -1,7 +1,0 @@
-{
-  "checks": 99,
-  "passed": 83,
-  "failed": 16,
-  "incomplete": 0,
-  "note": "Finite tests are implementation evidence, not a proof of the draft discretization theorem."
-}

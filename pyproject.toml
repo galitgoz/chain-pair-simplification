@@ -5,57 +5,9 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "chain-pair-simplification"
 version = "1.0.1.dev0"
-description = "Research implementations and experiments for chain pair simplification"
+description = "Prepared-input reproduction package for chain pair simplification"
 requires-python = ">=3.10"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
-py-modules = [
-  "repository_paths",
-  "benchmark_fragments",
-  "build_cps_notebook",
-  "build_decimation_notebook",
-  "build_hurricane_auxiliary_notebook",
-  "build_hurricane_cps_notebook",
-  "build_notebook",
-  "build_small_notebook",
-  "cps_graph_sizes",
-  "cps_notebook_data",
-  "cps_notebook_plots",
-  "cps_notebook_run",
-  "cps_paper_algorithms",
-  "cps_parameter_table",
-  "cps_quality",
-  "cps_quality_plots",
-  "curve_algorithms",
-  "decimation_algorithms",
-  "decimation_data",
-  "decimation_figures",
-  "decimation_pipeline",
-  "execute_cps_notebook",
-  "execute_decimation_notebook",
-  "execute_hurricane_cps",
-  "execute_notebook",
-  "execute_small_notebook",
-  "hurricane_auxiliary",
-  "hurricane_cps",
-  "notebook_plots",
-  "prepare_sources",
-  "probe_cps_papers",
-  "protein_data",
-  "setup_structural_alignment",
-  "small_pair_data",
-  "small_pair_pipeline",
-  "small_pair_plots",
-  "small_pair_solvers",
-  "validate_cps_deliverable",
-  "validate_decimation_output",
-  "validate_deliverable",
-  "validate_hurricane_auxiliary",
-  "validate_hurricane_cps",
-  "verify_algorithms",
-  "verify_cps_papers",
-  "verify_cps_quality",
-  "verify_decimation",
-  "verify_small_pairs"
-]
+py-modules = ["curve_algorithms", "cps_paper_algorithms", "verify_cps_papers"]

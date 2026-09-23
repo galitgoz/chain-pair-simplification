@@ -1,7 +1,0 @@
-{
-  "passed": true,
-  "transient_denials": 2,
-  "replacement_succeeded": true,
-  "max_io_retry_seconds": 0.7,
-  "phase_budgets_unchanged": true
-}

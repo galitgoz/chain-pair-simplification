@@ -1,8 +1,0 @@
-{
-  "active_experiment_workers": false,
-  "new_attempts": 1,
-  "exact_configuration_equal": true,
-  "all_historical_files_unchanged": true,
-  "repeat_not_new_configuration": true,
-  "reference_used_by_solver": false
-}

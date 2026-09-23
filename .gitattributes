@@ -1,2 +1,2 @@
-# Preserve the exact bytes of the initial import manifest.
-docs/provenance/snapshot_manifest.json -text
+# Keep the archived primary table byte-for-byte across checkouts.
+results/primary.csv -text

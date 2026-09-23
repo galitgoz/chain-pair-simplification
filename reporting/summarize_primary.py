@@ -8,7 +8,7 @@ from pathlib import Path
 from statistics import median
 
 ROOT = Path(__file__).resolve().parents[1]
-SOURCE = ROOT / 'output/paper_v1/coverage_extension/combined_results.csv'
+SOURCE = ROOT / 'results/primary.csv'
 METHODS = {'Independent continuous', 'Independent discrete', 'CPS-2F', 'CPS-3F'}
 
 
@@ -78,8 +78,8 @@ def main():
     parser.add_argument('--output-dir', type=Path, default=Path('reproduced/primary'))
     args = parser.parse_args()
     target = args.output_dir.resolve()
-    if target == ROOT or any(target.is_relative_to(ROOT / name) for name in ['data', 'output', '.git']):
-        parser.error('Choose a generated-output directory outside data/, output/, and .git/.')
+    if target == ROOT or any(target.is_relative_to(ROOT / name) for name in ['data', 'results', '.git']):
+        parser.error('Choose a generated-output directory outside data/, results/, and .git/.')
     observations, medians, summary = summarize()
     target.mkdir(parents=True, exist_ok=True)
     write_csv(target / 'common_comparison.csv', observations)

@@ -1,6 +1,0 @@
-experiment,coverage,rows,optimal,nonoptimal,note
-cps_papers_w8,partial,84.0,79.0,5.0,Legacy three-method protocol; independent discrete reporting missing; not reused as pilot results
-hurricane_cps_expanded,partial,192.0,186.0,6.0,Legacy three-method protocol; independent discrete reporting missing; not reused as pilot results
-hurricane_auxiliary_expanded,partial,192.0,186.0,6.0,Legacy three-method protocol; independent discrete reporting missing; not reused as pilot results
-Stage 1 pilot,partial,32.0,14.0,18.0,All 32 first attempts recorded; see Stage 1 status for resource failures
-04 graph cost and 05 paper summary,planned,,,,Not authorized for execution in Stage 1

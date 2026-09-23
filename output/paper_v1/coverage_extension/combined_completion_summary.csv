@@ -1,9 +1,0 @@
-Domain,Method,Planned,Observed,Validated,Resource,Blocked,Pending
-hurricane,IC,33,33,33,0,0,0
-hurricane,ID,33,33,33,0,0,0
-hurricane,CPS-2F,33,33,31,2,0,0
-hurricane,CPS-3F,33,33,33,0,0,0
-protein,IC,14,12,12,0,2,0
-protein,ID,14,12,12,0,2,0
-protein,CPS-2F,14,12,12,0,2,0
-protein,CPS-3F,14,12,12,0,2,0

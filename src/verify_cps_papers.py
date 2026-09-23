@@ -33,8 +33,8 @@ def run_checks(trials=24):
         r=solve_cps(P,P,0,0,0,kind,certificate=False)
         assert r['k']==(2 if kind=='CPS-2F' else 3);checks+=1
     report=dict(checks=checks,trials=trials,seconds=time.perf_counter()-start,seed=20260914)
-    Path('output/cps_papers').mkdir(parents=True,exist_ok=True)
-    Path('output/cps_papers/algorithm_checks.json').write_text(json.dumps(report,indent=2))
+    Path('reproduced/algorithm_checks').mkdir(parents=True,exist_ok=True)
+    Path('reproduced/algorithm_checks/algorithm_checks.json').write_text(json.dumps(report,indent=2))
     print(json.dumps(report),flush=True);return report
 
 if __name__=='__main__':run_checks()

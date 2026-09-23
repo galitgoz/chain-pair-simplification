@@ -1,8 +1,0 @@
-{
-  "historical_progress_elapsed": "Per execution segment; original history retained",
-  "final_batch_wall_seconds": 2580.8696534633636,
-  "last_segment_seconds": 731.4994435000117,
-  "batch_started_utc": "2026-09-16T14:20:53.010111+00:00",
-  "completed_utc": "2026-09-16T15:03:53.879761+00:00",
-  "solver_timings_unchanged": true
-}

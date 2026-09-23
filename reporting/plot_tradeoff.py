@@ -3,9 +3,9 @@ import json,collections
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
-root=Path(__file__).resolve().parent/'saved'
-out=root/'tradeoff_preview';out.mkdir(exist_ok=True)
-rows=json.loads((root/'experiment_tables/all_runs_full_precision.json').read_text(encoding='utf-8'))
+root=Path(__file__).resolve().parents[1]
+out=root/'reproduced/tradeoff';out.mkdir(parents=True,exist_ok=True)
+rows=json.loads((root/'results/plot_data.json').read_text(encoding='utf-8'))
 pairs=collections.defaultdict(dict)
 for r in rows:
     if r['group']=='השוואה ראשית':pairs[(r['domain'],r['pair'])][r['method']]=r

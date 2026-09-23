@@ -1,64 +1,41 @@
 # Chain pair simplification
 
-## Paper results: start here
+Research code and saved primary results for **CPS-2F** (continuous input fidelity, discrete output coupling), **CPS-3F** (discrete fidelity and coupling), and independent baselines. The objective is `k = max(kA, kB)`; output vertices preserve input order and fixed endpoints.
 
-This repository compares **CPS-2F** (continuous input fidelity, discrete output coupling), **CPS-3F** (discrete fidelity and coupling), and independent continuous/discrete baselines. The objective is `k = max(kA, kB)`.
+## Reproduce the numerical results
 
-| Goal | Entry point |
-| --- | --- |
-| Inspect the algorithms | [cps_paper_algorithms.py](src/cps_paper_algorithms.py), [curve_algorithms.py](src/curve_algorithms.py) |
-| Recompute the main numerical comparisons | [Quick start](#quick-start-numerical-results-without-solver-execution) |
-| Understand reproduction requirements | [Reproduction guide](docs/REPRODUCING.md) |
-| Find current versus historical files | [Repository map](docs/REPOSITORY_MAP.md) |
-| Generate additional compression views | [Reporting guide](reporting/README.md) |
-
-### Quick start: numerical results without solver execution
-
-Using Python 3.10 or newer, run from the repository root:
+Python 3.10+; no third-party packages required:
 
 ```sh
 git clone https://github.com/galitgoz/chain-pair-simplification.git
 cd chain-pair-simplification
-python reporting/summarize_primary.py --output-dir reproduced/primary
+python reporting/summarize_primary.py
 ```
 
-No third-party packages are needed for this command. It checks the common cohort and writes `common_comparison.csv`, `solver_time_medians.csv`, and `summary.json`, including the source table's SHA-256. It does not run solvers or modify historical results.
+Generated files go under `reproduced/`. The matched comparison contains **43 pairs** (12 proteins, 31 hurricanes). The retained inputs include all **45 eligible pairs**; two hurricane CPS-2F configurations are resource-limited. Preparation-blocked records remain in the reference table.
 
-The primary dataset contains **45 eligible pairs** (12 protein, 33 hurricane). The matched comparison contains **43 pairs** (12 protein, 31 hurricane) with validated outputs from all four methods. Two additional hurricane pairs have resource-limited CPS-2F observations and remain in the saved evidence. Preparation-blocked records are separate from these 45 eligible pairs.
+The experiment uses `alpha = 0.5`: fidelity thresholds are half each input's mean edge length, and the coupling threshold is the input discrete Fréchet distance. Compression differences depend on this tolerance regime as well as the fidelity definitions.
 
-The comparison uses `alpha = 0.5`, chosen using earlier pilot evidence. Fidelity thresholds are half the respective mean input edge lengths; the coupling threshold is the input discrete Fréchet distance. Compression differences depend on the fidelity definitions and tolerance regime. Primary observations, historical diagnostics and timing repetitions must not be pooled as distinct input pairs.
-
-## Repository layout
+## Repository contents
 
 | Directory | Contents |
 | --- | --- |
-| `src/` | Algorithm implementations, data preparation and analysis scripts |
-| `notebooks_paper/` | Paper experiment workflows and notebooks |
-| `notebooks/legacy/` | Earlier analysis notebooks |
-| `reporting/` | Saved-result summaries and supplementary plots |
-| `data/`, `output/` | Input data and preserved experimental evidence |
-| `docs/` | Reproduction guide, historical guides and provenance |
-| `scripts/legacy/` | One-off historical maintenance tools |
-| `tests/` | Repository layout and historical-path checks |
+| [src](src/) | Two core algorithm modules and small-instance correctness checks |
+| [data](data/README.md) | 45 prepared input pairs, hashes and source information |
+| [experiments](experiments/run.py) | Primary configurations and isolated solver runner |
+| [results](results/README.md) | Original primary table, consolidated evidence and selected figures |
+| [reporting](reporting/README.md) | Numerical summaries and plotting scripts |
+| [tests](tests/) | Input and configuration consistency checks |
+| [docs](docs/REPRODUCING.md) | Installation and reproduction instructions |
 
-For solver and notebook workflows, install the local modules with `python -m pip install -e .` after installing the analysis dependencies. This editable installation is intended for use within this repository; data and experiment files are not bundled as a standalone Python package. Some historical runners overwrite saved reports, so consult the [reproduction guide](docs/REPRODUCING.md) before executing them. The numerical quick start above needs no installation.
-
-## Data and methods
-
-Protein inputs are prepared C-alpha backbone curves from RCSB PDB. Hurricane inputs are projected NOAA HURDAT2 tracks. Source versions, preprocessing, shared protein references and interpretation limits are documented in the [reproduction guide](docs/REPRODUCING.md#data-provenance).
-
-Output vertices are selected from the inputs in order, with fixed endpoints. Auxiliary points are internal matching locations, not extra output vertices. Feasibility validation and the algorithm's optimality claim are distinct.
+For solver execution, install the dependencies and local modules as described in the [reproduction guide](docs/REPRODUCING.md). The process supervisor currently requires Windows. New runs never overwrite the reference results.
 
 ## Reproduction status
 
-Installation and solver execution were checked in an isolated Windows/Python 3.14 environment using the saved inputs. All 180 observed configurations were rerun: 178 produced validated solutions with the same output sizes as the saved results, and the same two configurations remained resource-limited. Rebuilding inputs from external sources and running every historical notebook remain outside this check; see the [reproduction guide](docs/REPRODUCING.md#solver-execution-current-limitations).
+An isolated Windows/Python 3.14 environment was used to rerun all 180 observed configurations from saved inputs: 178 returned validated solutions with the original output sizes; the same two configurations remained resource-limited. This verifies execution from prepared inputs, not reconstruction from raw external sources or reproduction of historical timings.
 
-Historical workflows and evidence are retained for traceability. Use the [repository map](docs/REPOSITORY_MAP.md) to distinguish them from the current comparison. `docs/provenance/snapshot_manifest.json` describes the initial import, not subsequent revisions.
+## Archive and citation
 
-## Citation and reuse
+The [v1.0.0 research archive](https://github.com/galitgoz/chain-pair-simplification/tree/v1.0.0) retains historical notebooks, intermediate experiments, source preparation and detailed logs. The `main` branch is the compact reproduction package. Historical path fields in saved results refer to that archive.
 
-Repository: <https://github.com/galitgoz/chain-pair-simplification>. The [v1.0.0 research snapshot](https://github.com/galitgoz/chain-pair-simplification/tree/v1.0.0) provides a fixed version for citation. Citation metadata are available in [CITATION.cff](CITATION.cff), and changes are recorded in [CHANGELOG.md](CHANGELOG.md).
-
-`CITATION.cff` describes the tagged `v1.0.0` snapshot. The `main` branch includes subsequent repository-organization changes and is a development version; use the tag when citing that snapshot, or record the exact commit when using newer code.
-
-The original software is licensed under the [MIT License](LICENSE). This license does not relicense upstream datasets or third-party research publications; those retain their respective rights.
+[CITATION.cff](CITATION.cff) describes `v1.0.0`; record the exact commit when using newer code. See [CHANGELOG.md](CHANGELOG.md) for changes. Original software uses the [MIT License](LICENSE); upstream datasets retain their own rights.

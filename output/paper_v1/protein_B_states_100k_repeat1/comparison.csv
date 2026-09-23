@@ -1,4 +1,0 @@
-attempt,warmup_seconds,single_curve_graphs_completed,configuration_graph_entered,graph_completed,status,kA,kB,k,transitions,states,states_dequeued,completed_states_lower_bound,queue_size,solver_seconds,validation_seconds,process_seconds,peak_sampled_tree_rss_mib,limiting_resource
-"30,000-state run",20.898203699995065,2,True,False,state_budget_limit,,,,3985753,30000,307,306,29693,13.339564999987488,,35.759098800001084,303.5703125,state_budget_limit
-"First 100,000-state run",91.76145349998842,2,True,False,solver_timeout,,,,1441943,17567,148,147,17419,56.10024400000111,,154.7321290000109,299.13671875,solver_timeout
-"100,000-state repeat1",9.85851960000582,2,True,False,transition_budget_limit,,,,10000001,57332,594,593,56738,16.36467770001036,,26.929635000007693,325.10546875,transition_budget_limit

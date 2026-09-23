@@ -1,9 +1,0 @@
-domain,pair,alpha,Independent continuous,Independent discrete,CPS-2F,CPS-3F
-hurricane,AL031854__AL011991,0.5,5,20,5,20
-hurricane,AL031854__AL011991,1.0,4,16,missing: startup_resource_limit,16
-hurricane,EP021949__EP031949,0.5,5,25,missing: other_resource_limit,25
-hurricane,EP021949__EP031949,1.0,4,15,4,15
-protein,1o7j.a__1d9q.d,0.5,missing: time_limit,missing: time_limit,missing: time_limit,missing: time_limit
-protein,1o7j.a__1d9q.d,1.0,missing: time_limit,missing: time_limit,missing: time_limit,missing: time_limit
-protein,1o7j.a__1hfj.c,0.5,missing: time_limit,missing: time_limit,missing: time_limit,missing: time_limit
-protein,1o7j.a__1hfj.c,1.0,missing: time_limit,missing: time_limit,missing: startup_resource_limit,missing: time_limit

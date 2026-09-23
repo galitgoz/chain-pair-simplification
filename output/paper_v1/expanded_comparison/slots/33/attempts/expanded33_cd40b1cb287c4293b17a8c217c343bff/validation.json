@@ -1,9 +1,0 @@
-{
-  "status": "validation_incomplete",
-  "reason": "validation_timeout",
-  "validation_seconds": 30.11523130000569,
-  "raw_checkpoint_sha256": "6a9b829b797c76c55180386bde14883272cda4b86b6ab99603b5422055fc7984",
-  "utc": "2026-09-16T12:57:33.884536+00:00",
-  "unix": 1789563453.8845682,
-  "monotonic": 141935.9322444
-}

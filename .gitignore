@@ -2,23 +2,12 @@
 venv/
 .idea/
 __pycache__/
-.ipynb_checkpoints/
 *.pyc
 *.nbc
 *.nbi
-.env
-.env.*
-*.pem
-*.key
-reproduced/
 *.egg-info/
 build/
 dist/
-
-# Regenerable visualization caches and visual inspection previews only.
-# Do not ignore data/pdb_cache: it contains source records for reproducibility.
-output/**/cache/
-output/**/report_cache/
-output/**/qa/*.png
-reporting/saved/compression_preview/
-reporting/saved/tradeoff_preview/
+reproduced/
+.env
+.env.*

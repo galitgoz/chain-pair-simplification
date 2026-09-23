@@ -2,16 +2,9 @@
 
 ## Unreleased
 
-- Stopped versioning regenerable supplementary plot previews and intermediate values; retained their source table and generation scripts.
-
-- Added the missing SciPy dependency and pinned the supervisor's psutil dependency for isolated installations.
-
-- Clarified the tagged citation target and how to avoid overwriting historical reports during checks.
-
-- Moved 46 root-level Python files into `src/` and added editable-install metadata.
-- Moved five earlier notebooks to `notebooks/legacy/`, three historical guides to `docs/legacy/`, and the initial import manifest to `docs/provenance/`.
-- Updated imports, repository-relative paths, notebook setup and documentation links for the new layout.
-- Preserved algorithm implementations, input data, recorded outputs and the `v1.0.0` citation tag.
+- Reduced main to a prepared-input paper reproduction package. Historical workflows remain in v1.0.0.
+- Retained 45 input pairs, original primary results and consolidated primary-attempt evidence; added an isolated experiment runner.
+- Reduced installation requirements to the libraries used by the retained algorithms, runner and plotting scripts, including the previously missing SciPy dependency.
 
 ## 1.0.0 — 2026-09-20
 

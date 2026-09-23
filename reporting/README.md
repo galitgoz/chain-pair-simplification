@@ -1,11 +1,14 @@
-# Saved-result summaries and additional figures
+# Summaries and supplementary plots
 
-For the current paper's numerical comparisons, run `python reporting/summarize_primary.py --output-dir reproduced/primary` from the repository root. This requires only Python 3.10+ and writes the common cohort, solver-time medians, and quality counts without changing saved evidence. See the [reproduction guide](../docs/REPRODUCING.md).
+From the repository root, run `python reporting/summarize_primary.py` to reproduce the primary numerical comparison without solver execution or third-party dependencies.
 
-## Additional figure scripts
+After installing the analysis dependencies, run:
 
-Run `python reporting/plot_retention.py`, followed by `python reporting/plot_compression_scatter.py` from the repository root. They read the supplied frozen table and write figures under `reporting/saved/compression_preview`. No solvers are invoked. `plot_tradeoff.py` is an exploratory alternative, not a selected paper figure.
+```sh
+python reporting/plot_retention.py
+python reporting/plot_compression_scatter.py
+```
 
-Generated previews and their intermediate JSON files are not versioned. The commands above recreate them from `reporting/saved/experiment_tables/all_runs_full_precision.json`; run them in the stated order because the scatter plot reads the retention script's generated values. Run `python reporting/plot_tradeoff.py` separately to create the exploratory view under `reporting/saved/tradeoff_preview`.
+The first command reads `results/plot_data.json` and generates exact plotted values and a retention chart under `reproduced/figures/`. The scatter script reads those generated values, so run the commands in order. `python reporting/plot_tradeoff.py` produces an exploratory coupling/compression view under `reproduced/tradeoff/`. Generated previews are not versioned.
 
-Compression is 100 * (1 - (kA+kB)/(nA+nB)); this is distinct from the optimization objective max(kA,kB). The figure set includes only pairs with validated saved outputs from all four methods. Metadata may retain historical source-machine paths; these scripts do not use those paths to load results.
+Compression is `100 * (1 - (kA+kB)/(nA+nB))`, distinct from the objective `max(kA,kB)`. These views use 43 pairs with validated saved outputs from all four methods. Historical machine paths in the frozen table are provenance fields and are not used to load plot inputs. Selected final figures are available under `results/figures/`; the full historical gallery remains in the research archive.

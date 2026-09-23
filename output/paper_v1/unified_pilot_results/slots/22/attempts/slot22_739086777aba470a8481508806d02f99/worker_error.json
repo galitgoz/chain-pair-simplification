@@ -1,9 +1,0 @@
-{
-  "phase": "solver",
-  "status": "state_budget_limit",
-  "reason": "reachable configuration budget exceeded",
-  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\worker.py\", line 18, in <module>\n    raw,route=solve(A,B,config,certificate=False,observe=lambda event:phases.note(**event))\n              ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\notebooks_paper\\graph_only_v3\\common.py\", line 106, in solve\n    raw=alg.solve_cps(A,B,config['delta1'],config['delta2'],config['delta3'],method,certificate=False,**lim)\n  File \"C:\\Users\\a\\PycharmProjects\\PythonProject1\\cps_paper_algorithms.py\", line 192, in solve_cps\n    if len(values)>=max_states:raise ResourceLimit('reachable configuration budget exceeded')\n                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\ncps_paper_algorithms.ResourceLimit: reachable configuration budget exceeded\n",
-  "utc": "2026-09-16T11:54:52.218571+00:00",
-  "unix": 1789559692.2185843,
-  "monotonic": 138174.2621511
-}

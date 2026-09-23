@@ -1,0 +1,452 @@
+[
+  {
+    "domain": "hurricane",
+    "pair": "AL031854__AL011991",
+    "path": "data/inputs/hurricane/AL031854__AL011991.npz",
+    "original_path": "output\\paper_v1\\inputs\\hurricane_AL031854__AL011991.npz",
+    "sha256": "a2ab35b783cce3d389472b1841e85b92acc3171b29993a2566d04b6759b0b287",
+    "nA": 25,
+    "nB": 25,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021949__EP031949",
+    "path": "data/inputs/hurricane/EP021949__EP031949.npz",
+    "original_path": "output\\paper_v1\\inputs\\hurricane_EP021949__EP031949.npz",
+    "sha256": "bcd3a853b05dd5540a9e285ac6217db9ad9779bf00b033a2869181b105033790",
+    "nA": 25,
+    "nB": 25,
+    "units": "projected km"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1d9q.d",
+    "path": "data/inputs/protein/1o7j.a__1d9q.d.npz",
+    "original_path": "output\\paper_v1\\inputs\\protein_1o7j.a__1d9q.d.npz",
+    "sha256": "6da737c8ea96bfb47844846e5920c7268988254098012fbdabfcb166eda79bc3",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1hfj.c",
+    "path": "data/inputs/protein/1o7j.a__1hfj.c.npz",
+    "original_path": "output\\paper_v1\\inputs\\protein_1o7j.a__1hfj.c.npz",
+    "sha256": "7b773f6fd281824e25d8e444c9a70b1ca04a33b497237bdb6ee4b0605a6d1365",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1qd1.b",
+    "path": "data/inputs/protein/1o7j.a__1qd1.b.npz",
+    "original_path": "output\\paper_v1\\expanded_comparison\\inputs\\protein_1o7j.a__1qd1.b.npz",
+    "sha256": "ee71f8b3980b2ceeb3dfe43be7b165082559212dfed03bb475480ffc13dfaa10",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.d",
+    "path": "data/inputs/protein/1o7j.a__4eca.d.npz",
+    "original_path": "output\\paper_v1\\expanded_comparison\\inputs\\protein_1o7j.a__4eca.d.npz",
+    "sha256": "926bd75812d2daa4cb742c7dbd881611b05dc2d93343e85c35a1267077868b86",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1toh.a",
+    "path": "data/inputs/protein/1o7j.a__1toh.a.npz",
+    "original_path": "output\\paper_v1\\expanded_comparison\\inputs\\protein_1o7j.a__1toh.a.npz",
+    "sha256": "5e6a2b9a37b78ae69edb4d6f22281db5d47f278893cbaca092fc6164e9b8337e",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111954__EP021984",
+    "path": "data/inputs/hurricane/EP111954__EP021984.npz",
+    "original_path": "output\\paper_v1\\expanded_comparison\\inputs\\hurricane_EP111954__EP021984.npz",
+    "sha256": "f6f69328452dbeb2c9b701abdb3760ce7a95f9de1a53ed1dcbd1261aa4023d20",
+    "nA": 25,
+    "nB": 82,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL072006__AL011900",
+    "path": "data/inputs/hurricane/AL072006__AL011900.npz",
+    "original_path": "output\\paper_v1\\expanded_comparison\\inputs\\hurricane_AL072006__AL011900.npz",
+    "sha256": "d1c7ae57c312b1c5a78b6a809f85412f79e79e9cffd6209bda018544b7cd301f",
+    "nA": 62,
+    "nB": 81,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP012014__EP212006",
+    "path": "data/inputs/hurricane/EP012014__EP212006.npz",
+    "original_path": "output\\paper_v1\\expanded_comparison\\inputs\\hurricane_EP012014__EP212006.npz",
+    "sha256": "b1ea8828119b71374fb3be9b07b5e3d7cd5ed7f81701351d279a01dd32677ddf",
+    "nA": 30,
+    "nB": 29,
+    "units": "projected km"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.b",
+    "path": "data/inputs/protein/1o7j.a__4eca.b.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__4eca.b.npz",
+    "sha256": "87bc3a01b5c6351d83a9d76da5b2f97dc170b6c90e59a9fad4988458a096ada9",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__4eca.c",
+    "path": "data/inputs/protein/1o7j.a__4eca.c.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__4eca.c.npz",
+    "sha256": "39de7ee2c8cc32da7607c02a6a91687aee0a5a0c52ac9c2a56c4ff02fb4de066",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1wls.a",
+    "path": "data/inputs/protein/1o7j.a__1wls.a.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__1wls.a.npz",
+    "sha256": "3e35280d1c981235ff03ba1f9960677a0de32ad9561d8e22a7cb9de8e5677ecb",
+    "nA": 22,
+    "nB": 22,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2eq5.a",
+    "path": "data/inputs/protein/1o7j.a__2eq5.a.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2eq5.a.npz",
+    "sha256": "4c34d1b8d5160e061ace244753add2bf13b3efd79790e7d9a6b314d589819d0b",
+    "nA": 22,
+    "nB": 15,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2zsk.a",
+    "path": "data/inputs/protein/1o7j.a__2zsk.a.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2zsk.a.npz",
+    "sha256": "3ec5446d75ccd9c280f57f8b26a0d1cc98e8d224da5d5fa3a122540eb7aff2e1",
+    "nA": 22,
+    "nB": 16,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__1zq1.a",
+    "path": "data/inputs/protein/1o7j.a__1zq1.a.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__1zq1.a.npz",
+    "sha256": "abe5c9f23d524064337134c626eec6262dc0d76df4df10beebde2cb83a9c1b33",
+    "nA": 22,
+    "nB": 29,
+    "units": "angstrom"
+  },
+  {
+    "domain": "protein",
+    "pair": "1o7j.a__2fep.a",
+    "path": "data/inputs/protein/1o7j.a__2fep.a.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\protein_1o7j.a__2fep.a.npz",
+    "sha256": "d171f0ed7be03baa883be172bf5fe7cfd57fe2ffdce82b27f61f4033476c5648",
+    "nA": 22,
+    "nB": 18,
+    "units": "angstrom"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL182011__AL061926",
+    "path": "data/inputs/hurricane/AL182011__AL061926.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_AL182011__AL061926.npz",
+    "sha256": "ba58f2c03df52031d3334018fbe8e621d469f60aa4cbe71d7b712273476973cc",
+    "nA": 31,
+    "nB": 27,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP141997__EP092000",
+    "path": "data/inputs/hurricane/EP141997__EP092000.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_EP141997__EP092000.npz",
+    "sha256": "ecaedec88bea9b8978999fa4f7e9d2ed13fd72d095668c5b24c2734ed0f2238b",
+    "nA": 34,
+    "nB": 25,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP211990__EP152008",
+    "path": "data/inputs/hurricane/EP211990__EP152008.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_EP211990__EP152008.npz",
+    "sha256": "65bdc8d3eea9992d1beaddb2846878c75be0c05b7809a08882c9e55aeab693ca",
+    "nA": 26,
+    "nB": 38,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041981__EP211992",
+    "path": "data/inputs/hurricane/EP041981__EP211992.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_EP041981__EP211992.npz",
+    "sha256": "1559555895c7c428ab5c79bae86f9aecd02e4ff060cbfdfb2ca311471c4213b6",
+    "nA": 25,
+    "nB": 40,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL181887__AL091888",
+    "path": "data/inputs/hurricane/AL181887__AL091888.npz",
+    "original_path": "output\\paper_v1\\coverage_extension\\inputs\\hurricane_AL181887__AL091888.npz",
+    "sha256": "6d9b056dfe76b1e50c23bc5a0d5b4f256ed31bcbd8dab24f41a890c4fb482890",
+    "nA": 26,
+    "nB": 64,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP172000__EP061970",
+    "path": "data/inputs/hurricane/EP172000__EP061970.npz",
+    "original_path": "output\\paper_v1\\hurricane_extension_3\\inputs\\hurricane_EP172000__EP061970.npz",
+    "sha256": "9a55ed4d5f95138585093d7885e7fac6f17d8a995acab45aafa8c6f86cd455b4",
+    "nA": 32,
+    "nB": 29,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP111995__EP032014",
+    "path": "data/inputs/hurricane/EP111995__EP032014.npz",
+    "original_path": "output\\paper_v1\\hurricane_extension_3\\inputs\\hurricane_EP111995__EP032014.npz",
+    "sha256": "19c00cd52bda54c9369680072326d33e4ceaea5dd21ed511a2f524a7b5fdf7b8",
+    "nA": 41,
+    "nB": 41,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP061986__EP131991",
+    "path": "data/inputs/hurricane/EP061986__EP131991.npz",
+    "original_path": "output\\paper_v1\\hurricane_extension_3\\inputs\\hurricane_EP061986__EP131991.npz",
+    "sha256": "da81fd2b7de704832cbd3be6f2951d4e46249bca00967c5d3b1e2b7b84676105",
+    "nA": 38,
+    "nB": 70,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP092002__EP171994",
+    "path": "data/inputs/hurricane/EP092002__EP171994.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP092002__EP171994.npz",
+    "sha256": "d9373018d366573f51130baa294c338f83ffeedf55f6b14210dc3ec268db151d",
+    "nA": 26,
+    "nB": 31,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091944__AL031917",
+    "path": "data/inputs/hurricane/AL091944__AL031917.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL091944__AL031917.npz",
+    "sha256": "db58d5a0ccf7f77010e45e75cfb88aa32c39e3bba6f00c9a54ceb25a6f6a955d",
+    "nA": 29,
+    "nB": 35,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101985__EP151985",
+    "path": "data/inputs/hurricane/EP101985__EP151985.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP101985__EP151985.npz",
+    "sha256": "198a2064c5a3b34d6c35ed1796113bb59541fac26e1f7574831025b960c8a87f",
+    "nA": 37,
+    "nB": 38,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031965__EP141991",
+    "path": "data/inputs/hurricane/EP031965__EP141991.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP031965__EP141991.npz",
+    "sha256": "5f0259d773d05eb0b0d9aa87bec1a403edc2ebe426ac37986dc304fb3a2b70cf",
+    "nA": 25,
+    "nB": 42,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL061921__AL101926",
+    "path": "data/inputs/hurricane/AL061921__AL101926.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL061921__AL101926.npz",
+    "sha256": "075b62ae7810f20aaee5716a08592d9c34d29821f5cad9ce1f78dbd209b3c638",
+    "nA": 43,
+    "nB": 57,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP041976__EP041984",
+    "path": "data/inputs/hurricane/EP041976__EP041984.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP041976__EP041984.npz",
+    "sha256": "2b36cf5f84c94603b94c277ea7970c2e6cf82612160bc26c97cfa9ab20d6faf9",
+    "nA": 30,
+    "nB": 48,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081967__EP101980",
+    "path": "data/inputs/hurricane/EP081967__EP101980.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP081967__EP101980.npz",
+    "sha256": "0946514b39933f9ee0d804e81a1a0d4ec1b8e11aaa85884cc2187bcb3030e97c",
+    "nA": 25,
+    "nB": 26,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP031994__EP031978",
+    "path": "data/inputs/hurricane/EP031994__EP031978.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP031994__EP031978.npz",
+    "sha256": "1d28bc38a35762d764489667768030a48b0d3b023d8e11cf8dd1e994b766d591",
+    "nA": 29,
+    "nB": 35,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP021985__EP181984",
+    "path": "data/inputs/hurricane/EP021985__EP181984.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP021985__EP181984.npz",
+    "sha256": "55cb19cbe18e96961f064d76de7fb24a5594e61c951d573b5bcccb3346af57b6",
+    "nA": 41,
+    "nB": 36,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL101886__AL051950",
+    "path": "data/inputs/hurricane/AL101886__AL051950.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL101886__AL051950.npz",
+    "sha256": "f25f94d3a701d9a25b14646dc7b39b615e35be775c28cac17d3aa907bd4c8de6",
+    "nA": 25,
+    "nB": 38,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL091947__AL011953",
+    "path": "data/inputs/hurricane/AL091947__AL011953.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL091947__AL011953.npz",
+    "sha256": "4031a8fd96ff75fa97fa22b47e517942f0d69918d5e7e816aeefb1b31df04589",
+    "nA": 36,
+    "nB": 53,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP072011__EP092011",
+    "path": "data/inputs/hurricane/EP072011__EP092011.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP072011__EP092011.npz",
+    "sha256": "713b56e638ff3d937cd45d4d877fd079194042f824e2bf0397f43daf6fc357df",
+    "nA": 26,
+    "nB": 50,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL171980__AL112009",
+    "path": "data/inputs/hurricane/AL171980__AL112009.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL171980__AL112009.npz",
+    "sha256": "5de1fe8932de570845156bf23d5f0b282c1e5938a22df37324c8f517a6fe250f",
+    "nA": 25,
+    "nB": 31,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL102008__AL061989",
+    "path": "data/inputs/hurricane/AL102008__AL061989.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL102008__AL061989.npz",
+    "sha256": "03522b5f4b1b9d80013b557a1f4bb0e1c36cd495e0a8eba67de65ca6b2db84e8",
+    "nA": 33,
+    "nB": 36,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP102002__EP042014",
+    "path": "data/inputs/hurricane/EP102002__EP042014.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP102002__EP042014.npz",
+    "sha256": "c7e12ce495215ad4ea07cd2563504d9596457095f47999d9c2f0a69fe0758f68",
+    "nA": 31,
+    "nB": 42,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032000__EP041975",
+    "path": "data/inputs/hurricane/EP032000__EP041975.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP032000__EP041975.npz",
+    "sha256": "4f61048028e7f2e99bbb36e29c5c6f0bd6dad7d99299932738a2ec913d7ea67a",
+    "nA": 27,
+    "nB": 41,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP081993__EP121989",
+    "path": "data/inputs/hurricane/EP081993__EP121989.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP081993__EP121989.npz",
+    "sha256": "4ac28373bff6ea6afc5eb44c48cbbb5bb19ff12c6caef7db2d6707a2952d1834",
+    "nA": 56,
+    "nB": 45,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP032006__EP201992",
+    "path": "data/inputs/hurricane/EP032006__EP201992.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP032006__EP201992.npz",
+    "sha256": "a628134f9a46e9e7913c849105762a52bc7f7dbbf60d096ab68d220e7e118227",
+    "nA": 27,
+    "nB": 69,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "AL022011__AL071977",
+    "path": "data/inputs/hurricane/AL022011__AL071977.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_AL022011__AL071977.npz",
+    "sha256": "a69c2f5a77f296d5f57f506e9da0631ddc262a181f84e681436a40bcac9cca41",
+    "nA": 29,
+    "nB": 27,
+    "units": "projected km"
+  },
+  {
+    "domain": "hurricane",
+    "pair": "EP101972__EP141967",
+    "path": "data/inputs/hurricane/EP101972__EP141967.npz",
+    "original_path": "output\\paper_v1\\hurricane_final_20\\inputs\\hurricane_EP101972__EP141967.npz",
+    "sha256": "1136560945b718482100845d30314a5c97fde7b5a2ae428ea6275b9cbb457171",
+    "nA": 29,
+    "nB": 37,
+    "units": "projected km"
+  }
+]

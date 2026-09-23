@@ -1,5 +1,0 @@
-status,route,rows
-optimal,configuration_graph,8
-other_resource_limit,configuration_graph,5
-other_resource_limit,graph_construction,2
-time_limit,configuration_graph,1

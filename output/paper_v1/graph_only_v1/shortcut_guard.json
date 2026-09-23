@@ -1,7 +1,0 @@
-{
-  "alternate_subsequence_calls": 0,
-  "certificate": false,
-  "independent_shortcut_bypassed_on_feasible_examples": true,
-  "graph_entry_observation": "first heap pop directly inside solve_cps; baseline single-curve graphs excluded",
-  "alternative_eligible_triangle_case": "PASS"
-}

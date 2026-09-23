@@ -4,8 +4,8 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
-root=Path(__file__).resolve().parent/'saved';out=root/'compression_preview';out.mkdir(exist_ok=True)
-rows=json.loads((root/'experiment_tables/all_runs_full_precision.json').read_text(encoding='utf-8'))
+root=Path(__file__).resolve().parents[1];out=root/'reproduced/figures';out.mkdir(parents=True,exist_ok=True)
+rows=json.loads((root/'results/plot_data.json').read_text(encoding='utf-8'))
 pairs=collections.defaultdict(dict)
 for r in rows:
     if r['group']=='השוואה ראשית':pairs[(r['domain'],r['pair'])][r['method']]=r

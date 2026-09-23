@@ -1,9 +1,0 @@
-pair,alpha,Independent continuous,Independent discrete,CPS-2F,CPS-3F
-1o7j.a__1d9q.d,0.5,missing: time_limit,missing: time_limit,missing: other_resource_limit,missing: time_limit
-1o7j.a__1d9q.d,1.0,6,13,missing: other_resource_limit,13
-1o7j.a__1hfj.c,0.5,16,20,16,20
-1o7j.a__1hfj.c,1.0,5,5,missing: other_resource_limit,5
-AL031854__AL011991,0.5,5,20,missing: other_resource_limit,20
-AL031854__AL011991,1.0,4,16,missing: other_resource_limit,16
-EP021949__EP031949,0.5,5,25,missing: other_resource_limit,25
-EP021949__EP031949,1.0,4,15,missing: other_resource_limit,15

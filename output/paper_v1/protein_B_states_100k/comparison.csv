@@ -1,3 +1,0 @@
-attempt,state_budget,status,kA,kB,k,transitions,states,states_dequeued,completed_states_lower_bound,queue_size,solver_seconds,validation_seconds,process_seconds,peak_sampled_tree_rss_mib
-Previous 30000 states,30000,state_budget_limit,,,,3985753,30000,307,306,29693,13.339564999987488,,35.759098800001084,303.5703125
-Follow-up 100000 states,100000,solver_timeout,,,,1441943,17567,148,147,17419,56.10024400000111,,154.7321290000109,299.13671875
