@@ -6,4 +6,6 @@ For the current paper's numerical comparisons, run `python reporting/summarize_p
 
 Run `python reporting/plot_retention.py`, followed by `python reporting/plot_compression_scatter.py` from the repository root. They read the supplied frozen table and write figures under `reporting/saved/compression_preview`. No solvers are invoked. `plot_tradeoff.py` is an exploratory alternative, not a selected paper figure.
 
+Generated previews and their intermediate JSON files are not versioned. The commands above recreate them from `reporting/saved/experiment_tables/all_runs_full_precision.json`; run them in the stated order because the scatter plot reads the retention script's generated values. Run `python reporting/plot_tradeoff.py` separately to create the exploratory view under `reporting/saved/tradeoff_preview`.
+
 Compression is 100 * (1 - (kA+kB)/(nA+nB)); this is distinct from the optimization objective max(kA,kB). The figure set includes only pairs with validated saved outputs from all four methods. Metadata may retain historical source-machine paths; these scripts do not use those paths to load results.

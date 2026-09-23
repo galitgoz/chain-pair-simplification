@@ -20,3 +20,5 @@ dist/
 output/**/cache/
 output/**/report_cache/
 output/**/qa/*.png
+reporting/saved/compression_preview/
+reporting/saved/tradeoff_preview/

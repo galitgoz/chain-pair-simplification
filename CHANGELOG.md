@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+- Stopped versioning regenerable supplementary plot previews and intermediate values; retained their source table and generation scripts.
+
 - Added the missing SciPy dependency and pinned the supervisor's psutil dependency for isolated installations.
 
 - Clarified the tagged citation target and how to avoid overwriting historical reports during checks.
